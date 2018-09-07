@@ -1,5 +1,6 @@
 
 bin/GoogleNews-vectors-negative300.bin
+bin/word2vec.pickle
 data/W00_dataset/annotated.chunk
 data/W00_dataset/annotated.dependency
 data/W00_dataset/annotated.final
