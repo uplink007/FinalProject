@@ -1,0 +1,815 @@
+﻿A (0, 1)-matrix is an integer matrix in which each element is a 0 or 1.
+The number of m×n binary matrices is 2^(mn ), so the number of square n×n binary matrices is 2^(n^2 ) which, for n = 1, 2,..., gives 2, 16, 512, 65536, 33554432,...
+A (0, 1)-matrix is an integer matrix in which each element is a 0 or 1.
+A (0, 1)-matrix called a logical matrix, binary matrix, relation matrix, or Boolean matrix.
+The 120-cell is a finite regular four - dimensional polytope with Schläfli symbol {5, 3, 3}.
+The 120-cell is also known as the hyperdodecahedron or hecatonicosachoron, and is composed of 120 dodecahedra, with 3 to an edge, and 720 pentagons.
+The 120-cell has 600 vertices and 1200 edges.
+The 120-cell is a finite regular four - dimensional polytope with Schläfli symbol {5, 3, 3}.
+The " 15 puzzle " is a sliding square puzzle commonly (but incorrectly ) attributed to Sam Loyd.
+The 57-cell, also called the pentacontaheptachoron, is a regular self - dual locally projective polytope with 57 hemidodecahedral facets described by Coxeter and also constructed by Vanden Cruyce.
+The 57-cell has 57 vertices, 171 edges, 171 faces, and 57 cells.
+The 57-cell is symmetry group is the projective special linear group L_2(19), of order 3420.
+The skeleton of the 57-cell is the Perkel graph.
+The 600-cell is the finite regular four - dimensional polytope with Schläfli symbol {3, 3, 5}
+The 600-cell is composed of 600 tetrahedra, with 5 to an edge.
+The 600-cell is one of the six regular polychora.
+6-Sphere is a coordinate system obtained by inversion of Cartesian coordinates, with u, v, w element (-∞, ∞).
+An Abelian group is a group for which the elements commute (i.e., AB = BA for all elements A and B).
+The absolute value of a real number x is denoted |x| and defined as the " unsigned " portion of x, |x| | = | xsgn(x)  | = | {-x | for x<=0 x | for x>=0, auto right match where sgn(x) is the sign function.
+The Ackermann function is the simplest example of a well - defined total function which is computable but not primitive recursive, providing a counterexample to the belief in the early 1900s that every computable function was also primitive recursive.
+An accumulation point is a point which is the limit of a sequence, also called a limit point.
+The Ackermann function is the simplest example of a well - defined total function which is computable but not primitive recursive, providing a counterexample to the belief in the early 1900s that every computable function was also primitive recursive.
+An angle of less than π/2 radians (90 °) is called an acute angle.
+A triangle in which all three angles are acute angles.
+A triangle which is neither acute nor a right triangle (i.e., it has an obtuse angle) is called an obtuse triangle.
+From the law of cosines, for a triangle with side lengths a, b, and c, cos(C) = (a^2 + b^2 - c^2)/(2ab), with C the angle opposite side C.
+An acyclic digraph is a directed graph containing no directed cycles, also known as a directed acyclic graph or a " DAG.
+Every finite acyclic digraph has at least one node of outdegree 0.
+Given a triangle ΔABC, construct the contact triangle ΔT_A T_B T_C.
+The first of several addends, or " the one to which the others are added", is sometimes called the augend.
+The opposite of addition is subtraction.
+While the usual form of adding two n - digit integers (which consists of summing over the columns right to left and " carrying " a 1 to the next column if the sum exceeds 9) requires n operations (plus carries), two n - digit integers can be added in about 2lgn steps by n processors using carry - lookahead addition.
+The adjacency matrix, sometimes also called the connection matrix, of a simple labeled graph is a matrix with rows and columns labeled by graph vertices, with a 1 or 0 in position (v_i, v_j) according to whether v_i and v_j are adjacent or not.
+An affine transformation is any transformation that preserves collinearity (i.e., all points lying on a line initially still lie on a line after transformation) and ratios of distances (e.g., the midpoint of a line segment remains the midpoint after transformation).
+The outer complement of the solid is not simply connected, and its fundamental group is not finitely generated.
+One use of the word " algebra " is the abstract study of number systems and operations within them, including such advanced topics as groups, rings, invariant theory, and cohomology.
+When there is the possibility of confusion, this field of mathematics is often referred to as abstract algebra.
+If r is a root of the polynomial equation x^n + a_(n - 1) x^(n - 1) +... + a_1 x + a_0 = 0, where the a_is are integers and r satisfies no similar equation of degree < n, then r is called an algebraic integer of degree n.
+An algebraic integer is a special case of an algebraic number (for which the leading coefficient a_n need not equal 1).
+Radical integers are a subring of the algebraic integers.
+If r is a root of a nonzero polynomial equation a_n x^n + a_(n - 1) x^(n - 1) +... + a_1 x + a_0 = 0, where the a_is are integers (or equivalently, rational numbers) and r satisfies no similar equation of degree < n, then r is said to be an algebraic number of degree n.
+A number that is not algebraic is said to be transcendental.
+The set of roots of a polynomial f(x, y, z) = 0.
+An algebraic surface is said to be of degree n = max(i + j + k), where n is the maximum sum of powers of all terms a_m x^(i_m) y^(j_m) z^(k_m).
+Alpha is a financial measure giving the difference between a fund's actual return and its expected level of performance, given its level of risk (as measured by beta).
+An alternating group is a group of even permutations on a set of length n, denoted A_n or Alt(n).
+An alternating group is a normal subgroup of the permutation group, and has group order n!/2, the first few values of which for n = 2, 3,... are 1, 3, 12, 60, 360, 2520,... 
+The alternating group A_n is (n - 2)-transitive.
+An alternating series converges if a_1 > = a_2 > =... and lim_(k->∞) a_k = 0.
+The three altitudes of any triangle are concurrent at the orthocenter H.
+The triangle ΔH_1 H_2 H_3 connecting the feet of the altitudes is known as the orthic triangle.
+An amicable pair (m, n) consists of two integers m, n for which the sum of proper divisors (the divisors excluding the number itself) of one number equals the other.
+Analytic geometry is also called coordinate geometry since the objects are described as n - tuples of points (where n = 2 in the plane and 3 in space) in some coordinate system.
+Given two intersecting lines or line segments, the amount of rotation about the point of intersection (the vertex) required to bring one into correspondence with the other is called the angle θ between them.
+The (interior) bisector of an angle, also called the internal angle bisector, is the line or line segment that divides the angle into two equal parts.
+The length t_1 of the bisector A_1 T_1 of angle A_1 in the above triangle ΔA_1 A_2 A_3 is given by t_1 ^ 2 = a_2 a_3[1 - a_1 ^ 2/(a_2 + a_3)^2 ], where t_i congruent (A_i T_i)^ _ and a_i congruent (A_j A_k)^_.
+Two points are antipodal (i.e., each is the antipode of the other) if they are diametrically opposite.
+A semiregular polyhedron constructed with 2 n - gons and 2n triangles.
+The duals of the antiprisms are the trapezohedra.
+The graph corresponding to the skeleton of an antiprism is known, not surprisingly, as an antiprism graph.
+The sagitta of a regular n - gon of side length a has length s = 1/2 atan(π/(2n)).
+Apéry's constant is defined by ζ(3) = 1.20206..., where ζ(z) is the Riemann zeta function.
+ζ(3) arises naturally in a number of physical problems, including in the second- and third - order terms of the electron's gyromagnetic ratio, computed using quantum electrodynamics.
+An apodization function (also called a tapering function or window function) is a function used to smoothly bring a sampled signal down to zero at the edges of the sampled region.
+The set of all points whose distances from two fixed points are in a constant ratio 1:μ
+One of the eight circles that is simultaneously tangent to three given circles (i.e., a circle solving Apollonius' problem for three circles)
+One of the three circles passing through a vertex and both isodynamic points S and S' of a triangle.
+For a regular polygon, the apothem simply is the distance from the center to a side, i.e., the inradius r of the polygon.
+x^2 + y^2<=a^2/4 and y>=0 and y^2 > = (a/2 + x) (1/2 a (2 r - 1) - x) and 1/4 a^2 (2 r - 1) + x^2 + y^2>=a r x
+In general, an arc is any smooth curve joining two points.
+The length of an arc is known as its arc length.
+In a graph, a graph arc is an ordered pair of adjacent vertices.
+In particular, an arc is any portion (other than the entire curve) of the circumference of a circle.
+An arc corresponding to the central angle ∠AOC is denoted arcAC.
+The 13 Archimedean solids are the convex polyhedra that have a similar arrangement of nonintersecting regular convex polygons of two or more different types arranged in the same way about each vertex with all sides the same length.
+Archimedes' spiral is an Archimedean spiral with polar equation r = aθ.
+Arc length is defined as the length along a curve, s congruent integral_γ |dℓ|, where dℓ is a differential displacement vector along a curve γ.
+For a circle of radius r, the arc length between two points with angles θ_1 and θ_2 (measured in radians) is simply s = r |θ_2 - θ_1|.
+The area of a surface or lamina is the amount of material needed to " cover " it completely.
+The area of a surface or collection of surfaces bounding a solid is called, not surprisingly, the surface area.
+An Argand diagram is a plot of complex numbers as points z = x + iy in the complex plane using the x - axis as the real axis and y - axis as the imaginary axis.
+The area element for a surface with first fundamental form ds^2 = Edu^2 + 2Fdudv + Gdv^2 is dA = sqrt(EG - F^2) du⋀dv, where du⋀dv is the wedge product.
+N - P = 1/(2πi) integral_γ (f'(z) dz)/(f(z)).
+Defining w congruent f(z) and σ congruent f(γ) gives N - P = 1/(2πi) integral_σ (dw)/w.
+Arithmetic is the branch of mathematics dealing with integers or, more generally, numerical computation.
+A mnemonic for the spelling of " arithmetic " is " a rat in the house may eat the ice cream.
+Modular arithmetic is the arithmetic of congruences.
+Let a_(n + 1) | = | 1/2(a_n + b_n) b_(n + 1) | = | (2a_n b_n)/(a_n + b_n), then A(a_0, b_0) = lim_(n->∞) a_n = lim_(n->∞) b_n = sqrt(a_0 b_0).
+The arithmetic mean of a set of values is the quantity commonly called " the " mean or the average.
+Given a set of samples {x_i }, the arithmetic mean is x^ _ congruent 1/N sum_(i = 1)^N x_i.
+The arithmetic mean is the special case M_1 of the power mean and is one of the Pythagorean means.
+When viewed as an estimator for the mean of the underlying distribution (known as the population mean), the arithmetic mean of a sample is called the sample mean.
+An arithmetic progression, also known as an arithmetic sequence, is a sequence of n numbers {a_0 + kd}_(k = 0)^(n - 1) such that the differences between successive terms is a constant d.
+An arithmetic series is the sum of a sequence {a_k }, k = 1, 2,..., in which each term is computed from the previous one by adding (or subtracting) a constant d, therefore, for k>1, a_k = a_(k - 1) + d = a_(k - 2) + 2d =... = a_1 + d(k - 1).
+Anosov diffeomorphism is given by the transformation [x_(n + 1) y_(n + 1)] = [1 | 1 1 | 2][x_n y_n], where x_(n + 1) and y_(n + 1) are computed mod 1.
+The Arnold cat mapping is non - Hamiltonian, nonanalytic, and mixing.
+Arrow's paradox, also called Arrow's impossibility theorem or the general possibility theorem, states that perfect democratic voting is impossible, not just in practice but also in principle.
+An asymptote is a line or curve that approaches a given curve arbitrarily closely, as illustrated in the above diagram.
+An attractor is a set of states (points in the phase space), invariant under the dynamics, towards which neighboring states in a given basin of attraction asymptotically approach in the course of dynamic evolution.
+An attractor is defined as the smallest unit which can not be itself decomposed into two or more attractors with distinct basins of attraction.
+Conservative systems do not have attractors, since the motion is periodic.
+ Let {a_i}_(i = 0)^(N - 1) be a periodic sequence, then the autocorrelation of the sequence, sometimes called the periodic autocorrelation, is the sequence ρ_i = sum_(j = 0)^(N - 1) a_j a^__(j + i), where a^ _ denotes the complex conjugate and the final subscript is understood to be taken modulo N.
+A sequence {a_n } is generated by a p - automaton iff the formal power series with coefficients a_n is algebraic on the field of rational elements A(X)/Q(X), where A(X) and Q(X) are polynomials with coefficients in the finite field F_p.
+The average power of a complex signal f(t) as a function of time t is defined as 〈f^2(t)〉 = lim_(T->∞) 1/(2 T) integral_(-T)^T (|f(t)|) ^2 dt, where |z| is the complex modulus.
+The azimuthal angle is an angle measured from the x - axis in the xy - plane in spherical coordinates.
+The backward difference is a finite difference defined by  del _ p congruent del f_p congruent f_p - f_(p - 1).
+The word " baguenaudier " means " time - waster " in French, and the puzzle is also called the Chinese rings or Devil's needle puzzle.
+The n - ball, denoted B^n, is the interior of a sphere S^(n - 1), and sometimes also called the n - disk.
+Although physicists often use the term " sphere " to mean the solid ball, mathematicians definitely do not!
+The equation for the surface area of the n - dimensional unit hypersphere S^n gives the recurrence relation S_(n + 2) = (2πS_n)/n.
+If AB = r and AC = 1, then the radius of the Bankoff circle is R = 1/2 r(1 - r).
+The number of ways in which a group of n with weights sum_(i = 1)^n w_i = 1 can change a losing coalition (one with sum w_i<1/2) to a winning one, or vice versa.
+A bar graph is any plot of a set of data such that the number of data elements falling within one or more categories is indicated using a rectangle whose height or width is a function of the number of elements.
+The Baum - Sweet sequence is the sequence of numbers {b_n } such that b_n = 1 if the binary representation of n contains no block of consecutive 0s of odd length, and b_n = 0 otherwise.
+For n = 1, 2,... the first few terms are 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1,... 
+Bayesian analysis is a statistical procedure which endeavors to estimate parameters of an underlying distribution based on the observed distribution.
+P(A_i|A) = P(A_i)P(A|A_i)/ (sum_(j=1)^NP(A_j)P(A|A_j)), where P(A_i) is the probability of an event A_i, P(A_i|A) is the conditional probability of A_i given that A has already occurred, the events are disjoint, and union _ (i = 1)^NA_i = A.
+The number of ways a set of n elements can be partitioned into nonempty subsets is called a Bell number and is denoted B_n.
+Benford's law states that in listings, tables of statistics, etc., the digit 1 tends to occur as a leading digit with probability ~30 %, much greater than the expected 11.1 % (i.e., one digit out of 9).
+The Bernoulli distribution is a discrete distribution having two possible outcomes labelled by n = 0 and n = 1 in which n = 1 (" success ") occurs with probability p and n = 0 (" failure ") occurs with probability q congruent 1 - p, where 0<p<1.
+The Bernoulli numbers B_n are a sequence of signed rational numbers that can be defined by the exponential generating function x/(e^x - 1) congruent sum_(n = 0)^∞ (B_n x^n)/(n !).
+The polynomials defined by B_(i, n)(t) = (n i) t^i (1 - t)^(n - i), where (n k) is a binomial coefficient.
+?The Bernstein polynomials of degree n form a basis for the power polynomials of degree n.
+A function Z_n(x) defined by the recurrence relations Z_(n + 1) + Z_(n - 1) = (2n)/x Z_n and Z_(n + 1) - Z_(n - 1) = - 2(dZ_n)/(dx).
+The Bessel functions are more frequently defined as solutions to the differential equation x^2 (d^2 y)/(dx^2) + x(dy)/(dx) + (x^2 - n^2) y = 0.
+For nonnegative ν, the kth positive zeros of these functions are denoted j_(ν, k), j_(ν, k)^,, y_(ν, k), and y_(ν, k)^,, respectively, except that z = 0 is typically counted as the first zero of J_0^, (z).
+A financial measure of a fund's sensitivity to market movements which measures the relationship between a fund's excess return over Treasury Bills and the excess return of a benchmark index (which, by definition, has β = 1).
+A fund with a beta of β has performed r = (β - 1)×100 % better (or |r| worse if r<0) than its benchmark index (after deducting the T - bill rate) in up markets and |r| worse (or |r| better if r<0) in down markets.
+The usual definition calls these α and β, and the other uses β' congruent β - 1 and α' congruent α - 1.
+The beta function B(p, q) is the name used by Legendre and Whittaker and Watson for the beta integral (also called the Eulerian integral of the first kind).
+Given a set of n + 1 control points P_0, P_1,..., P_n, the corresponding Bézier curve (or Bernstein - Bézier curve) is given by C(t) = sum_(i = 0)^n P_i B_(i, n)(t), where B_(i, n)(t) is a Bernstein polynomial and t element [0, 1].
+Bézout's theorem for curves states that, in general, two algebraic curves of degrees m and n intersect in m·n points and can not meet in more than m·n points unless they have a component in common (i.e., the equations defining them have a common).
+Bézout's theorem for polynomials states that if P and Q are two polynomials with no roots in common, then there exist two other polynomials A and B such that AP + BQ = 1.
+Given N polynomial equations of degrees n_1, n_2,... n_N in N variables, there are in general n_1 n_2... n_N common solutions.
+The bicone with base radius r and half - height h has surface area and volume S | = | 2πrsqrt(r^2 + h^2) V | = | 2/3 πr^2 h.
+The bifolium is a folium with b = 0.
+The bifolium is a quartic curve and is given by the implicit equation is (x^2 + y^2)^2 = 4axy^2 and the polar equation r = 4asin^2 θcosθ.
+In a dynamical system, a bifurcation is a period doubling, quadrupling, etc., that accompanies the onset of chaos.
+Bifurcations come in four basic varieties : flip bifurcation, fold bifurcation, pitchfork bifurcation, and transcritical bifurcation.
+A function f admits an inverse f^(-1) (i.e., " f is invertible ") iff it is bijective.
+Two sets X and Y are called bijective if there is a bijective map from X to Y.
+"Bijective" is a synonym for "equipollent" (or "equipotent").
+Bijectivity is an equivalence relation on the class of sets.
+?The game of billiards is played on a rectangular table (known as a billiard table) upon which balls are placed.
+One ball (the "cue ball") is then struck with the end of a "cue" stick, causing it to bounce into other balls and reflect off the sides of the table.
+The base 2 method of counting in which only the digits 0 and 1 are used.
+In this base, the number 1011 equals 1·2 ^ 0 + 1·2 ^ 1 + 0·2 ^ 2 + 1·2 ^ 3 = 11.
+In computer parlance, one binary digit is called a bit, two digits are called a crumb, four digits are called a nibble, and eight digits are called a byte.
+A binary bracketing is a bracketing built up entirely of binary operations.
+?The number of binary bracketings of n letters (Catalan's problem) are given by the Catalan numbers C_(n - 1), where C_n | congruent | 1/(n + 1)(2n n)  | = | 1/(n + 1)((2n)!)/(n!^2) = ((2n)!)/((n + 1)!n !), a binary operation f(x, y) is an operation that applies to two quantities or expressions x and y.
+A binary operation f(x, y) is an operation that applies to two quantities or expressions x and y.
+A binary operation on a nonempty set A is a map f : A×A->A such that 1.f is defined for every pair of elements in A, and 2.f uniquely associates each pair of elements in A to some element of A.
+The binomial coefficient (n k) is the number of ways of picking k unordered outcomes from n possibilities, also known as a combination or combinatorial number.
+The binomial distribution gives the discrete probability distribution P_p(n|N) of obtaining exactly n successes out of N Bernoulli trials (where the result of each Bernoulli trial is true with probability p and false with probability q = 1 - p).
+Bisection is the division of a given curve, figure, or interval into two equal parts (halves).
+An apodization function given by   A(x) = 21/50 + 1/2 cos((πx)/a) + 2/25 cos((2πx)/a), which has full width at half maximum of 0.810957a.
+he Blancmange function, also called the Takagi fractal curve, is a pathological continuous function which is nowhere differentiable.
+The qubit |ψ〉 = a |0〉 + b |1〉 can be represented as a point (θ, ϕ) on a unit sphere called the Bloch sphere.
+Then |ψ〉 is represented by the unit vector (cosϕsinθ, sinϕsinθ, cosθ) called the Bloch vector.
+An incidence system (v, k, λ, r, b) in which a set X of v points is partitioned into a family A of b subsets (blocks) in such a way that any two points determine λ blocks with k points in each block, and each point is contained in r different blocks.
+If a continuous function defined on an interval is sometimes positive and sometimes negative, it must be 0 at some point.
+The minimal enclosing circle problem, sometimes also known as the bomb problem, is the problem of finding the circle of smallest radius that contains a given set of points in its interior or on its boundary.
+Jung's theorem states that every finite set of points with geometric span d has an enclosing circle with radius no greater than d / sqrt(3).
+The Bonferroni correction is a multiple - comparison correction used when several dependent or independent statistical tests are being performed simultaneously (since while a given alpha value α may be appropriate for each individual comparison, it is not for the set of all comparisons).
+A Boolean algebra is a mathematical structure that is similar to a Boolean ring, but that is defined using the meet and join operators instead of the usual addition and multiplication operators.
+A Boolean algebra is the partial order on subsets defined by inclusion, i.e., the Boolean algebra b(A) of a set A is the set of subsets of A that can be obtained by means of a finite number of the set operations union (OR), intersection (AND), and complementation (NOT).
+Consider a Boolean algebra of subsets b(A) generated by a set A, which is the set of subsets of A that can be obtained by means of a finite number of the set operations union, intersection, and complementation, then each of the elements of b(A) is called a Boolean function generated by A.
+There are 2^(2^p) inequivalent Boolean functions for a set A with cardinality p.
+The bootstrap method is a computer - based method for assigning measures of accuracy to sample estimates.
+Bootstrap methods are generally superior to ANOVA for small data sets or where sample distributions are non - normal.
+The Borromean rings are a prime link.
+Neumann boundary conditions specify the normal derivative of the function on a surface, (dT)/(dn) = n^^ · del T = f(r, t).
+A boundary value problem is a problem, typically an ordinary differential equation or a partial differential equation, which has values assigned on the physical boundary of the domain in which the problem is specified.
+{(d^2 u)/(dt^2) - del ^2 u = f | in Ω   u(0, t) = u_1 | on dΩ   (du)/(dt)(0, t) = u_2 | on dΩ, auto right match   where dΩ denotes the boundary of Ω, is a boundary problem.
+f(x) is prime for an infinite number of integers x.
+The Bouniakowsky conjecture states that f(x) is prime for an infinite number of integers x. As an example of the greatest common divisor caveat, the polynomial 3x^2 - x + 2 is irreducible, but always divisible by 2.
+Gray defines Bour's minimal curve over complex z by   x' | = | z^(m - 1)/(m - 1) - z^(m + 1)/(m + 1)   y' | = | i(z^(m - 1)/(m - 1) + z^(m + 1)/(m + 1))   z' | = | (2z^m)/m, and then derives a family of minimal surfaces.
+The Bowley skewness, also known as quartile skewness coefficient, is defied by   ((Q_3 - Q_2) - (Q_2 - Q_1))/(Q_3 - Q_1) = (Q_1 - 2Q_2 + Q_3)/(Q_3 - Q_1), where the Qs denote the interquartile ranges.
+A box - and - whisker plot (sometimes called simply a box plot) is a histogram - like method of displaying data.
+The box fractal is a fractal also called the anticross - stitch curve which can be constructed using string rewriting beginning with a cell [1] and iterating the rules   {0->[0 | 0 | 0   0 | 0 | 0   0 | 0 | 0], 1->[1 | 0 | 1   0 | 1 | 0   1 | 0 | 1]}.
+An outline of the box fractal can encoded as a Lindenmayer system with initial string F - F - F - F, string rewriting rule F " - > " F - F+F+F - F, and angle 90 °.
+Let N_n be the number of black boxes, L_n the length of a side of a white box, and A_n the fractional area of black boxes after the nth iteration.
+The Boy surface is a nonorientable surface that is one possible parametrization of the surface obtained by sewing a Möbius strip to the edge of a disk.
+Two other topologically equivalent parametrizations are the cross - cap and Roman surface.
+The Boy surface is a model of the projective plane without singularities and is a sextic surface.
+In complex analysis, a branch (also called a sheet) is a portion of the range of a multivalued function over which the function is single - valued.
+In graph theory, a branch at a point u in a tree is a maximal subtree containing u as an endpoint.
+A branch cut is a curve (with ends possibly open, closed, or half - open) in the complex plane across which an analytic multivalued function is discontinuous.
+A B - spline is a generalization of the Bézier curve.
+Since the rings are equally spaced, A_inner | = | π·3 ^ 2 = 9π   A_outer | = | π·5 ^ 2 - π·4 ^ 2 = 9π.
+Caesar's method is an encryption scheme involving shifting an alphabet (so a->c, b->d, c->e, d->f, etc., x->z, y->a, z->b).
+The café wall illusion, sometimes also called the Münsterberg illusion (Ashton Raggatt McDougall 2006), is an optical illusion produced by a black and white rectangular tessellation when the tiles are shifted in a zigzag pattern, as illustrated above.
+The (2, g)-cage is the cycle graph C_g, the (v, 2)-cage is the multigraph of v edges on two vertices, the (v, 3)-cage is the complete graph K_(v + 1), and the (v, 4)-cage is the bipartite graph K_(v, v).
+Calabi - Yau spaces are important in string theory, where one model posits the geometry of the universe to consist of a ten - dimensional space of the form M×V, where M is a four dimensional manifold (space - time) and V is a six dimensional compact Calabi - Yau space.
+I has an extremum only if the Euler - Lagrange differential equation is satisfied, i.e., if   (df)/(dy) - d/(dx)((df)/(dy^.)) = 0.
+A closed polygon whose vertices lie on a point lattice and whose edges consist of vertical and horizontal steps of unit length or diagonal steps (at angles which are multiples of 45 ° with respect to the lattice axes) of length sqrt(2).
+The numbers of distinct canonical polygons of n = 1, 2,... sides are 0, 0, 1, 3, 3, 9, 13, 52, 140, 501, 1763, 6786, 25571,...
+The Cantor function F(x) is defined as the function on [0, 1] such that for values of x on the Cantor set, i.e., x = sum_i 2·3^(-n_i), then F(x) = sum_i 2^(-n_i), which is then extended to other values by noting that F is monotone and has the same values on each removed endpoint.
+ω^ϵ = ϵ, where ω is an ordinal number and ϵ is an inaccessible cardinal.
+The Cantor set T_∞, sometimes also called the Cantor comb or no middle third set, is given by taking the interval [0, 1] (set T_0), removing the open middle third (T_1), removing the middle third of each of the two remaining pieces (T_2), and continuing this procedure ad infinitum.
+The curve given by the polar equation r = a(1 - cosθ), sometimes also written r = 2b(1 - cosθ), where b congruent a/2.
+The catacaustic of a cardioid for a radiant point along the x - axis is complicated function of x.
+For the cardioid given parametrically as x | = | a(1 + cost) cost y | = | a(1 + cost) sint, the involute is given by x_i | = | 2a + 3acosθ(1 - cosθ) y_i | = | 3asinθ(1 - cosθ), which is a mirror - image cardioid with a' = 3a.
+The circle which has the points A = (0, 1) and B = (s, p) as a diameter is then called the Carlyle circle C_(s, p) of the equation.
+The center of C_(s, p) is then at the midpoint of AB, M = (s/2, (1 + p)/2), which is also the midpoint of S = (s, 0) and Y = (0, 1 + p).
+Points at which C_(s, p) crosses the x - axis H_1 = (x_1, 0) and H_2 = (x_2, 0) (with x_1 < = x_2) s = x_1 + x_2 p = x_1 x_2 (x - x_1)(x - x_2) = x^2 - sx + p,
+OO_A + OO_B + OO_C = (abc (|cosA| + |cosB| + |cosC|)) /(4 |Δ|), where Δ is the area of triangle ΔABC.
+Cartesian coordinates are rectilinear two- or three - dimensional coordinates (and therefore a special case of curvilinear coordinates) which are also called rectangular coordinates.
+The two axes of two - dimensional Cartesian coordinates, conventionally denoted the x- and y - axes (a notation due to Descartes), are chosen to be linear and mutually perpendicular.
+Typically, the x - axis is thought of as the " left and right " or horizontal axis while the y - axis is thought of as the " up and down " or vertical axis.
+In two dimensions, the coordinates x and y may lie anywhere in the interval (-∞, ∞), and an ordered pair (x, y) in two - dimensional Cartesian coordinates is often called a point or a 2-vector.
+The Euclidean plane parametrized by coordinates, so that each point is located based on its position with respect to two perpendicular lines, called coordinate axes.
+They are two copies of the real line, and the zero point lies at their intersection, called the origin.
+The coordinate axes are usually called the x - axis and y - axis, depicted above.
+Point P is associated with the coordinates (x, y) corresponding to its orthogonal projections onto the x - axis and the y - axis respectively.
+The Cassini ovals are a family of quartic curves, also called Cassini ellipses, described by a point such that the product of its distances from two fixed points a distance 2a apart is a constant b^2.
+If a < b, the curve is a single loop with an oval (left figure above) or dog bone (second figure) shape.
+The case a = b produces a lemniscate (third figure).
+If a > b, then the curve consists of two loops.
+Cassini ovals are anallagmatic curves.
+A catacaustic is a curve that is the envelope of rays emanating from a specified point (or a point at infinite distance producing parallel rays) for a given mirror shape.
+The point from which the rays emanate is called the radiant point.
+The catacaustic is an evolute of the orthotomic.
+The following table lists the catacaustics for some common curves, omitting the incorrect catacaustic listed for the quadrifolium.
+Catalan's constant is a constant that commonly appears in estimates of combinatorial functions and in certain classes of sums and definite integrals.
+K = sum_(k = 0)^∞ (-1)^k/(2k + 1)^2.
+The Cauchy criterion is satisfied when, for all ϵ>0, there is a fixed number N such that |S_j - S_i| < ϵ for all i, j > N.
+The number of orbits is given by |X / G| = sum_(g element G) |X^g| / (|G|).
+A sequence a_1, a_2,... such that the metric d(a_m, a_n) satisfies lim_(min(m, n)->∞) d(a_m, a_n) = 0.
+Real numbers can be defined using either Dedekind cuts or Cauchy sequences.
+A special case of Hölder's sum inequality with p = q = 2, (sum_(k = 1)^n a_k b_k)^2 < =(sum_(k = 1)^n a_k^2) (sum_(k = 1)^n b_k^2), where equality holds for a_k = cb_k.
+The inequality is sometimes also called Lagrange's inequality, and can be written in vector form as left double bracketing bar a·b right double bracketing bar < = left double bracketing bar a right double bracketing bar left double bracketing bar b right double bracketing bar.
+A causal network is an acyclic digraph arising from an evolution of a substitution system, and representing its history.
+The curve which is the envelope of reflected (catacaustic) or refracted (diacaustic) rays of a given curve for a light source at a given point (known as the radiant point).
+If, in two solids of equal altitude, the sections made by planes parallel to and at the same distance from their respective bases are always equal, then the volumes of the two solids are equal.
+There is an 8-square identity corresponding to this algebra.
+The elements of a Cayley algebra are called Cayley numbers or octonions, and the multiplication table for any Cayley algebra over a field F with field characteristic p!=2 may be taken as shown in the following table, where u_1, u_2,..., u_8 are a bases over F and μ_1, μ_2, and μ_3 are nonzero elements of F.
+Let G be a group, and let S⊆G be a set of group elements such that the identity element I not element S, The Cayley graph associated with (G, S) is then defined as the directed graph having one vertex associated with each group element and directed edges (g, h) whenever gh^(-1) element S. The Cayley graph may depend on the choice of a generating set, and is connected iff S generates G (i.e., the set S are group generators of G).
+A tree in which each non - leaf graph vertex has a constant number of branches n is called an n - Cayley tree.
+2-Cayley trees are path graphs.
+The numbers of binary trees on n = 1, 2,... nodes (i.e., n - node trees having vertex degree either 1 or 3 ; also called 3-Cayley trees, 3-valent trees, or boron trees) are 1, 1, 0, 1, 0, 1, 0, 1, 0, 2, 0, 2, 0, 4, 0, 6, 0, 11,...
+A cellular automaton is a collection of " colored " cells on a grid of specified shape that evolves through a number of discrete time steps according to a set of rules based on the states of neighboring cells.
+Cellular automata come in a variety of shapes and varieties.
+One of the most fundamental properties of a cellular automaton is the type of grid on which it is computed.
+The simplest such " grid " is a one - dimensional line.
+Cellular automata may also be constructed on Cartesian grids in arbitrary numbers of dimensions, with the d - dimensional integer lattice Z^d being the most common choice.
+This number is typically an integer, with k = 2 (binary) being the simplest choice.
+For a binary automaton, color 0 is commonly called " white, " and color 1 is commonly called " black ".
+The simplest choice is " nearest neighbors, " in which only cells directly adjacent to a given cell may be affected at each time step.
+Two common neighborhoods in the case of a two - dimensional cellular automaton on a square grid are the so - called Moore neighborhood (a square neighborhood) and the von Neumann neighborhood (a diThe simplest type of cellular automaton is a binary, nearest - neighbor, one - dimensional automaton.
+There are 256 such automata, each of which can be indexed by a unique binary number whose decimal representation is known as the " rule " for the particular automaton.
+ The central difference for a function tabulated at equal intervals f_n is defined by δ(f_n) = δ_n = δ_n^1 = f_(n + 1/2) - f_(n - 1/2).
+Let X_1, X_2,..., X_N be a set of N independent random variates and each X_i have an arbitrary probability distribution P(x_1,..., x_N) with mean μ_i and a finite variance σ_i^2, then the normal form variate X_norm congruent (sum_(i = 1)^N x_i - sum_(i = 1)^N μ_i)/sqrt (sum_(i = 1)^N σ_i^2) has a limiting cumulative distribution function which approaches a normal distribution.
+Given a triangle with vertices A, B, and C and points along the sides D, E, and F, a necessary and sufficient condition for the cevians AD, BE, and CF to be concurrent is that BD·CE·AF = DC·EA·FB.
+A Cevian is a line segment which joins a vertex of a triangle with a point on the opposite side (or its extension).
+If a function g(x) is differentiable at the point x and a function f(x) is differentiable at the point g(x), then the composition f ◦ g is differentiable at x.
+The function θ(x) is defined by θ(x) | congruent | sum_(k = 1)^(π(x)) lnp_k| = | ln [product_(k = 1)^(π(x)) p_k]| = | lnx # where p_k is the kth prime, π(x) is the prime counting function, and x # is the primorial.
+If a random variable x has a finite mean μ and finite variance σ^2, then for all k>0, P (|x - μ| > = k) | < = | σ^2/k^2 P (|x - μ| > = kσ) | < = | 1/k^2.
+The hyperbolic cosine integral, often called the " Chi function " for short, is defined by Chi(z) = γ + lnz + integral_0^z (cosht - 1)/t dt, where γ is the Euler - Mascheroni constant.
+Let r and s be positive integers which are relatively prime and let a and b be any two integers, then there is an integer N such that N congruent a (mod r) and N congruent b (mod s).
+If Y_i have normal independent distributions with mean 0 and variance 1, then χ^2 congruent sum_(i = 1)^r Y_i^2 is distributed as χ^2 with r degrees of freedom.
+The chromatic polynomial π_G(z) of an undirected graph G, also denoted C(G;z) and P(G, x), is a polynomial which encodes the number of distinct ways to color the vertices of G (where colorings are counted as distinct even if they differ only by permutation of colors).
+The cubical graph Q_3 has 1-, 2-,... k - coloring counts of 0, 2, 114, 2652, 29660, 198030, 932862, 3440024,..., resulting in chromatic polynomial π_(Q_3)(z) = z^8 - 12z^7 + 66z^6 - 214z^5 + 441z^4 - 572z^3 + 423z^2 - 133z.
+The chromatic polynomial is multiplicative over graph components, so for a graph G having connected components G_1, G_2,..., the chromatic polynomial of G itself is given by π_G = π_(G_1) π_(G_2)....
+The chromatic polynomial for a forest on n vertices, m edges, and with c connected components is given by π = (-1)^(n - c) x^c (1 - x)^m.
+For a graph with vertex count n and c connected components, the chromatic polynomial π(x) is related to the rank polynomial R(x, y) and Tutte polynomial T(x, y) by π(x) | = | x^n R(-x^(-1), -1)| = | (-1)^(n - c) x^c T(1 - x, 0).
+The coefficients alternate signs, and the coefficient of the (n - 1)st term is -m, where m is the number of edges.
+If n is the number of graph vertices of such a graph G, then π_G(ϕ^2)<=ϕ^(5 - n).
+For any chromatic polynomial π(z) = c_n z^n +... + c_1 z, there does not exist a 1<=p<=q<=r<=n such that |c_p| > |c_q| and |c_q| < |c_r|.
+For radiant point at μ = ∞, the catacaustic is the nephroid x | = | 1/4[3cost - cos(3 t)] y | = | 1/4[3sint - sin(3 t)].
+For a circle of radius a, x | = | acost y | = | asint the parametric equation of the involute is given by x_i | = | a(cost + tsint) y_i | = | a(sint - tcost).
+A lower bound for a covering using equivalent circles is 2π/sqrt(27).
+The circumcenter is the center O of a triangle's circumcircle.
+For radius r or diameter d = 2r, C = 2πr = πd, where π is pi.
+For an arbitrary graph, ω(G)>= sum_(i = 1)^n 1/(n - d_i), where d_i is the degree of graph vertex i.
+The chromatic number χ(G) of a graph G is equal to or greater than its clique number ω(G), i.e., χ(G)>=ω(G).
+Three or more points P_1, P_2, P_3,..., are said to be collinear if they lie on a single straight line L.
+A line on which points lie, especially if it is related to a geometric figure such as a triangle, is sometimes called an axis.
+Three points x_i = (x_i, y_i, z_i) for i = 1, 2, 3 are collinear iff the ratios of distances satisfy x_2 - x_1 : y_2 - y_1 : z_2 - z_1 = x_3 - x_1 : y_3 - y_1 : z_3 - z_1.
+Also known as the binomial coefficient or choice number and read " n choose k, " _ n C_k congruent (n k) congruent (n!)/(k!(n - k) !), where n ! is a factorial.
+Combinatorics is the branch of mathematics studying the enumeration, combination, and permutation of sets of elements and the mathematical relations that characterize their properties.
+Two elements x and y of a set S are said to be commutative under a binary operation * if they satisfy x*y = y*x.
+The conversion of a quadratic polynomial of the form ax^2 + bx + c to the form a(x + b/(2a))^2 + (c - b^2/(4a)), which, defining B congruent b/2a and C congruent c - b^2/4a, simplifies to a(x + B)^2 + C.
+In particular, complex exponentiation satisfies (a + bi)^(c + di) = (a^2 + b^2)^((c + id)/2) e^(i(c + i d) arg(a + ib)), where arg(z) is the complex argument.
+A function whose range is in the complex numbers is said to be a complex function, or a complex - valued function.
+The composition of two functions f and g is denoted f ° g, where f is a function whose domain includes the range of g. The notation (f ° g)(x) = f(g(x)), is sometimes used to explicitly indicate the variable.
+P(A|B) P(B) = P(A intersection B), which can be generalized to P(A intersection B intersection C) = P(A) P(B|A) P(C|A intersection B).
+Numbers (a, x, y, z, t) such that {x^2 + ay^2 = z^2 x^2 - ay^2 = t^2 auto right match are also known as congruent numbers.
+They are a generalization of the congruum problem, which is the case y = 1.
+The surface area, not including the top and bottom circles, is A | = | π(R_1 + R_2) s| = | π(R_1 + R_2) sqrt((R_1 - R_2)^2 + h^2).
+If the ratio r = 1, the conic is a parabola, if r<1, it is an ellipse, and if r>1, it is a hyperbola.
+Hyperbolas and noncircular ellipses have two distinct foci and two associated directrices, each directrix being perpendicular to the line joining the two foci.
+The connectedness relation between two pairs of points satisfies transitivity, i.e., if a ~ b and b ~ c then a ~ c.
+The number of n - node connected unlabeled graphs for n = 1, 2,... are 1, 1, 2, 6, 21, 112, 853, 11117, 261080,....
+The contact triangle of a triangle ΔABC, also called the intouch triangle, is the triangle ΔC_A C_B C_C formed by the points of tangency of the incircle of ΔABC with ΔABC.
+The contact triangle is therefore the pedal triangle of ΔABC with respect to the incenter I of ΔABC.
+The contact triangle is the polar triangle of the incircle.
+Let A denote an R - algebra, so that A is a vector space over R and A×A->A (x, y)↦x·y.
+There are several meanings of the word content in mathematics.
+In general, any expression ξ of the form ξ = b_0 + a_1/(b_1 + a_2/(b_2 + a_3/(b_3 +...))) with terms a_j, b_k, j = 1, 2, 3,..., k = 0, 1, 2,..., consisting of arbitrary mathematical objects such as vectors in C^n, C - valued square matrices, Hilbert space operators, multivariate expressions, other such fractions, etc., is a continued fraction.
+The terms a_k, respectively b_k, are called the partial numerators, respectively partial denominators, of ξ, and together, objects of the collection {a_k, b_k } are called the elements of ξ.
+Most typically, the term " continued fraction " is used to describe the scenario where a_j and b_k, j = 1, 2, 3..., k = 0, 1, 2,..., are integers.
+There are two distinct possibilities for the expression ξ which are characterized by the behavior of the rational numbers q_n defined by the finite expressions ξ_n of the form ξ_n = b_0 + a_1/(b_1 + a_2/ (⋱ + a_n / b_n)), called the nth convergent of ξ.
+Given an ordered pair of sequences ({a_m }, {b_m }), a_m, b_m element C, m element Z^+, a_m ! = 0 for m>=1, one may consider the associated sequences {s_n(w) }, {S_n(w) }, n = 0, 1, 2,..., of linear fractional transformations defined recursively by s_0(w) = b_0 + w, s_n(w) = a_n/(b_n + w), S_0(w) = s_0(w), S_n(w) = S_(n - 1)(s_n(w)) for n = 1, 2, 3,.... 
+By then defining the sequence {f_n } so that, for each n = 0, 1, 2,..., f_n = S_n(0) element C union {∞ }, one can define a continued fraction (with complex elements) to be the ordered pair (({a_m }, {b_m }), {f_n }).
+integral_(-∞)^∞ (P(z) dz)/(Q(z)) = lim_(R->∞) integral_(-R)^R (P(z) dz)/(Q(z)).
+The winding number of a contour γ about a point z_0, denoted n(γ, z_0), is defined by n(γ, z_0) = 1/(2πi)∮_γ (dz)/(z - z_0) and gives the number of times γ curve passes (counterclockwise) around a point.
+Formally, a sequence S_n converges to the limit S lim_(n->∞) S_n = S if, for any ϵ>0, there exists an N such that |S_n - S| < ϵ for n > N. If S_n does not converge, it is said to diverge.
+This condition can also be written as (lim_(n->∞))^ _ S_n = lim_(n->∞) _ _ S_n = S.
+More generally, a function f(x) is convex on an interval [a, b] if for any two points x_1 and x_2 in [a, b] and any λ where 0<λ<1, f[λx_1 + (1 - λ) x_2]<=λf(x_1) + (1 - λ) f(x_2).
+The convex hull of a set of points S in n dimensions is the intersection of all convex sets containing S. 
+A planar polygon is convex if it contains all the line segments connecting any pair of its points.
+The points A_b, A_c, B_c, B_a, C_a, and C_b are concyclic and the resulting circle is known as Conway circle of ΔABC.
+It is therefore given by the formula C_(CE) = sum_(n = 1)^∞ p_n/10^ (sum_(k = 1)^n ⌊log_10 p_k⌋ + n).
+A two - dimensional copula is a function C : I^2 ->I such that C(0, t) = C(t, 0) = 0 and C(1, t) = C(t, 1) = t for all t element I, and C(u_2, v_2) - C(u_1, v_2) - C(u_2, v_1) + C(u_1, v_1)>=0 for all u_1, u_2, v_1, v_2 element I such that u_1 < = u_2 and v_1 < = v_2.
+The slope of the curve's tangent vector (above right figure) is m_T(t) = (S'(t))/(C'(t)) = tan(1/2 πt^2).
+ The most common form of cosine integral is Ci(x) | = | - integral_x^∞ (costdt)/t| = | γ + lnx + integral_0^x (cost - 1)/t dt| = | 1/2[Ei(ix) + Ei(-ix)]| = | -1/2[E_1(ix) + E_1(-ix)], where Ei(x) is the exponential integral, E_n(x) is the E_n - function, and γ is the Euler - Mascheroni constant.
+The cotangent function cotz is the function defined by cotz | congruent | 1/(tanz)| = | (i(e^(iz) + e^(-iz)))/(e^(iz) - e^(-iz))| = | (i(e^(2iz) + 1))/(e^(2iz) - 1), where tanz is the tangent.
+The covariance for two random variates X and Y, each with sample size N, is defined by the expectation value cov(X, Y) | = | 〈(X - μ_X)(Y - μ_Y)〉| = | 〈XY〉 - μ_X μ_y where μ_x = 〈X〉 and μ_y = 〈Y〉 are the respective means, which can be written out explicitly as cov(X, Y) = sum_(i = 1)^N ((x_i - x^_)(y_i - y^_))/N.
+Given n sets of variates denoted {X_1 },..., {X_n }, the first - order covariance matrix is defined by V_(ij) = cov(x_i, x_j) congruent 〈(x_i - μ_i)(x_j - μ_j)〉, where μ_i is the mean.
+Higher order matrices are given by V_(ij)^(mn) = 〈(x_i - μ_i)^m (x_j - μ_j)^n〉.
+An individual matrix element V_(ij) = cov(x_i, x_j) is called the covariance of x_i and x_j.
+If he succeeds, he wins and retains the dice, but if a 7 appears first, the player loses and passes the dice.
+The following table summarizes the probabilities of winning on a roll - by - roll basis, where P(p = n) is the probability of rolling a point n.
+The line ℜ[s] = 1/2 in the complex plane on which the Riemann hypothesis asserts that all nontrivial (complex) Riemann zeta function zeros lie.
+A function y = f(x) has critical points at all points x_0 where f'(x_0) = 0 or f(x) is not differentiable.
+A function z = f(x, y) has critical points where the gradient del f = 0 or df / dx or the partial derivative df / dy is not defined.
+The cross polytope β_n is the regular polytope in n dimensions corresponding to the convex hull of the points formed by permuting the coordinates (± 1, 0, 0,..., 0).
+In one dimension, the cross polytope is the line segment [-1, 1].
+In two dimensions, the cross polytope {4 } is the filled square with vertices (-1, 0), (0, -1), (1, 0), (0, 1).
+In three dimensions, the cross polytope {3, 4 } is the convex hull of the octahedron with vertices (-1, 0, 0), (0, -1, 0), (0, 0, -1), (1, 0, 0), (0, 1, 0), (0, 0, 1).
+In four dimensions, the cross polytope {3, 3, 4 } is the 16-cell, depicted in the above figure by projecting onto one of the four mutually perpendicular three - spaces within the four - space obtained by dropping one of the four vertex components. 
+The skeleton of β_n is isomorphic with the circulant graph Ci_(2n)(1, 2,..., n - 1), also known as the n - cocktail party graph.
+For all dimensions, the dual of the cross polytope is the hypercube.
+Consequently, the number of k - simplices contained in an n - cross polytope is (n k + 1)2^(k + 1).
+For vectors u = (u_x, u_y, u_z) and v = (v_x, v_y, v_z) in R^3, the cross product in is defined by uxv | = | x^^(u_y v_z - u_z v_y) - y^^(u_x v_z - u_z v_x) + z^^(u_x v_y - u_y v_x)| = | x^^(u_y v_z - u_z v_y) + y^^(u_z v_x - u_x v_z) + z^^(u_x v_y - u_y v_x), where (x^^, y^^, z^^) is a right - handed, i.e., positively oriented, orthonormal basis.
+A cross section of a solid is a plane figure obtained by the intersection of that solid with a plane.
+Cryptology is the science of making and breaking secure codes.
+The cube is the Platonic solid P_1 (also called the regular hexahedron).
+A compound also called Bakos' compound having the symmetry of the cube which arises by joining four cubes such that each C_3 axis falls along the C_3 axis of one of the other cubes.
+Let the first cube c_1 consists of a cube in standard position rotated by π/3 radians around the (1, 1, 1)-axis, then the other three cubes are obtained by rotating c_1 around the (0, 0, 1)-axis (z - axis) by π/2, -π/2, and π radians, respectively.
+An algebraic curve over a field K is an equation f(X, Y) = 0, where f(X, Y) is a polynomial in X and Y with coefficients in K, and the degree of f is the maximum degree of each of its terms (monomials).
+A cubic equation is an equation involving a cubic polynomial, i.e., one of the form a_3 x^3 + a_2 x^2 + a_1 x + a_0 = 0.
+Cubic graphs, also called trivalent graphs, are graphs all of whose nodes have degree 3 (i.e., 3-regular graphs).
+Cubic graphs on n nodes exists only for even n. 
+A necessary (but not sufficient) criterion for a graph to be cubic is that m / n = 3/2, where m is the edge count and n is the vertex count.
+A cubic lattice is a lattice whose points lie at positions (x, y, z) in the Cartesian three - space, where x, y, and z are integers.
+The generating function giving the cubic numbers is (x(x^2 + 4x + 1))/(x - 1)^4 = x + 8x^2 + 27x^3 +....
+An equation involving a cubic polynomial is called a cubic equation.
+A univariate cubic polynomial has the form f(x) = a_3 x^3 + a_2 x^2 + a_1 x + a_0.
+A cuboctahedron, also called the heptaparallelohedron or dymaxion is Archimedean solid A_1 with faces 8{3 } + 6{4}. 
+A closed box composed of three pairs of rectangular faces placed opposite each other and joined at right angles to each other, also known as a rectangular parallelepiped.
+Let ϕ(t) be the characteristic function, defined as the Fourier transform of the probability density function P(x) using Fourier transform parameters a = b = 1, ϕ(t) | = | ℱ_x[P(x)](t)| = | integral_(-∞)^∞ e^(itx) P(x) dx the cumulants κ_n are then defined by lnϕ(t) congruent sum_(n = 1)^∞ κ_n (it)^n/(n !).
+Cumulation is the dual operation of truncation which replaces the faces of a polyhedron with pyramids of height h (where h may be positive, zero, or negative) having the face as the base.
+The cumulative frequency corresponding to the upper boundary of any class interval c_i in a frequency distribution is the total absolute frequency of all values less than that boundary, denoted F _ < congruent sum_(i<=n) f_i.
+A cumulative product is a sequence of partial products of a given sequence.
+The curl of a vector field, denoted curl(F) or del xF (the notation used in this work), is defined as the vector field having magnitude equal to the maximum " circulation " at each point and to be oriented perpendicularly to this plane of circulation for each point.
+In topology, a curve is a one - dimensional continuum.
+In algebraic geometry, an algebraic curve over a field K is the zero locus of some polynomial f(X, Y) of two variables which has its coefficients in K.
+In analytic geometry, a curve is continuous map from a one - dimensional space to an n - dimensional space.
+A cycle graph C_n, sometimes simply known as an n - cycle, is a graph on n nodes containing a single cycle through all nodes.
+Cyclic groups are Abelian.
+A cyclic group of finite group order n is denoted C_n, Z_n, Z_n, or C_n, and its generator X satisfies X^n = I, where I is the identity element.
+The ring of integers Z form an infinite cyclic group under addition, and the integers 0, 1, 2,..., n - 1 (Z_n) form a cyclic group of order n under addition (mod n).
+Like C_2×C_2, it is Abelian, but unlike C_2×C_2, it is a cyclic.
+A cyclic quadrilateral is a quadrilateral for which a circle can be circumscribed so that it touches each polygon vertex.
+The cyclide is a quartic surface, and the lines of curvature on a cyclide are all straight lines or circular arcs.
+The cycle graph of C_4 is shown above, and the cycle index is given by Z(C_4) = 1/4 x_1 ^ 4 + 1/4 x_2 ^ 2 + 1/2 x_4.
+The standard tori and their inversions in an inversion sphere S centered at a point x_0 and of radius r, given by I(x_0, r) = x_0 + ((x - x_0) r^2)/ (|x - x_0|) ^2,
+The cycloid is the locus of a point on the rim of a circle of radius a rolling along a straight line.
+The involute of the cycloid x | = | a(t - sint) y | = | a(1 - cost) is given by x_i | = | a(t + sint) y_i | = | a(3 + cost).
+A polynomial given by Φ_n(x) = product_(k = 1)^n'(x - ζ_k), where ζ_k are the roots of unity in C given by ζ_k congruent e^(2πik / n) and k runs over integers relatively prime to n. 
+The prime may be dropped if the product is instead taken over primitive roots of unity, so that Φ_n(x) = product_k = 1 primitive ζ_k^n(x - ζ_k).
+Cylindrical coordinates are a generalization of two - dimensional polar coordinates to three dimensions by superposing a height (z) axis.
+A cylindrical segment, sometimes also called a truncated cylinder, is the solid cut from a circular cylinder by two (or more) planes.
+If there are two cutting planes, one perpendicular to the axis of the cylinder and the other titled with respect to it, the resulting solid is known as a cylindrical wedge.
+Dawson's integral, also sometimes called Dawson's function, is the entire function given by the integral F(x) | = | e^(-x^2) integral_0^x e^(y^2) dy| = | 1/2 sqrt(π) e^(-x^2) erfi(x), where erfi(x) is erfi, that arises in computation of the Voigt lineshape, in heat conduction, and in the theory of electrical oscillations in certain special vacuum tubes.
+The independence number of the de Bruijn graphs (2, n) for n = 1, 2,... are given by 1, 2, 3, 7, 13, 28,...
+The generating function giving the decagonal numbers is (x(7x + 1))/(1 - x)^3 = x + 10x^2 + 27x^3 + 52x^4 +....
+Each of the arabic numerals 0 to 9 is called a decimal digit, and the period placed to the right of the units place in a decimal number is called the decimal point (or, in the case that a comma is instead used for this purpose, the decimal comma).
+Each " decimal place " consists of a digit 0 - 9 arranged such that each digit is multiplied by a power of 10, decreasing from left to right, and with a decimal place indicating the 10 ^ 0 = 1s place.
+A definite integral is an integral integral_a^b f(x) dx with upper and lower limits.
+If x is restricted to lie on the real line, the definite integral is known as a Riemann integral.
+General definite integral is taken in the complex plane, resulting in the contour integral ntegral_a^b f(z) dz, with a, b, and z in general being complex numbers and the path of integration from a to b known as a contour.
+Since the n roots of an nth degree polynomial are usually distinct, roots which coincide are said to be degenerate.
+Degree is the unit of angle measure defined such that an entire rotation is 360°.
+Given an undirected graph, a degree sequence is a monotonic nonincreasing sequence of the vertex degrees (valencies) of its graph vertices.
+The sum of the elements of a degree sequence of a graph is always even due to fact that each edge connects two vertices and is thus counted twice.
+The minimum vertex degree in a graph G is denoted δ(G), and the maximum vertex degree is denoted Δ(G).
+A graph whose degree sequence contains only multiple copies of a single integer is called a regular graph.
+An invariant defined using the angles of a three - dimensional polyhedron.
+The Delannoy numbers D(a, b) are the number of lattice paths from (0, 0) to (b, a) in which only east (1, 0), north (0, 1), and northeast (1, 1) steps are allowed (i.e., - >, ↑, and ↗).
+Two polyhedra with the same Dehn invariants are interdissectable.
+The Delaunay triangulation is a triangulation which is equivalent to the nerve of the cells in a Voronoi diagram, i.e., that triangulation of the convex hull of the points in the diagram in which every circumcircle of a triangle is an empty circle.
+The Delaunay triangulation and Voronoi diagram in R^2 are dual to each other.
+The delta function is a generalized function that can be defined as the limit of a class of delta sequences.
+Formally, δ is a linear functional from a space of test functions f. 
+The action of δ on f, commonly denoted δ[f] or 〈δ, f〉, then gives the value at 0 of f for any function f. 
+A 3-cusped hypocycloid, also called a tricuspoid.
+The equation of the deltoid is obtained by setting n congruent a / b = 3 in the equation of the hypocycloid, where a is the radius of the large fixed circle and b is the radius of the small rolling circle, yielding the parametric equations.
+The asymptotic form of the n - step Bernoulli distribution with parameters p and q = 1 - p is given by P_n(k) | = | (n k) p^k q^(n - k)| ~ | 1/sqrt(2πnpq) e^(-(k - np)^2/(2npq)) (Papoulis 1984, p. 
+From the Euler formula it follows that cos(nθ) + isin(nθ) = (cosθ + isinθ)^n.
+A similar identity holds for the hyperbolic functions, (coshz + sinhz)^n = cosh(nz) + sinh(nz).
+Tarjan and Hopcroft and Tarjan showed that depth - first search gives linear - time algorithms for many problems in graph theory.
+A derangement is a permutation in which none of the objects appear in their " natural " (i.e., ordered) place.
+Derangements are permutations without fixed points (i.e., having no cycles of length one).
+The " simple " derivative of a function f with respect to a variable x is denoted either f'(x) or (df)/(dx), often written in - line as df / dx.
+If r = 1/2, then the derived polygons are called midpoint polygons and tend to a shape with opposite sides parallel and equal in length.
+Its incidence graph is the Desargues graph.
+The relationship is 2(κ_1 ^ 2 + κ_2 ^ 2 + κ_3 ^ 2 + κ_4 ^ 2) = (κ_1 + κ_2 + κ_3 + κ_4)^2, where κ_i = 1/r_i are the curvatures of the circles with radii r_i.
+As shown by Cramer's rule, a nonhomogeneous system of linear equations has a unique solution iff the determinant of the system's matrix is nonzero (i.e., the matrix is nonsingular).
+The diameter of a circle is the distance from a point on the circle to a point π radians away, and is the maximum distance from one point on a circle to another.
+The diameter of a sphere is the maximum distance between two antipodal points on the surface of the sphere.
+If r is the radius of a circle or sphere, then d = 2r.
+The ratio of the circumference C of a circle or great circle of a sphere to the diameter d is pi, π = C / d.
+A coin can be viewed as a degenerate 2-sided case of a die.
+Δ_h f(x) congruent (f(x + h) - f(x))/h = (Δf)/h.
+Let G be a group of group order h and D be a set of k elements of G, if the set of differences d_i - d_j contains every nonzero element of G exactly λ times, then D is a (h, k, λ)-difference set in G of order n = k - λ. 
+If λ = 1, the difference set is called planar.
+If there is a difference set of size k in a group G, then 2(k 2) must be a multiple of |G| - 1, where (k 2) is a binomial coefficient.
+A real function is said to be differentiable at a point if its derivative exists at that point.
+A differential equation is an equation that involves the derivatives of a function as well as the function itself.
+If partial derivatives are involved, the equation is called a partial differential equation ; if only ordinary derivatives are present, the equation is called an ordinary differential equation.
+If a number has no digitaddition generator, it is called a self number.
+The sum of all numbers in a digitaddition series is given by the last term minus the first plus the sum of the digits of the last.
+The dihedral angle is the angle θ between two planes.
+The dihedral angle between the planes a_1 x + b_1 y + c_1 z + d_1 | = | 0 a_2 x + b_2 y + c_2 z + d_2 | = | 0 which have normal vectors n_1 = (a_1, b_1, c_1) and n_2 = (a_2, b_2, c_2) is simply given via the dot product of the normals, cosθ | = | (n_1)^^·(n_2)^^| = | (a_1 a_2 + b_1 b_2 + c_1 c_2)/(sqrt(a_1 ^ 2 + b_1 ^ 2 + c_1 ^ 2) sqrt(a_2 ^ 2 + b_2 ^ 2 + c_2 ^ 2)).
+The dihedral group D_n is the symmetry group of an n - sided regular polygon for n>1.
+The group order of D_n is 2n.
+Dihedral groups D_n are non - Abelian permutation groups for n>2.
+One group presentation for the dihedral group D_n is 〈x, y|x^2 = 1, y^n = 1, (xy)^2 = 1〉.
+The dihedral group D_4 is one of the two non - Abelian groups of the five groups total of group order 8.
+D_4 has cycle index given by Z(D_4) = 1/8 x_1 ^ 4 + 1/4 x_2 x_1 ^ 2 + 3/8 x_2 ^ 2 + 1/4 x_4.
+Dijkstra's algorithm is an algorithm for finding a graph geodesic, i.e., the shortest path between two graph vertices in a graph.
+The dimension of an object is a topological measure of the size of its covering properties.
+Roughly speaking, it is the number of coordinates needed to specify a point on the object.
+ The ding - dong surface is the cubic surface of revolution given by the equation x^2 + y^2 = (1 - z) z^2 that is closely related to the kiss surface.
+The surface can be represented in parametric form as x(u, v) | = | avsqrt(1 - v) cosu y(u, v) | = | avsqrt(1 - v) sinu z(u, v) | = | av for u element [0, 2π) and v element (-∞, 1).
+A Diophantine equation is an equation in which only integer solutions are allowed.
+A dipyramid, also called a bipyramid, consistes of two pyramids symmetrically placed base - to - base.
+The dipyramids are duals of the regular prisms.
+The volume of a dipyramid of half - height h and base area A_b is equal to twice the volume of the corresponding pyramid, namely V = 2/3 A_b h.
+The volume of a dipyramid whose base is a regular n - sided polygon with side a is therefore V_n = 1/6 ncot(π/n) a^2 h.
+The Dirac matrices are a class of 4×4 matrices which arise in quantum electrodynamics.
+A graph in which each graph edge is replaced by a directed graph edge, also called a digraph.
+A directed graph having no multiple edges or loops (corresponding to a binary adjacency matrix with 0s on the diagonal) is called a simple directed graph.
+A complete graph in which each edge is bidirected is called a complete directed graph.
+A directed graph having no symmetric pair of directed edges (i.e., no bidirected edges) is called an oriented graph.
+A complete oriented graph (i.e., a directed graph in which each pair of nodes is joined by a single edge having a unique direction) is called a tournament.
+The directional derivative del _ u f(x_0, y_0, z_0) is the rate at which the function f(x, y, z) changes at a point (x_0, y_0, z_0) in the direction u. 
+It is a vector form of the usual derivative, and can be defined as del _ u f | congruent | del f·u/ (|u|)| = | lim_(h->0) (f(x + hu^^) - f(x))/h, where del is called " nabla " or " del " and u^^ denotes a unit vector.
+Two quantities y and x are said to be directly proportional, proportional, or " in direct proportion " if y is given by a constant multiple of x, i.e., y = cx for c a constant.
+The Dirichlet function is defined by D(x) = {c | for x rational d | for x irrational auto right match and is discontinuous everywhere.
+A Dirichlet L - series is a series of the form L_k(s, χ) congruent sum_(n = 1)^∞ χ_k(n) n^(-s), where the number theoretic character χ_k(n) is an integer function with period k, are called Dirichlet L - series.
+Given an arithmetic progression of terms an + b, for n = 1, 2,..., the series contains an infinite number of primes if a and b are relatively prime, i.e., (a, b) = 1.
+A discontinuity is point at which a mathematical object is discontinuous.
+A point at which a function is discontinuous is called a discontinuity, or sometimes a jump.
+A discrete distribution with probability function P(x_k) defined over k = 1, 2,..., N has distribution function D(x_n) = sum_(k = 1)^n P(x_k) and population mean μ = 1/N sum_(k = 1)^N x_k P(x_k).
+The disdyakis triacontahedron is the dual polyhedron of the Archimedean great rhombicosidodecahedron A_2.
+A dissection fallacy is an apparent paradox arising when two plane figures with different areas seem to be composed by the same finite set of parts.
+The distribution function D(x), also called the cumulative distribution function (CDF) or cumulative frequency function, describes the probability that a variate X takes on a value less than or equal to a number x. 
+A multiplication * is said to be right distributive if (x + y) z = xz + yz for every x, y, and z. 
+A multiplication * said to be left distributive if z(x + y) = zx + zy for every x, y, and z.
+If a multiplication is both right- and left - distributive, it is simply said to be distributive.
+The divergence of a vector field F, denoted div(F) or del · F (the notation used in this work), is defined by a limit of the surface integral del · F congruent lim_(V->0) (∮_S F·da)/V where the surface integral gives the value of F integrated over a closed infinitesimal boundary surface S = dV surrounding a volume element V, which is taken to size zero using a limiting process.
+The divergence of a vector field is therefore a scalar field.
+If del · F = 0, then the field is said to be a divergenceless field.
+A divergenceless vector field, also called a solenoidal field, is a vector field for which del · F congruent 0.
+A division algebra, also called a " division ring " or " skew field, " is a ring in which every nonzero element has a multiplicative inverse, but multiplication is not necessarily commutative.
+Division by zero is the operation of taking the quotient of any number x and 0, i.e., x/0.
+0 is the only number with this property and, as a result, division by zero is undefined for real numbers and can produce a fatal condition called a " division by zero error " in computer programs.
+A dodecagon is a 12-sided polygon.
+In particular, a dodecagon with vertices equally spaced around a circle and with all sides the same length is a regular polygon known as a regular dodecagon.
+A general dodecahedron is a polyhedron having 12 faces.
+Crystals of pyrite (FeS_2) resemble slightly distorted dodecahedra, and sphalerite (ZnS) crystals are irregular dodecahedra bounded by congruent deltoids.
+The hexagonal scalenohedron is another irregular dodecahedron.
+A double integral is a two - fold multiple integral.
+A dual number is a number x + ϵy, where x, y element R and ϵ is a matrix with the property that ϵ^2 = 0 (such as ϵ = [0 | 1 0 | 0]).
+By the duality principle, for every polyhedron, there exists another polyhedron in which faces and polyhedron vertices occupy complementary locations.
+The process of taking the dual is also called reciprocation, or polar reciprocation.
+If f is any continuous function, then the evolution of a variable x can be given by the formula x_(n + 1) = f(x_n).
+If f is any continuous function, then the evolution of a variable x can be given by the formula x_(n + 1) = f(x_n).
+The Earth - Moon problem is a special case of the empire problem for countries with m = 2 disjoint regions, with one region of each country lying on the Earth and one on the Moon.
+On the Clebsch diagonal cubic, all 27 of the complex lines present on a general smooth cubic surface are real.
+In a graph G, contraction of an edge e with endpoints u, v is the replacement of u and v with a single vertex such that edges incident to the new vertex are the edges other than e that were incident with u or v. 
+As a result, the decomposition of a matrix into matrices composed of its eigenvectors and eigenvalues is called eigen decomposition.
+If L^~ is a linear operator on a function space, then f is an eigenfunction for L^~ and λ is the associated eigenvalue whenever L^~ f = λf.
+The surface of revolution given by the parametric equations x(u, v) | = | cosusin(2v) y(u, v) | = | sinusin(2v) z(u, v) | = | sinv for u element [0, 2π) and v element [-π/2, π/2].
+The Eisenstein integers, sometimes also called the Eisenstein - Jacobi integers, are numbers of the form a + bω, where a and b are normal integers, ω congruent 1/2(-1 + isqrt(3)) is one of the roots of z^3 = 1, the others being 1 and ω^2 = 1/2(-1 - isqrt(3)).
+If x is a member of a set A, then x is said to be an element of A, written x element A. 
+If x is not an element of A, this is written x not element A.
+The general ellipsoid, also called a triaxial ellipsoid, is a quadratic surface which is given in Cartesian coordinates by x^2/a^2 + y^2/b^2 + z^2/c^2 = 1, where the semi - axes are of lengths a, b, and c. 
+An elliptic curve is a type of cubic curve whose solutions are confined to a region of space that is topologically equivalent to a torus.
+An elliptic curve over a field K is a nonsingular cubic curve in two variables, f(X, Y) = 0, with a K - rational point (which may be a point at infinity).
+Elliptic geometry is a non - Euclidean geometry with positive curvature which replaces the parallel postulate with the statement " through any point in the plane, there exist no lines parallel to a given line.
+The elliptic For a curve represented by (f(t, c), g(t, c)), the envelope is found by solving 0 = (df)/(dt)(dg)/(dc) - (df)/(dc)(dg)/(dt).hyperboloid is the generalization of the hyperboloid to three distinct semimajor axes.
+An elliptic integral is an integral of the form integral(A(x) + B(x) sqrt(S(x)))/(C(x) + D(x) sqrt(S(x))) dx, or integral(A(x) dx)/(B(x) sqrt(S(x))), where A(x), B(x), C(x), and D(x) are polynomials in x, and S(x) is a polynomial of degree 3 or 4.
+A point p on a regular surface M element R^3 is said to be elliptic if the Gaussian curvature K(p)>0 or equivalently, the principal curvatures κ_1 and κ_2 have the same sign.
+The empire problem, also known as the m - pire problem) asks for the maximum number of colors needed to color countries such that no two countries sharing a common border have the same color (this is the usual four - color theorem) in the case where each country consists of m disjoint regions.
+Two nonsuperimposable objects which are mirror images of each other are called enantiomers.
+The joint entropy of variables X_1,..., X_n is then defined by H(X_1,..., X_n) congruent - sum_(x_1)... sum_(x_n) P(x_1,..., x_n) log_2[P(x_1,..., x_n)].
+The envelope of a one - parameter family of curves given implicitly by U(x, y, c) = 0, or in parametric form by (f(t, c), g(t, c)), is a curve that touches every member of the family tangentially.
+If A⇒B and B⇒A (i.e., A⇒B⋀B⇒A, where ⇒ denotes implies), then A and B are said to be equivalent, a relationship which is written symbolically in this work as A congruent B. 
+If P is a pedal point inside a triangle ΔABC and P_A, P_B, and P_C are the feet of the perpendiculars from P upon the respective sides BC, CA, and AB, then PA + PB + PC>=2(PP_A + PP_B + PP_C).
+Given a Poisson distribution with a rate of change λ, the distribution function D(x) giving the waiting times until the hth Poisson event is D(x) | = | 1 - sum_(k = 0)^(h - 1) e^(-λx) (λx)^k/(k !)| = | 1 - (Γ(h, xλ))/(Γ(h)) for x element [0, ∞), where Γ(x) is a complete gamma function, and Γ(a, x) an incomplete gamma function.
+The study of error - correcting codes and the associated mathematics is known as coding theory.
+If x = f(u, v,...), then x_i - x^ _ = (u_i - u^_)(dx)/(du) + (v_i - v^_)(dx)/(dv) +..., where x^ _ denotes the mean, so the sample variance is given by s_x^2 | congruent | 1/(N - 1) sum_(i = 1)^N (x_i - x^_)^2| = | 1/(N - 1) sum_(i = 1)^N[(u_i - u^_)^2 ((dx)/(du))^2 + (v_i - v^_)^2 ((dx)/(dv))^2 + 2(u_i - u^_)(v_i - v^_)((dx)/(du))((dx)/(dv)) +...].
+The mean square error of an estimator θ^~ is defined by MSE congruent 〈(θ^~ - θ)^2 〉.
+The Euclidean algorithm is an algorithm for finding the greatest common divisor of two numbers a and b.
+The three angles giving the three rotation matrices are called Euler angles.
+The curvature of a surface satisfies κ = κ_1 cos^2 θ + κ_2 sin^2 θ, where κ is the normal curvature in a direction making an angle θ with the first principal direction and κ_1 and κ_2 are the principal curvatures.
+The Euler - Mascheroni constant γ, sometimes also called' Euler's constant' or' the Euler constant' (but not to be confused with the constant e = 2.71828...) is defined as the limit of the sequence γ | = | lim_(n->∞) (sum_(k = 1)^n 1/k - lnn)| = | lim_(n->∞)(H_n - lnn), where H_n is a harmonic number.
+The Euler numbers, also called the secant numbers or zig numbers, are defined for |x| < π/2 by sechx - 1 congruent - (E_1^ * x^2)/(2 !) + (E_2^ * x^4)/(4 !) - (E_3^ * x^6)/(6 !) +... secx - 1 congruent (E_1^ * x^2)/(2 !) + (E_2^ * x^4)/(4 !) + (E_3^ * x^6)/(6 !) +..., where sech(z) is the hyperbolic secant and sec is the secant.
+For s>1, the Riemann zeta function is given by ζ(s) | congruent | sum_(n = 1)^∞ 1/n^s| = | product_(k = 1)^∞ 1/(1 - 1/p_k^s), where p_k is the kth prime.
+A univariate function f(x) is said to be even provided that f(x) = f(-x).
+An even function times an odd function is odd, while the sum or difference of two nonzero functions is even if and only if each summand function is even.
+An even number is an integer of the form n = 2k, where k is an integer.
+Since the even numbers are integrally divisible by two, the congruence n congruent 0 (mod 2) holds for even n. 
+An even number n for which n congruent 2 (mod 4) also holds is called a singly even number, while an even number n for which n congruent 0 (mod 4) is called a doubly even number.
+An integer which is not even is called an odd number.
+The oddness of a number is called its parity, so an odd number has parity 1, while an even number has parity 0.
+An even permutation is a permutation obtainable from an even number of two - element swaps, i.e., a permutation with permutation symbol equal to + 1.
+For a set of n elements and n>2, there are n!/2 even permutations, which is the same as the number of odd permutations.
+Given a plane curve represented parametrically by (f(t), g(t)), the equation of the evolute is given by x | = | f - Rsinτ y | = | g + Rcosτ, where (x, y) are the coordinates of the running point, R is the radius of curvature
+A differential of the form df = P(x, y) dx + Q(x, y) dy is exact (also called a total differential) if integral df is path - independent.
+The excentral triangle, also called the tritangent triangle, of a triangle ΔABC is the triangle J = ΔJ_A J_B J_C with vertices corresponding to the excenters of ΔABC.
+The expectation value of a function f(x) in a variable x is denoted 〈f(x)〉 or E{f(x)}. 
+Given a Poisson distribution with rate of change λ, the distribution of waiting times between successive changes (with k = 0) is D(x) | congruent | P(X<=x)| = | 1 - P(X > x)| = | 1 - e^(-λx), and the probability distribution function is P(x) = D'(x) = λe^(-λx).
+The exponential function is the entire function defined by exp(z) congruent e^z, where e is the solution of the equation integral_1^x dt / t so that e = x = 2.718.... 
+An exterior angle β of a polygon is the angle formed externally between two adjacent sides.
+If a function f(x) is continuous on a closed interval [a, b], then f(x) has both a maximum and a minimum on [a, b].
+If f(x) has an extremum on an open interval (a, b), then the extremum occurs at a critical point.
+Since [a, b] is compact, it follows that the image f([a, b]) must also be compact.
+An extremum is a maximum or minimum.
+A factor is a portion of a quantity, usually an integer or polynomial that, when multiplied by other factors, gives the entire quantity.
+The determination of factors is called factorization (or sometimes " factoring ").
+In number theoretic usage, a factor of a number n is equivalent to a divisor of n. 
+Let A be a matrix and x and b vectors then the system Ax = b, x>=0 has no solution iff the system A^T y>=0, b^T y<0 has a solution, where y is a vector.
+The fast Fourier transform (FFT) is a discrete Fourier transform algorithm which reduces the number of computations needed for N points from 2N^2 to 2NlgN, where lg is the base-2 logarithm.
+The finite forward difference of a function f_p is defined as Δf_p congruent f_(p + 1) - f_p, and the finite backward difference as del f_p congruent f_p - f_(p - 1).
+ If f is an n - place function symbol (with n>=0) and t_1,..., t_n are terms, then f(t_1,..., t_n) is a term.
+If P is an n - place predicate symbol (again with n>=0) and t_1,..., t_n are terms, then P(t_1,..., t_n) is an atomic statement.
+A fixed point is a point that does not change upon application of a map, system of differential equations, etc.
+In particular, a fixed point of a function f(x) is a point x_0 such that f(x_0) = x_0.x can be used.
+
+ Although the rigidity theorem states that if the faces of a convex polyhedron are made of metal plates and the polyhedron edges are replaced by hinges, the polyhedron would be rigid, concave polyhedra need not be rigid.
+An action with G = R. Flows are generated by vector fields and vice versa.
+A flow line for a map on a vector field F is a path σ(t) such that σ'(t) = F(σ(t)
+The forward difference is a finite difference defined by Δa_n congruent a_(n + 1) - a_n.
+
+Four - dimensional geometry is Euclidean geometry extended into one additional dimension. 
+  The Fourier cosine transform of a real function is the real part of the full complex Fourier transform, ℱ_x^(c)[f(x)](k) | = | ℜ[ℱ_x[f(x)
+The Fourier sine transform F_s(k) of a function f(x) is implemented as FourierSinTransform[f, x, k], and different choices of a and b can be used by passing the optional FourierParameters
+
+If f(x) is an odd function, then a_n = 0 and the Fourier series collapses to f(x) = sum_(n = 1)^∞ b_n sin(nx), where b_n | = | 1/π integral_(-π)^π f(x) sin(nx) dx  | = | 2/π integral
+The Fourier sine transform is the imaginary part of the full complex Fourier transform, ℱ_x^(s)[f(x)](k) | = | ℑ[ℱ_x[f(x)](k)]  | = | integral_(-∞)^∞ sin(2πkx) f(x) dx.
+The Fourier sine transform F_s(k) of a function f(x) is implemented as FourierSinTransform[f, x, k], and different choices of a and b can be used by passing the optional FourierParameters
+ A fractal is an object or quantity that displays self - similarity, in a somewhat technical sense, on all scales.
+A function is a relation that uniquely associates members of one set with members of another set.
+A gamma distribution is a general type of statistical distribution that is related to the beta distribution and arises naturally in processes for which the waiting times between Poisson distributed events are relevant.
+Gamma distributions have two free parameters, labeled α and θ, a few of which are illustrated above.
+The (complete) gamma function Γ(n) is defined to be an extension of the factorial to complex and real number arguments.
+Gaussian brackets are notation published by Gauss in Disquisitiones Arithmeticae and defined by [] = 1 [ a_1] = a_1 [ a_1, a_2] = [ a_1] a_2 + [] [ a_1, a_2,..., a_n] = [ a_1, a_2,..., a_(n - 1)] a_n + [ a_1, a_2,..., a_(n - 2)].
+Gaussian curvature, sometimes also called total curvature, is an intrinsic property of a space independent of the coordinate system used to describe it.
+The Gauss map τ is defined as τ : R->Z τ(x) = 1/x - floor(1/x).
+The Gaussian curvature of a regular surface in R^3 at a point p is formally defined as K(p) = det(S(p)), where S is the shape operator and det denotes the determinant.
+Gaussian elimination is a method for solving matrix equations of the form Ax = b.
+In one dimension, the Gaussian function is the probability density function of the normal distribution, f(x) = 1/(σsqrt(2π)) e^(-(x - μ)^2/(2σ^2)), sometimes also called the  Gaussian elimination is a method for solving matrix equations of the form Ax = b.
+A Gaussian integer is a complex number a + bi where a and b are integers.
+The Gaussian integers are members of the imaginary quadratic field Q(sqrt(-1)) and form a ring often denoted Z[i], or sometimes k(i).
+The sum, difference, and product of two Gaussian integers are Gaussian integers, but (a + bi)|(c + di) only if there is an e + fi such that (a + bi)(e + fi) = (ae - bf) + (af + be) i = c + di.
+Gaussian primes are Gaussian integers z = a + bi satisfying one of the following properties.
+The fundamental theorem of Gaussian quadrature states that the optimal abscissas of the m - point Gaussian quadrature formulas are precisely the roots of the orthogonal polynomial for the same interval and weighting function.
+Gaussian quadrature is optimal because it fits all polynomials up to degree 2 m - 1 exactly.
+The Gauss map τ is defined as τ : R->Z τ(x) = 1/x - floor(1/x).
+The exact solution is given by the sum N(r) | = | 1 + 4⌊r⌋ + 4 sum_(i = 1)^(⌊r⌋) ⌊sqrt(r^2 - i^2)⌋  | = | 1 + 4 sum_(i = 1)^(r^2) (-1)^(i - 1) ⌊r^2/(2i - 1)⌋  | = | 1 + 4 sum_(i = 0)^∞(⌊r^2/(4i + 1)⌋ - ⌊r^2/(4i + 3)⌋).
+Gauss's forward formula is f_p = f_0 + pδ_(1/2) + G_2 δ_0 ^ 2 + G_3 δ_(1/2)^3 + G_4 δ_0 ^ 4 + G_5 δ_(1/2)^5 +..., for p element [ 0, 1], where δ is the central difference and G_(2n) | = | (p + n - 1 2n) G_(2n + 1) | = | (p + n 2n + 1), where (n k) is a binomial coefficient.
+A ruled surface is called a generalized cylinder if it can be parameterized by x(u, v) = vp + y(u), where p is a fixed point.
+A generalized cylinder is a regular surface wherever y'×p!=0.
+A topologically invariant property of a surface defined as the largest number of nonintersecting simple closed curves that can be drawn on the surface without separating it.
+The genus of a surface, also called the geometric genus, is related to the Euler characteristic χ. For a orientable surface such as a sphere (genus 0) or torus (genus 1), the relationship is χ = 2 - 2 g.
+A geodesic is a locally length - minimizing curve.
+Equivalently, it is a path that a particle which is not accelerating would follow.
+In the plane, the geodesics are straight lines.
+On the sphere, the geodesics are great circles (like the equator).
+The geodesics in a space depend on the Riemannian metric, which affects the notions of distance and acceleration.
+Curves with κ_g = 0 are called geodesics.
+For a curve parameterized as α(t) = x(u(t), v(t)), the geodesic curvature is given by κ_g = sqrt(EG - F^2)[-Γ^2 _ 11 u^ (, 3) + Γ^1 _ 22 v^ (, 3) - (2Γ^2 _ 12 - Γ^1 _ 11) u^ (, 2) v '  + (2Γ^1 _ 12 - Γ^2 _ 22) u ' v^ (, 2) + u '' v ' - v '' u ']  ×(Eu^ (, 2) + 2Fu ' v ' + Gv^ (, 2))^(-3/2),
+A geodesic dome is a triangulation of a Platonic solid or other polyhedron to produce a close approximation to a sphere (or hemisphere).
+The nth order geodesation operation replaces each polygon of the polyhedron by the projection onto the circumsphere of the order - n regular tessellation of that polygon.
+The centroid is center of mass of a two - dimensional planar lamina or a three - dimensional solid.
+The mass of a lamina with surface density function σ(x, y) is M = integral integral σ(x, y) dA, and the coordinates of the centroid (also called the center of gravity) are x^ _ | = | (integral integral xσ(x, y) dA)/M y^ _ | = | (integral integral yσ(x, y) dA)/M.
+The centroid of a lamina is the point on which it would balance when placed on a needle.
+The centroid of a solid is the point on which the solid would " balance.
+Two geometric figures are said to exhibit geometric congruence (or " be geometrically congruent ") iff one can be transformed into the other by an isometry.
+This relationship is written A≅B. (Unfortunately, the symbol ≅ is also used to denote an isomorphism.)
+ The geometric distribution is a discrete distribution for n = 0, 1, 2,... having probability density function P(n) | = | p(1 - p)^n  | = | pq^n, where 0<p<1, q congruent 1 - p, and distribution function is D(n) | = | sum_(k = 0)^n P(k)  | = | 1 - q^(n + 1).
+The geometric distribution is the only discrete memoryless random distribution.
+It is a discrete analog of the exponential distribution.
+The geometric mean of a sequence {a_i}_(i = 1)^n is defined by G(a_1,..., a_n) congruent (product_(i = 1)^n a_i)^(1/n).
+A geometric sequence is a sequence {a_k }, k = 0, 1,..., such that each term is given by a multiple r of the previous one.
+Another equivalent definition is that a sequence is geometric iff it has a zero series bias.
+If the multiplier is r, then the kth term is given by a_k = ra_(k - 1) = r^2 a_(k - 2) = a_0 r^k.
+Taking a_0 = 1 gives the simple special case a_k = r^k.
+A geometric series sum_k a_k is a series for which the ratio of each two consecutive terms a_(k + 1)/a_k is a constant function of the summation index k.
+The more general case of the ratio a rational function of the summation index k produces a series called a hypergeometric series.
+For the simplest case of the ratio a_(k + 1)/a_k = r equal to a constant r, the terms a_k are of the form a_k = a_0 r^k.
+Geometry is the study of figures in a space of a given number of dimensions and of a given type.
+The most common types of geometry are plane geometry (dealing with objects like the point, line, circle, triangle, and polygon), solid geometry (dealing with objects like the line, sphere, and polyhedron), and spherical geometry (dealing with objects like the spherical triangle and spherical polygon).
+Geometry was part of the quadrivium taught in medieval universities.
+The Gergonne point Ge is the perspector of a triangle ΔABC and its contact triangle ΔT_A T_B T_C.
+The Gergonne point has equivalent triangle center functions α | = | [ a(b + c - a)]^(-1) α | = | sec^2(1/2 A) and is Kimberling center X_7.
+The Gergonne point Ge is the isotomic conjugate of the Nagel point Na.
+The Gergonne point of a triangle is the symmedian point of its contact triangle.
+The Gershgorin circle theorem (where " Gershgorin " is sometimes also spelled " Gersgorin " or " Gerschgorin ") identifies a region in the complex plane that contains all the eigenvalues of a complex square matrix.
+For an n×n matrix A, define R_i = sum_j = 1 i!=j^n |a_(ij)|.
+Then each eigenvalue of A is in at least one of the disks {z : |z - a_(ii)| < = R_i}.
+The Gibbs phenomenon is an overshoot (or " ringing ") of Fourier series and other eigenfunction series occurring at simple discontinuities.
+For an n×n matrix A, define R_i = sum_j = 1 i!=j^n |a_(ij)|.
+Then each eigenvalue of A is in at least one of the disks {z : |z - a_(ii)| < = R_i}.
+The phenomenon is illustrated above in the Fourier series of a square wave.
+A global extremum, also known as an absolute extremum, is a global minimum or global maximum.
+The gnomonic projection is a nonconformal map projection obtained by projecting points P_1 (or P_2) on the surface of sphere from a sphere's center O to point P in a plane that is tangent to a point S. In the above figure, S is the south pole, but can in general be any point on the sphere.
+The gnomonic projection represents the image formed by a spherical lens, and is sometimes known as the rectilinear projection.
+Turing machines are defined by sets of rules that operate on four parameters : (state, tape cell color, operation, state).
+A set of rules is called consistent if any two quadruples differ in the first or second element out of the four.
+The Golay code is a perfect linear error - correcting code.
+The binary version G_23 is a (23, 12, 7) binary linear code consisting of 2 ^ 12 = 4096 codewords of length 23 and minimum distance 7.
+The ternary version is a (11, 6, 5) ternary linear code, consisting of 3 ^ 6 = 729 codewords of length 11 with minimum distance 5.
+Therefore, ϕ is the unique positive real number for which the identity ϕ/1 = 1/(ϕ - 1).
+Solving the above equation algebraically yields the exact value of ϕ, namely ϕ = (1 + sqrt(5))/2 which, to fifty decimal places, is equal to ϕ = 1.6180339887498948482045868343656381177203091798058.... In addition to the above, one can find a vast number of connections between ϕ and the theory of continued fractions.
+-a/2<=x<=a/2 and -(a ϕ)/2<=y<=(a ϕ)/2
+ A golden rhombohedron is a rhombohedron whose faces consist of congruent golden rhombi.
+A golden rhombus is a rhombus whose diagonals are in the ratio p/q = ϕ, where ϕ is the golden ratio.
+Using s(x) as the probability that a newborn will achieve age x, the Gompertz law is s(x) = exp[-m(c^x - 1)], for c>1, x>=0.
+The Gosper island, also known as a flowsnake, is a fractal that is modification of the Koch snowflake.
+The more general gradient, called simply " the " gradient in vector analysis, is a vector operator denoted del and sometimes also called del or nabla.
+In elementary mathematics, " graph " refers to a function graph or " graph of a function, " i.e., a plot.
+In a mathematician's terminology, a graph is a collection of points and lines connecting some (possibly empty) subset of them.
+The points of a graph are most commonly known as graph vertices, but may also be called " nodes " or simply " points.
+" Similarly, the lines connecting the vertices of a graph are most commonly known as graph edges, but may also be called " arcs " or " lines.
+An automorphism of a graph is a graph isomorphism with itself, i.e., a mapping from the vertices of the given graph G back to vertices of G such that the resulting graph is isomorphic with G.
+The set of automorphisms defines a permutation group known as the graph's automorphism group.
+A bridge of a connected graph is a graph edge whose removal disconnects the graph.
+More generally, a bridge is an edge of a not - necessarily - connected graph G whose removal increases the number of components of G. An edge of a connected graph is a bridge iff it does not lie on any cycle.
+Every edge of a tree is a bridge.
+The complement of a graph G, sometimes called the edge - complement, is the graph G ', sometimes denoted G^ _ or G^c (e.g., Clark and Entringer 1983), with the same vertex set but whose edge set consists of the edges not present in G (i.e., the complement of the edge set of G with respect to all possible edges on the vertex set of G).
+The graph sum G + G ' on a n - node graph G is therefore the complete graph K_n.
+Given a " good " graph G (i.e., one for which all intersecting graph edges intersect in a single point and arise from four distinct graph vertices), the crossing number ν(G), sometimes also denoted cr(G) (e.g., Pan and Richter 2007) or CR(G), is the minimum possible number of crossings with which the graph can be drawn, including using curved (non - rectilinear) edges.
+A graph with crossing number 0 is a planar graph.
+The graph difference of graphs G and H is the graph with adjacency matrix given by the difference of adjacency matrices of G and H.
+For an undirected graph, an unordered pair of nodes that specify a line joining these two nodes are said to form an edge.
+For a directed graph, the edge is an ordered pair of nodes.
+The terms " arc, " " branch, " " line, " " link, " and " 1-simplex " are sometimes used instead of edge (e.g., Skiena 1990, p. 80 ; Harary 1994).
+A graph embedding is a particular drawing of a graph.
+The most commonly encountered graph embeddings are generally straight line drawings, in which all edges are drawn as straight line segments.
+Let S be a set and F = {S_1,..., S_p } a nonempty family of distinct nonempty subsets of S whose union is union _ (i = 1)^p S_i = S. The intersection graph of F is denoted Ω(F) and defined by V(Ω(F)) = F, with S_i and S_j adjacent whenever i!=j and S_i intersection S_j ! = ∅. Then a graph G is an intersection graph on S if there exists a family F of subsets for which G and Ω(F) are isomorphic graphs.
+
+The reverse of excision is insertion.
+The genus of a graph is the minimum number of handles that must be added to the plane to embed the graph without any crossings.
+The values for n = 1, 2,... are 0, 0, 0, 0, 1, 1, 1, 2, 3, 4, 5, 6, 8, 10,....
+A graph isomorphism from a simple graph G to a simple graph H is a bijection f : V(G)->V(H) such that uv element E(G) iff f(u) f(v) element E(H).
+If there is a graph isomorphism for G to H, then G is said to be isomorphic to H, written G≅H.
+There exists no known P algorithm for graph isomorphism testing, although the problem has also not been shown to be NP - complete.
+The kth power of a graph G is a graph with the same set of vertices as G and an edge between two vertices iff there is a path of length at most k between them.
+The union G = G_1 union G_2 of graphs G_1 and G_2 with disjoint point sets V_1 and V_2 and edge sets X_1 and X_2 is the graph with V = V_1 union V_2 and X = X_1 union X_2.
+"Vertex" is a synonym for a node of a graph, i.e., one of the points on which the graph is defined and which may be connected by graph edges.
+The terms " point, " " junction, " and 0-simplex are also used.
+A Gray code is an encoding of numbers so that adjacent numbers have a single digit differing by 1.
+The term Gray code is often used to refer to a " reflected " code, or more specifically still, the binary reflected Gray code.
+The resulting number g_1 g_2... g_(n - 1) g_n is the reflected binary Gray code.
+A great circle is a section of a sphere that contains a diameter of the sphere.
+Sections of the sphere that do not contain a diameter are called small circles.
+A great circle becomes a straight line in a gnomonic projection.
+The shortest path between two points on a sphere, also known as an orthodrome, is a segment of a great circle.
+The great dodecahedron is the Kepler - Poinsot solid whose dual is the small stellated dodecahedron.
+One of the Kepler - Poinsot solids whose dual is the great stellated dodecahedron.
+The 26-faced Archimedean solid A_3 consisting of faces 12{4 } + 8{6 } + 6{8}. It is sometimes (improperly) called the truncated cuboctahedron, and is also more properly called the rhombitruncated cuboctahedron.
+The great rhombicuboctahedron is an equilateral zonohedron and the Minkowski sum of three cubes.
+The Gregory series is a pi formula found by Gregory and Leibniz and obtained by plugging x = 1 into the Leibniz series, π/4 = sum_(k = 1)^∞ (-1)^(k + 1)/(2k - 1) = 1 - 1/3 + 1/5 -... (Wells 1986, p. 50).
+A Gröbner basis G for a system of polynomials A is an equivalence system that possesses useful properties, for example, that another polynomial f is a combination of those in A iff the remainder of f with respect to G is 0.
+For linear functions in any number of variables, a Gröbner basis is equivalent to Gaussian elimination.
+The algorithm for computing Gröbner bases is known as Buchberger's algorithm.
+Calculating a Gröbner basis is typically a very time - consuming process for large polynomial systems.
+A group G is a finite or infinite set of elements together with a binary operation (called the group operation) that together satisfy the four fundamental properties of closure, associativity, the identity property, and the inverse property.
+The operation with respect to which a group is defined is often called the " group operation, " and a set is said to be a group " under " this operation.
+Elements A, B, C,... with binary operation between A and B denoted AB form a group if 1.
+Closure : If A and B are two elements in G, then the product AB is also in G. 2.
+The defined multiplication is associative, i.e., for all A, B, C element G, (AB) C = A(BC).
+A set of generators (g_1,..., g_n) is a set of group elements such that possibly repeated application of the generators on themselves and each other is capable of producing all the elements in the group.
+Two elements of a dihedral group that do not have the same sign of ordering are generators for the entire group.
+The Cayley graph of a group G and a subset of elements (excluding the identity element) is connected iff the subset generates the group.
+In celestial mechanics, the fixed path a planet traces as it moves around the sun is called an orbit.
+When a group G acts on a set X (this process is called a group action), it permutes the elements of X.
+Any particular element X moves around in a fixed path which is called its orbit.
+In the notation of set theory, the group orbit of a group element x can be defined as G(x) = {gx element X : g element G }, where g runs over all elements of the group G.
+For the permutation group G_1 = {(1234), (2134), (1243), (2143) }, the orbits of 1 and 2 are {1, 2 } and the orbits of 3 and 4 are {3, 4}.
+A representation of a group G is a group action of G on a vector space V by invertible linear maps.
+Group theory is a powerful formal method for analyzing abstract and physical systems in which symmetry is present and has surprising importance in physics, especially quantum mechanics.
+Guilloché patterns are spirograph - like curves that frame a curve within an inner and outer envelope curve.
+The Haferman carpet is the beautiful fractal constructed using string rewriting beginning with a cell [ 1] and iterating the rules {0->[1 | 1 | 1 1 | 1 | 1 1 | 1 | 1], 1->[0 | 1 | 0 1 | 0 | 1 0 | 1 | 0] }.
+A half - space is that portion of an n - dimensional space obtained by removing that part lying on one side of an (n - 1)-dimensional hyperplane.
+A binary Hamming code H_r of length n = 2^r - 1 (with r>=2) is a linear code with parity - check matrix H whose columns consist of all nonzero binary vectors of length r, each used once.
+H_r is an (n = 2^r - 1, k = 2^r - 1 - r, d = 3) code.
+The Hamming distance between two vertices of a hypercube is the number of coordinates at which the two vertices differ.
+The Hanning function is given by A(x) | = | cos^2((πx)/(2a))  | = | 1/2[1 + cos((πx)/a)].
+The word harmonic analysis is therefore used to describe Fourier series, which breaks an arbitrary function into a superposition of sinusoids.
+Harmonic analysis is a diverse field including such branches as Fourier series, isospectral manifolds (hearing the shape of a drum), and topological groups.
+Any real function u(x, y) with continuous second partial derivatives which satisfies Laplace's equation, del ^2 u(x, y) = 0, is called a harmonic function.
+Harmonic functions are called potential functions in physics and engineering.
+A scalar harmonic function is called a scalar potential, and a vector harmonic function is called a vector potential.
+The harmonic mean H(x_1,..., x_n) of n numbers x_i (where i = 1,..., n) is the number H defined by 1/H congruent 1/n sum_(i = 1)^n 1/x_i.
+A harmonic number is a number of the form H_n = sum_(k = 1)^n 1/k arising from truncation of the harmonic series.
+The series  sum_(k = 1)^∞ 1/k is called the harmonic series.
+A Hasse diagram is a graphical rendering of a partially ordered set displayed via the cover relation of the partially ordered set with an implied upward orientation.
+Informally, self - similar objects with parameters N and s are described by a power law such as N = s^d, where d = (lnN)/(lns) is the " dimension " of the scaling law, known as the Hausdorff dimension.
+Self - similar objects with parameters N and s are described by a power law such as N = s^d, where d = (lnN)/(lns) is the " dimension " of the scaling law, known as the Hausdorff dimension.
+Formally, let A be a subset of a metric space X, then the Hausdorff dimension D(A) of A is the infimum of d>=0 such that the d - dimensional Hausdorff measure of A is 0 (which need not be an integer).
+The haversine, also called the haversed sine, is a little - used entire trigonometric function defined by hav(z) | congruent | 1/2 vers(z)  | = | 1/2(1 - cosz)  | = | sin^2(1/2 z), where versin(z) is the versine, cosz is the cosine, and sinz is the sine.
+The hazard function (also known as the failure rate, hazard rate, or force of mortality) h(x) is the ratio of the probability density function P(x) to the survival function S(x), given by h(x) | = | (P(x))/(S(x))  | = | (P(x))/(1 - D(x)), where D(x) is the distribution function.
+The first curve is a rotated cardioid (whose name means " heart - shaped ") given by the polar equation r(θ) = 1 - sinθ. The second is obtained by taking the y = 0 cross section of the heart surface and relabeling the z - coordinates as y, giving the order-6 algebraic equation (x^2 + y^2 - 1)^3 - x^2 y^3 = 0.
+The one - dimensional heat conduction equation is (dU)/(dt) = κ(d^2 U)/(dx^2).
+The Heaviside step function is a mathematical function denoted H(x), or sometimes θ(x) or u(x), and also known as the " unit step function.
+The Heawood graph is the cage graph illustrated above in a number of embeddings.
+The Heawood graph is the point/line incidence graph on the Fano plane.
+The Heisenberg group H^n in n complex variables is the group of all (z, t) with z element C^n and t element R having multiplication (w, t)(z, t ') = (w + z, t + t ' + ℑ[w^ * z]) where w^ * is the adjoint.
+The (circular) helicoid is the minimal surface having a (circular) helix as its boundary.
+The helicoid is the only non - rotary surface which can glide along itself.
+The equation of a helicoid in cylindrical coordinates is z = cθ.
+A helix, sometimes also called a coil, is a curve for which the tangent makes a constant angle with a fixed line.
+The shortest path between two points on a cylinder (one not directly above the other) is a fractional turn of a helix, as can be seen by cutting the cylinder along one of its sides, flattening it out, and noting that a straight line connecting the points becomes helical upon re - wrapping.
+The generating function for the heptagonal numbers is (x(4x + 1))/(1 - x)^3 = x + 7x^2 + 18x^3 + 34x^4 +....
+Hermite polynomials are implemented in the Wolfram Language as HermiteH[n, x].
+A square matrix is called Hermitian if it is self - adjoint.
+A second - order linear Hermitian operator is an operator L^~ that satisfies  integral_a^b v^ _ L^~ udx = integral_a^b uL^~ v^ _ dx.
+As shown in Sturm - Liouville theory, if L^~ is self - adjoint and satisfies the boundary conditions v^ _ pu ' |_(x = a) = v^ _ pu ' |_(x = b), then it is automatically Hermitian.
+A Heronian triangle is a triangle having rational side lengths and rational area.
+The triangles are so named because such triangles are related to Heron's formula Δ = sqrt(s(s - a)(s - b)(s - c)) giving a triangle area Δ in terms of its side lengths a, b, c and semiperimeter s = (a + b + c)/2.
+The Jacobian of the derivatives df/dx_1, df/dx_2,..., df/dx_n of a function f(x_1, x_2,..., x_n) with respect to x_1, x_2,..., x_n is called the Hessian (or Hessian matrix) H of f, i.e., Hf(x_1, x_2,..., x_n) = [ (d^2 f)/(dx_1 ^ 2) | (d^2 f)/(dx_1 dx_2) | (d^2 f)/(dx_1 dx_3) |... | (d^2 f)/(dx_1 dx_n) (d^2 f)/(dx_2 dx_1) | (d^2 f)/(dx_2 ^ 2) | (d^2 f)/(dx_2 dx_3) |... | (d^2 f)/(dx_2 dx_n) ⋮ | ⋮ | ⋮ | ⋱ | ⋮ (d^2 f)/(dx_n dx_1) | (d^2 f)/(dx_n dx_2) | (d^2 f)/(dx_n dx_3) |... | (d^2 f)/(dx_n^2).
+A hexagonal grid is a grid formed by a tessellation of regular hexagons.
+The generating function for the hexagonal numbers is given by (x(3x + 1))/(1 - x)^3 = x + 6x^2 + 15x^3 + 28x^4 +....
+Every hexagonal number is a triangular number since r(2r - 1) = 1/2(2r - 1)[(2r - 1) + 1].
+A hexagonal prism is a prism composed of two hexagonal bases and six rectangular sides.
+The regular right hexagonal prism is a space - filling polyhedron.
+A hexecontahedron is a 60-faced polyhedron.
+A hex number, also called a centered hexagonal number, is given by H_n | = | 1 + 6T_n  | = | 3n^2 + 3n + 1, where T_n = n(n + 1)/2 is the nth triangular number and the indexing with H_0 = 1 is used following Conway and Guy.
+The first few hex numbers for n = 0, 1,... are 1, 7, 19, 37, 61, 91, 127, 169,....
+The hex numbers satisfy the recurrence equation H_n = 2H_(n - 1) - H_(n - 2) + 6.
+Given a triangle ΔABC and the excentral triangle ΔJ_A J_B J_C, define the A'-vertex of the hexyl triangle as the point in which the perpendicular to AB through the excenter J_B meets the perpendicular to AC through the excenter J_C, and similarly define B ' and C '.
+ΔA ' B ' C ' is known as the hexyl triangle of ΔABC, and A ' J_B C ' J_A B ' J_C forms a hexagon with parallel sides (Kimberling.
+By Morley's theorem, this triangle is equilateral.
+If f is an n - place function symbol ( with n>=0) and t_1,..., t_n are terms, then f(t_1,..., t_n) is a term.
+If P is an n - place predicate symbol ( again with n>=0) and t_1,..., t_n are terms, then P(t_1,..., t_n) is an atomic statement.
+In particular, a fixed point of a function f(x) is a point x_0 such that f(x_0) = x_0.
+A flow line for a map on a vector field F is a path σ(t) such that σ'(t) = F(σ(t)).
+Hyperbolas and noncircular ellipses have two distinct foci and two associated conic section directrices, each directrix being perpendicular to the line joining the two foci.
+Pick any two relatively prime integers h and k, then the circle C(h, k) of radius 1/(2k^2) centered at ( h / k, ± 1/(2k^2)) is known as a Ford circle.
+The forward difference is a finite diffeence defined by Δa_n congruent a_(n + 1) - a_n.
+r = ϕ - 1 = 1/ϕ = 0.618034..., where ϕ is the golden ratio, and the centers c_i of the disks i = 1,..., 5 are located at   c_i = [ 1/ϕ cos((2πi)/5)   1/ϕ sin((2πi)/5) ].
+Four - dimensional geometry is Euclidean geometry extended into one additional dimension.
+n - dimensional polyhedra are called polytopes.
+The Fourier cosine transform of a real function is the real part of the full complex Fourier transform, ℱ_x^(c)[f(x)](k) | = | ℜ[ℱ_x[f(x)](k) ]    | = | integral_(-∞)^∞ cos(2πkx) f(x) dx.
+If f(x) is an odd function, then a_n = 0 and the Fourier series collapses to   f(x) = sum_(n = 1)^∞ b_n sin(nx), where   b_n | = | 1/π integral_(-π)^π f(x) sin(nx) dx    | = | 2/π integral_0^π f(x) sin(nx) dx   for n = 1, 2, 3,.... The last equality is true because   f(x) sin(nx) | = | [ -f(-x)][-sin(-nx) ]    | = | f(-x) sin(-nx).
+The Fourier sine transform is the imaginary part of the full complex Fourier transform, ℱ_x^(s)[f(x)](k) | = | ℑ[ℱ_x[f(x)](k) ]    | = | integral_(-∞)^∞ sin(2πkx) f(x) dx.
+The fractional derivative of f(t) of order μ>0 (if it exists) can be defined in terms of the fractional integral D^(-ν) f(t) as   D^μ f(t) = D^m[D^(-(m - μ)) f(t) ], where m is an integer > = ⌈μ⌉, where ⌈x⌉ is the ceiling function.
+The metric consists of a distance function on the plane such that for all a, b element R^2, d(a, b) = {|a - b| | if a = cb for some c element R    |a| + |b| | otherwise, auto right match   where |a| is the normal distance function on the plane.
+This metric has the property that for r < |a|, the open ball of radius r around a is an open line segment along vector a, while for r > |a|, the open ball is the union of a line segment and an open disk around the origin.
+The Frobenius number is the largest value b for which the Frobenius equation   a_1 x_1 + a_2 x_2 +... + a_n x_n = b, has no solution, where the a_i are positive integers, b is an integer, and the solutions x_i are nonnegative integer.
+Three of these are the points T, U, and V which are a distance 2r along the altitudes from the vertices, where r is the inradius of ΔABC.
+Let the opposite sides of a convex cyclic hexagon be a, a ', b, b ', c, and c ', and let the polygon diagonals e, f, and g be so chosen that a, a ', and e have no common polygon vertex (and likewise for b, b ', and f), then   efg = aa ' e + bb ' f + cc ' g + abc + a ' b ' c '.
+A full angle, also called a perigon, is an angle equal to 2π radians = 360 ° corresponding to the central angle of an entire circle.
+A prime p for which 1/p has a maximal period decimal expansion of p-1 digits.
+The multiplicative order of p (mod 10) is p-1.
+The set A of values at which a function is defined is called its domain, while the set f(A) subset B of values that the function can produce is called its range.
+Given a function f(x_1,..., x_n) defined on a domain U, the graph of f is defined as the set of points (which often form a curve or surface) showing the values taken by f over U (or some portion of U).
+Technically, for real functions, graphf(x) | congruent | {(x, f(x)) element R^2 :x element U }   graphf(x_1,..., x_n) | congruent | {(x_1,..., x_n, f(x_1,..., x_n)) element R^(n + 1) : (x_1,..., x_n) element U}.
+Let G be a group and S be a topological G-set, then a closed subset F of S is called a fundamental domain of G in S if S is the union of conjugates of F, i.e., S = union _ (g element G) gF, and the intersection of any two conjugates has no interior.
+Gabriel's horn, also called Torricelli's trumpet, is the surface of revolution of the function y = 1/x about the x-axis for x>=1.
+Let L be an extension field of K, denoted L / K, and let G be the set of automorphisms of L / K, that is, the set of automorphisms σ of L such that σ(x) = x for every x element K, so that K is fixed, then G is a group of transformations of L, called the Galois group of L / K. The Galois group of L / K is denoted Gal(L / K) or Aut(L / K).
+The Galton board, also known as a quincunx or bean machine, is a device for statistical experiments named after English scientist Sir Francis Galton.
+For symmetrically placed nails, balls will bounce left or right with equal probability, so p = q = 1/2.
+Game theory is a branch of mathematics that deals with the analysis of games ( i.e., situations involving parties with conflicting interests).
+The normal vector to any point of a geodesic arc lies along the normal to a surface at that point.
+ϕ is the unique positive real number for which the identity ϕ/1 = 1/(ϕ - 1).
+Let V(G) be the vertex set of a simple graph and E(G) its edge set then a graph isomorphism from a simple graph G to a simple graph H is a bijection f : V(G)->V(H) such that uv element E(G) iff f(u) f(v) element E(H).
+The Hanning function is given by A(x) | = | cos^2((πx)/(2a))  | = | 1/2[1 + cos((πx)/a)].
+The Hausdorff dimension D(A) of A is the infimum of d>=0 such that the d - dimensional Hausdorff measure of A is 0 (which need not be an integer).
+The Hermite polynomial H_n(z) can be defined by the contour integral H_n(z) = (n!)/(2πi)∮e^(-t^2 + 2tz) t^(-n - 1) dt, where the contour encloses the origin and is traversed in a counterclockwise direction.
+The hyperbolic polar sine is a function of an n - dimensional simplex in hyperbolic space.
+A point p on a regular surface M element R^3 is said to be hyperbolic if the Gaussian curvature K(p)<0 or equivalently, the principal curvatures κ_1 and κ_2, have opposite signs.
+The hyperbolic octahedron is a hyperbolic version of the Euclidean octahedron, which is a special case of the astroidal ellipsoid with a = b = c = 1.
+A hyperbola s a conic section defined as the locus of all points P in the plane the difference of whose distances r_1 = F_1 P and r_2 = F_2 P from two fixed points (the foci F_1 and F_2) separated by a distance 2c is a given positive constant k, r_2 - r_1 = k.
+A hosohedron is a regular tiling or map on a sphere composed of p digons or spherical lunes, all with the same two vertices and the same vertex angles, 2π/p.
+Two figures are homothetic if they are related by an expansion or geometric contraction.
+A homeomorphism, also called a continuous transformation, is an equivalence relation and one - to - one correspondence between points in two geometric figures or topological spaces that is continuous in both directions.The Hoffman - Singleton graph is the graph on 50 nodes and 175 edges that is the only regular graph of vertex degree 7, diameter 2, and girth 5.
+When all the points P on one line are related by an isometry to all points P' on another, the midpoints of the segments PP' are either distinct and collinear or coincident.
+A matrix H with elements H_(ij) congruent (i + j - 1)^(-1) for i, j = 1, 2,..., n. 
+Let a hotel have a denumerable set of rooms numbered 1, 2, 3,... then any finite number n of guests can be accommodated without evicting the current guests by moving the current guests from room i to room i + n. 
+The Hilbert curve is a Lindenmayer system invented by Hilbert whose limit is a plane - filling function which fills a square.
+Given a triangle ΔABC and the excentral triangle ΔJ_A J_B J_C, define the A'-vertex of the hexyl triangle as the point in which the perpendicular to AB through the excenter J_B meets the perpendicular to AC through the excenter J_C, and similarly define B' and C' then ΔA' B' C' is known as the hexyl triangle of ΔABC, and A' J_B C' J_A B' J_C forms a hexagon with parallel sides.
+A hex number, also called a centered hexagonal number, is given by H_n | = | 1 + 6T_n| = | 3n^2 + 3n + 1, where T_n = n(n + 1)/2 is the nth triangular number and the indexing with H_0 = 1 is used following Conway and Guy.
+A hexecontahedron is a 60-faced polyhedron.
+It is an octahedron.
+The regular right hexagonal prism of edge length a has surface area and volume S | = | 3(2 + sqrt(3)) a^2 V | = | 3/2 sqrt(3) a^3.
+The regular right hexagonal prism is a space - filling polyhedron.
+An irregular dodecahedron which is also a trapezohedron.
+Every hexagonal number is a triangular number since r(2r - 1) = 1/2(2r - 1)[(2r - 1) + 1].
+The generating function for the hexagonal numbers is given by (x(3x + 1))/(1 - x)^3 = x + 6x^2 + 15x^3 + 28x^4 +....
+It is also a special case of a Cotes' spiral, i.e., the path followed by a particle in a central orbit with power law f(r) = - μr^(-3), when μ = h^2 is a constant and h is the specific angular momentum.
+The hyperbolic sine is defined as sinhz congruent 1/2(e^z - e^(-z)).
+By way of analogy with the usual tangent tanz congruent (sinz)/(cosz), the hyperbolic tangent is defined as tanhz | congruent | (sinhz)/(coshz)| = | (e^z - e^(-z))/(e^z + e^(-z))| = | (e^(2z) - 1)/(e^(2z) + 1),
+A hyperboloid is a quadratic surface which may be one- or two - sheeted.
+The hypercube is a generalization of a 3-cube to n dimensions, also called an n - cube or measure polytope.
+The hyperfactorial is the function defined by H(n) | congruent | K(n + 1)| = | product_(k = 1)^n k^k, where K(n) is the K - function.
+A generalized hypergeometric function _ p F_q(a_1,..., a_p ; b_1,..., b_q ; x) is a function which can be defined in the form of a hypergeometric series, i.e., a series for which the ratio of successive terms can be written c_(k + 1)/c_k = (P(k))/(Q(k)) = ((k + a_1)(k + a_2)... 

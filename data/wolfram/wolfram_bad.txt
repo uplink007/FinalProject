@@ -1,0 +1,982 @@
+Examples include endpoints of a line segment, or poles of a sphere.
+Sorokin and Nesterenko subsequently constructed independent proofs for the irrationality of ζ(3).
+Consider three mutually tangent circles, and draw their inner Soddy circle.
+Then draw the inner Soddy circles of this circle with each pair of the original three, and continue iteratively.
+?The steps in the process are illustrated above.
+The two easiest involve three points or three lines, and the hardest involves three circles.
+Approximation theory also studies the size and properties of the error introduced by approximation.
+Approximations are often obtained by power series expansions in which the higher order terms are dropped.
+Draw the perpendicular line from the intersection of the two small semicircles in the arbelos.
+This spiral was studied by Conon, and later by Archimedes in On Spirals about 225 BC.
+Archimedes was able to work out the lengths of various tangents to the spiral.
+The area of a region can be computed in the Wolfram Language using Area[reg ].
+In the plot above, the dashed circle represents the complex modulus |z| of z and the angle θ represents its complex argument.
+If f(z) is meromorphic in a region R enclosed by a contour γ, let N be the number of complex roots of f(z) in γ, and P be the number of poles in γ, with each zero and pole counted as many times as its multiplicity and order, respectively.
+A paradox mentioned in the Greek work Mechanica, dubiously attributed to Aristotle.
+Consider the above diagram depicting a wheel consisting of two concentric circles of different diameters (a wheel within a wheel).
+There is a 1:1 correspondence of points on the large circle with points on the small circle, so the wheel should travel the same distance regardless of whether it is rolled from left to right on the top straight line or on the bottom one.
+This seems to imply that the two circumferences of different sized circles are equal, which is impossible.
+Arithmetical operations include addition, congruence calculation, division, factorization, multiplication, power computation, root extraction, and subtraction.
+Arithmetic was part of the quadrivium taught in medieval universities.
+It can be computed in the Wolfram Language using Mean[list].
+An arithmetic progression can be generated in the Wolfram Language using the command Range[a_1, a_n, d ].
+The best known example of an Anosov diffeomorphism.
+The plot above shows 1/x, which has a vertical asymptote at x = 0 and a horizontal asymptote at y = 0.
+This restriction is necessary since a dynamical system may have multiple attractors, each with its own basin of attraction.
+The mathematical study of abstract computing machines (especially Turing machines) and the analysis of algorithms used by such machines.
+A method of solving combinatorial problems by means of an algorithm which is allowed to run forward until a dead end is reached, at which point previous steps are retraced and the algorithm is allowed to run forward again.
+Backtracking can greatly reduce the amount of work in an exhaustive search.
+Backtracking is implemented as Backtrack[s, partialQ, solutionQ] in the Wolfram Language package Combinatorica.
+Backtracking also refers to a method of drawing fractals by appropriate numbering of the corresponding tree diagram which does not require storage of intermediate results.
+A puzzle involving disentangling a set of rings from a looped double rod, originally used by French peasants to lock chests.
+The ball of radius r centered at point {x, y, z } is implemented in the Wolfram Language as Ball[{x, y, z }, r].
+Suppose A and B are candidates for office and there are 2n voters, n voting for A and n for B.
+In how many ways can the ballots be counted so that B is never ahead of A?
+Another elegant solution was provided by André using the so - called André's reflection method.
+First stated in 1924, the Banach - Tarski paradox states that it is possible to decompose a ball into six pieces which can be reassembled by rigid motions to form two balls of the same size as the original.
+The number of pieces was subsequently reduced to five by Robinson, although the pieces are extremely complicated.
+Five pieces are minimal, although four pieces are sufficient as long as the single point at the center is neglected.
+A generalization of this theorem is that any two bodies in R^3 that do not extend to infinity and each containing a ball of arbitrary size can be dissected into each other (i.e., they are equidecomposable).
+The circle through the cusp of the arbelos and the tangent points of the first Pappus circle, which is congruent to the two Archimedes' circles.
+It was proposed by the lawyer J. F. Banzhaf in 1965.
+Bar charts are implemented in the Wolfram Language as BarChart[data].
+The word " base " in mathematics is used to refer to a particular mathematical object that is used as a building block.
+The most common uses are the related concepts of the number system whose digits are used to represent numbers and the number system in which logarithms are defined.
+It can also be used to refer to the bottom edge or surface of a geometric figure.
+The word basis can arise in several different contexts.
+Speaking in general terms, an object is " generated " by a basis in whatever manner is appropriate.
+For example, a vector space can have a vector basis which spans the vector space by finite linear combinations.
+A recurrence plot of the limiting value of this sequence is illustrated above.
+Begin with a "prior distribution" which may be based on anything, including an assessment of the relative likelihoods of parameters or the results of non - Bayesian observations.
+In practice, it is common to assume a uniform distribution over the appropriate range of values for the prior distribution.
+?The bead - sorting algorithm orders a list of a positive integers increasingly by representing numbers as a list of a 1s, where each 1 stands for a bead.
+?The k initial integers to be sorted are initially represented as left - aligned rows of beads, and in each step of the sorting process, a bead is slid down one unit if possible until each bead can no longer slide.
+The graphic above shows the process for the numbers 7, 2, 1, 4, and 2.
+There are five ways the numbers {1, 2, 3} can be partitioned : {{1}, {2}, {3}}, {{1, 2}, {3}}, {{1, 3}, {2}}, {{1}, {2, 3}}, and {{1, 2, 3}}
+If n>3, there is always at least one prime p between n and 2n - 2.
+The first few roots j_(n, k) of the Bessel function J_n(x) are given in the following table for small nonnegative integer values of n and k.
+They can be found in the Wolfram Language using the command BesselJZero[n, k].
+A general type of statistical distribution which is related to the gamma distribution.
+?Beta distributions have two free parameters, which are labeled according to one of two notational conventions.
+?The beta distribution is used as a prior distribution for binomial proportions in Bayesian analysis.
+The above plots are for various values of (α, β) with α = 1 and β ranging from 0.25 to 3.00.
+The beta function B(a, b) is implemented in the Wolfram Language as Beta[a, b].
+To derive the integral representation of the beta function, write the product of two factorials as m!n ! = integral_0^∞ e^(-u) u^m du integral_0^∞ e^(-v) v^n dv.
+Bézier splines are implemented in the Wolfram Language as BezierCurve[pts].
+Séroul uses the term Bézout's theorem for the following two theorems.
+Finding this relation is sometimes known as Fuss's problem.
+Two cones placed base - to - base.
+It represents the sudden appearance of a qualitatively different solution for a nonlinear system as some parameter is varied.
+The illustration above shows bifurcations (occurring at the location of the blue lines) of the logistic map as the parameter r is varied.
+Real billiards can involve spinning the ball so that it does not travel in a straight line, but the mathematical study of billiards generally consists of reflections in which the reflection and incidence angles are the same.
+This base is used in computers, since all numbers can be simply represented as a string of electrically pulsed ons and offs.
+Examples of binary operation on A from A×A to A include addition (+), subtraction (-), multiplication (×) and division (÷).
+Examples of binary operation on A from A×A to A include addition (+), subtraction (-), multiplication (×) and division (÷).
+A searching algorithm which works on a sorted table by testing the middle of an interval, eliminating the half of the table in which the key can not lie, and then repeating the procedure iteratively.
+?The algebraic identity (sum_(i = 1)^n a_i c_i) (sum_(i = 1)^n b_i d_i) - (sum_(i = 1)^n a_i d_i) (sum_(i = 1)^n b_i c_i)  = sum_(1<=i < j<=n)(a_i b_j - a_j b_i)(c_i d_j - c_j d_i).
+The symbols _ n C_k and (n k) are used to denote a binomial coefficient, and are sometimes read as " n choose k.
+The binomial theorem describes the algebraic expansion of powers of a binomial, namely (x + a)^ν = sum_(k=0)^∞(ν k)x^ka^(ν - k).
+Consider the probability Q_1(n, d) that no two people out of a group of n will have matching birthdays out of d equally possible birthdays.
+Start with an arbitrary person's birthday, then note that the probability that the second person's birthday is different is (d - 1)/d, that the third person's birthday is different from the first two is [(d - 1)/d][(d - 2)/d], and so on, up through the nth person.
+A simple bisection procedure for iteratively converging on a solution which is known to lie inside some interval [a, b] proceeds by evaluating the function in question at the midpoint of the original interval x = ( a + b)/2 and testing to see in which of the subintervals [a, ( a + b)/2] or [( a + b)/2, b] the solution lies.
+The procedure is then repeated with the new interval as often as needed to locate the solution to the desired accuracy.
+Involving two variables, as opposed to many (multivariate), or one (univariate).
+In order to avoid a lot of spurious positives, the alpha value needs to be lowered to account for the number of comparisons being performed.
+A Boolean algebra also forms a lattice, and each of the elements of b(A) is called a Boolean function.
+There are 2^(2^n) Boolean functions in a Boolean algebra of order n.
+The domain of Booleans, sometimes denoted B, consisting of the elements True and False, implemented in the Wolfram Language as Booleans.
+In the Wolfram Language, a quantity can be tested to determine if it is in the domain of Booleans using Element[e, Booleans].
+Let the values of a function f(x) be tabulated at points x_i equally spaced by h = x_(i + 1) - x_i, so f_1 = f(x_1), f_2 = f(x_2),..., f_5 = f(x_5), then Boole's rule approximating the integral of f(x) is given by the Newton - Cotes - like formula integral_(x_1)^(x_) f(x) dx = 2/45 h(7f_1 + 32f_2 + 12f_3 + 32f_4 + 7f_5) - 8/945 h^7 f^(6)(ξ).
+This formula is frequently and mistakenly known as Bode's rule as a result of a typo in an early reference, but is actually due to Boole.
+To create a box - and - whisker plot, draw a box with ends at the quartiles Q_1 and Q_3.
+Draw the statistical median M as a horizontal line in the box.
+Now extend the " whiskers " to the farthest points that are not outliers (i.e., that are within 3/2 times the interquartile range of Q_1 and Q_3).
+Then, for every point more than 3/2 times the interquartile range from the end of a box, draw a dot.
+If two dots have the same value, draw them side by side.
+A sculpture of the Boy surface as a special immersion of the real projective plane in Euclidean 3-space was installed in front of the library of the Mathematisches Forschungsinstitut Oberwolfach library building on January 28, 1991 (Mathematisches Forschungsinstitut Oberwolfach).
+Find the shape of the curve down which a bead sliding from rest and accelerated by gravity will slip (without friction) from one point to another in the least time.
+For convenience, branch cuts are often taken as lines or line segments.
+A search algorithm of a graph which explores all nodes adjacent to the current node before moving on.
+For cyclic graphs, care must be taken to make sure that no nodes are repeated.
+The dual of Pascal's theorem states that, given a hexagon circumscribed on a conic section, the lines joining opposite polygon vertices (polygon diagonals) meet in a single point.
+If all lines (except possibly one) connecting two opposite vertices of a (4n + 2)-gon circumscribed on a conic section meet in one point, then the same is true for the remaining line.
+Buffon's needle problem asks to find the probability that a needle of length ℓ will land on a line, given a floor with equally spaced parallel lines a distance d apart.
+Find a way to stack a square of cannonballs laid out on the ground into a square pyramid (i.e., find a square number which is also square pyramidal).
+This corresponds to solving the Diophantine equation sum_(i = 1)^k i^2 = 1/6 k(1 + k)(1 + 2k) = N^2 for some pyramid height k.
+It is therefore the set of points in the interval [0, 1] whose ternary expansions do not contain 1, illustrated above.
+Call the points at which C_(s, p) crosses the x - axis H_1 = (x_1, 0) and H_2 = (x_2, 0) (with x_1 < = x_2).
+There are two definitions of the Carmichael function.
+One is the reduced totient function (also called the least universal exponent function), defined as the smallest integer λ(n) such that k^(λ(n)) congruent 1 (mod n) for all k relatively prime to n. The multiplicative order of a (mod n) is at most λ(n).
+The first few values of this function, implemented as CarmichaelLambda[n], are 1, 1, 2, 2, 4, 2, 6, 2, 6, 4, 10,...
+Given any triangle ABC, the signed sum of perpendicular distances from the circumcenter O to the sides (i.e., signed lengths of the pedal lines from O) is OO_A + OO_B + OO_C = R + r, where r is the inradius and R is the circumradius.
+The sign of the distance is chosen to be negative iff the entire segment OO_i lies outside the triangle.
+The shape of the curve depends on b / a.
+The Catalan numbers on nonnegative integers n are a set of numbers that arise in tree enumeration problems of the type, " In how many ways can a regular n - gon be divided into n - 2 triangles if different orientations are counted separately?
+Let G be a finite group that acts on a set X. For each g in G, let X^g denote the set of elements in X that are fixed by g.
+Schroeder calls the ceiling function symbols the " gallows " because of the similarity in appearance to the structure used for hangings.
+The name and symbol for the ceiling function were coined by K. E. Iverson.
+von Neumann was one of the first people to consider such a model, and incorporated a cellular model into his " universal constructor.
+The Season 2 episode " Bettor or Worse " of the television crime drama NUMB3RS mentions one - dimensional cellular automata.
+The number of colors (or distinct states) k a cellular automaton may assume must also be specified.
+However, cellular automata having a continuous range of possible values may also be considered.
+In addition to the grid on which a cellular automaton lives and the colors its cells may assume, the neighborhood over which cells affect one another must also be specified.
+Such automata were called " elementary cellular automata " by S. Wolfram, who has extensively studied their amazing properties.
+The hexagon obtained from an arbitrary hexagon by connecting the centroids of each consecutive three sides.
+This hexagon has equal and parallel sides.
+A proof of the centroid hexagon result, as well as a generalization to octagons, decagons, and so on, is given by de Villiers.
+The constant has been computed to 6×10 ^ 10 digits by E. W. Weisstein using the Wolfram Language.
+The case (n, r) = (4, 1/2) gives the interior of a square with all points visited with equal probability.
+The two functions θ(x) and ψ(x) defined below are known as the Chebyshev functions.
+Apply Markov's inequality with a congruent k^2 to obtain P[(x - μ)^2 > = k^2]<=(〈(x - μ)^2 〉)/k^2 = σ^2/k^2.
+The Chi function has a unique real root at x = 0.523823...
+This makes a χ^2 distribution a gamma distribution with θ congruent 2 and α congruent r/2, where r is the number of degrees of freedom.
+In plane geometry, a chord is the line segment joining two points on a curve.
+Evaluating π_(Q_3)(z) at z = 1, 2,... then gives 0, 2, 114, 2652, 29660, 198030, 932862, 3440024,... as expected.
+The chromatic polynomial of a planar graph G is related to the flow polynomial C_G^*(u) of its dual graph G^ * by π_G(x) = xC_(G^*)^*(x).
+A uniform distribution of points on the circumference of a circle can be obtained by picking a random real number between 0 and 2π.
+Picking random points on a circle is therefore a great deal more straightforward than sphere point picking.
+x^2 + y^2<=a^2 and -tan(θ/2)<=x / y<=tan(θ/2) and y>=0
+x^2 + y^2<=a^2 and y>=a cos(θ/2)
+Given two curves C_1 and C_2 and a fixed point O, let a line from O cut C_1 at Q and C_2 at R.
+Let there be n>=2 integers 0<a_1<... <a_n with GCD(a_1, a_2,..., a_n) = 1.
+It is related to the latitude δ by ϕ = 90 ° - δ.
+Does iterating the recurrence a_n = piecewise | a_(n - 1)/2 | a_(n - 1) congruent 0 (mod 2) 3a_(n - 1) + 1 | a_(n - 1) congruent 1 (mod 2) always return to 1 for positive a_0 ?
+2/5 is a common fraction, while (1/3)/(2/5) is not.
+Let P(x) and Q(x) be polynomials of polynomial degree n and m with coefficients b_n,..., b_0 and c_m,..., c_0.
+Take the contour in the upper half - plane, replace x by z, and write z congruent Re^(iθ).
+Convolution is implemented in the Wolfram Language as Convolve[f, g, x, y] and DiscreteConvolve[f, g, n, m].
+Let a, b, and c be the side lengths of a reference triangle ΔABC.
+Now let A_b be a point on the extension of the segment CA beyond A such that AA_b = a. 
+Similarly, define the points A_c, B_c, B_a, C_a, C_b so that the points A_c and B_c lie on the extended segment AB, the points B_a and C_a lie on the extended segment BC, and the point C_b lies on the extended segment CA, and we have AA_c = a, BB_c = b, BB_a = b, CC_a = c and CC_b = c.
+The quantities C(t)/S(t) and S(t)/C(t) are plotted above.
+To define the correlation coefficient, first consider the sum of squared values ss_(xx), ss_(xy), and ss_(yy) of a set of n data points (x_i, y_i) about their respective means.
+It has genus 1 with three punctures.
+Until this surface was discovered by Costa, the only other known complete minimal embeddable surfaces in R^3 with no self - intersections were the plane (genus 0), catenoid (genus 0 with two punctures), and helicoid (genus 0 with two punctures), and it was conjectured that these were the only such surfaces.
+Rather amazingly, the Costa surface belongs to the D_4 dihedral group of symmetries.
+Covariance provides a measure of the strength of the correlation between two or more sets of random variates.
+The Coxeter graph is determined by its spectrum (-1 - sqrt(2))^6 (-1)^7 (sqrt(2) - 1)^6 2 ^ 8 3 ^ 1.
+The Coxeter graph is a nonhamiltonian cubic symmetric graph on 28 vertices and 42 edges which can be constructed as illustrated above.
+The Coxeter graph is determined by its spectrum (-1 - sqrt(2))^6 (-1)^7 (sqrt(2) - 1)^6 2 ^ 8 3 ^ 1.
+If the total is 7 or 11 (a " natural "), the thrower wins and retains the dice for another throw.
+If the total is 2, 3, or 12 (" craps "), the thrower loses but retains the dice.
+If the total is any other number (called the thrower's " point "), the thrower must continue throwing and roll the " point " value again before throwing a 7.
+A beautiful related theorem due to H. 
+The cross polytope is named because its 2n vertices are located equidistant from the origin along the Cartesian axes in Euclidean space, which each such axis perpendicular to all others.
+A cross polytope is bounded by 2^n (n - 1)-simplexes, and is a dipyramid erected (in both directions) into the nth dimension, with an (n - 1)-dimensional cross polytope as its base.
+The cross section of an object therefore represents an infinitesimal " slice " of a solid, and may be different depending on the orientation of the slicing plane.
+While the cross section of a sphere is always a disk, the cross section of a cube may be a square, hexagon, or other shape.
+It consists of cryptography, the science of making secure codes, and cryptanalysis, the science of breaking them.
+It is composed of six square faces that meet each other at right angles and has eight vertices and 12 edges.
+It is also the uniform polyhedron U_6 and Wenninger model W_3.
+It is described by the Schläfli symbol { 4, 3 } and Wythoff symbol 3|24.
+The bottom figures show three symmetric projections of the cube.
+The compound at left (also called the double cube) is obtained by allowing two cubes to share opposite polyhedron vertices, then rotating one a sixth of a turn about a C_3 axis.
+The compound at right combines two cubes, one rotated 45 ° with respect to the other along a C_4 axis, producing an octagrammic prism.
+The C_3 compound appears twice (in the lower left as a beveled wireframe and in the lower center as a solid) as polyhedral " stars " in M. 
+A polyhedron compound consisting of the arrangement of five cubes in the polyhedron vertices of a dodecahedron (or the centers of the faces of the icosahedron).
+ Given the length of an edge of a cube, construct a second cube having double the volume of the first using only a straightedge and compass.
+A closed - form solution known as the cubic formula exists for the solutions of an arbitrary cubic equation.
+A nonregular cubic surface can contain 3, 7, 15, or 27 real lines.
+On the general cubic, there exists a curious geometrical structure called double sixes, and also a particular arrangement of 27 (possibly complex) lines and sometimes called Solomon's seal lines.
+Begin with a line segment of unit length, which makes an angle ϕ_0 congruent 0 to the horizontal.
+Define θ_n iteratively by θ_(n + 1) = (θ_n + 2πs) (mod 2π), with θ_0 = 0.
+The extrinsic curvature of curves in two- and three - space was the first type of curvature to be studied historically, culminating in the Frenet formulas, which describe a space curve entirely in terms of its " curvature, " torsion, and the initial starting point and direction.
+There are no fewer than three distinct notions of curve throughout mathematics.
+Loosely speaking, the word " curve " is often used to mean the function graph of a two- or three - dimensional curve.
+Examples include the point groups C_4 (note that the same notation is used for the abstract cyclic group C_n and the point group isomorphic to it) and S_4, the integers modulo 4 under addition (Z_4), and the modulo multiplication groups M_5 and M_10 (which are the only two modulo multiplication groups isomorphic to it).
+Unfortunately, there are a number of different notations used for the other two coordinates.
+Either r or ρ is used to refer to the radial coordinate and either ϕ or θ to the azimuthal coordinates.
+Arfken, for instance, uses (ρ, ϕ, z), while Beyer uses (r, θ, z).
+A cylindric section is the intersection of a plane with a right circular cylinder.
+Let π be a plane intersecting a right circular cone with vertex O in the curve E. 
+The shortest circular sequence of length σ^n such that every string of length n on the alphabet a of size σ occurs as a contiguous subrange of the sequence described by a. 
+Another example is the two identical roots of the second - order polynomial (x - 1)^2.
+Degenerate cases often require special treatment in numerical and analytical solutions.
+For example, a simple search for both roots of the above equation would find only a single one : 1.
+The word " degree " has many meanings in mathematics.
+360° likely arises from the Babylonian year, which was composed of 360 days (12 months of 30 days each).
+The degree is subdivided into 60 arc minutes per degree, and 60 arc seconds per arc minute.
+Solids with the same volume can have different Dehn invariants.
+Two polyhedra can be dissected into each other only if they have the same volume and the same Dehn invariant.
+They are given by the recurrence relation D(a, b) = D(a - 1, b) + D(a, b - 1) + D(a - 1, b - 1), with D(0, 0) = 1.
+An illusion due to Franz Joseph Delboeuf, a Belgian philosopher and expert on hypnosis.
+If the same circle is placed inside two different concentric circles, its size will apparently vary.
+Commonly taken as a Schwartz space S or the space of all smooth functions of compact support D.
+In engineering contexts, the functional nature of the delta function is often suppressed.
+The deltoid was first considered by Euler in 1745 in connection with an optical problem.
+It was also investigated by Steiner in 1856 and is sometimes called Steiner's hypocycloid.
+A tetrahedron 10-compound, octahedron 5-compound, cube 5-compound, icosahedron, dodecahedron, and icosidodecahedron can all be inscribed in the vertices of the deltoidal hexecontahedron.
+This definition differs from the one in continuum theory since a semicircle is a dendritic continuum but is not a line segment.
+The number q in a fraction p / q.
+A search algorithm of a tree that explores the first child of a node before visiting its siblings.
+For example, the only derangements of { 1, 2, 3 } are { 2, 3, 1 } and { 3, 1, 2 }, so ! 3 = 2.
+Similarly, the derangements of { 1, 2, 3, 4 } are { 2, 1, 4, 3 }, { 2, 3, 4, 1 }, { 2, 4, 1, 3 }, { 3, 1, 4, 2 }, { 3, 4, 1, 2 }, { 3, 4, 2, 1 }, { 4, 1, 2, 3 }, { 4, 3, 1, 2 }, and { 4, 3, 2, 1}. 
+The derivative of a function represents an infinitesimal change in the function with respect to one of its variables.
+When derivatives are taken with respect to time, they are often denoted using Newton's overdot notation for fluxions, (dx)/(dt) = x^..
+Given a polygon with an even number of sides, the derived polygon is obtained by joining the points which are a fractional distance r along each side.
+A special case of Apollonius' problem requiring the determination of a circle touching three mutually tangent circles (also called the kissing circles problem).
+There are two solutions : a small circle surrounded by the three original circles, and a large circle surrounding the original three.
+Frederick Soddy gave the formula for finding the radius of the so - called inner and outer Soddy circles given the radii of the other three.
+A method of determining the maximum number of positive and negative real roots of a polynomial.
+For positive roots, start with the sign of the coefficient of the lowest (or highest) power.
+Count the number of sign changes n as you proceed from the lowest to the highest power (ignoring powers which do not appear).
+Consider the polynomial f(x) = x^7 + x^6 - x^4 - x^3 - x^2 + x - 1.
+Determinants are mathematical objects that are very useful in the analysis and solution of systems of linear equations.
+For example, eliminating x, y, and z from the equations a_1 x + a_2 y + a_3 z | = | 0 b_1 x + b_2 y + b_3 z | = | 0 c_1 x + c_2 y + c_3 z | = | 0 gives the expression a_1 b_2 c_3 - a_1 b_3 c_2 + a_2 b_3 c_1 - a_2 b_1 c_3 + a_3 b_1 c_2 - a_3 b_2 c_1 = 0,
+A developable surface is a ruled surface having Gaussian curvature K = 0 everywhere.
+Developable surfaces therefore include the cone, cylinder, elliptic cone, hyperbolic cylinder, and plane.
+A developable surface has the property that it can be made out of sheet metal, since such a surface must be obtainable by transformation from a plane (which has Gaussian curvature 0) and every point on such a surface lies on at least one straight line.
+A die (plural " dice ") is a solid with markings on each of its faces.
+The die can be " rolled " by throwing it in the air and allowing it to come to rest on one of its faces.
+Dice are used in many games of chance as a way of picking random numbers on which to bet, and are used in board or role - playing games to determine the number of spaces to move, results of a conflict, etc.
+In 1787, Mozart wrote the measures and instructions for a musical composition dice game.
+The idea is to cut and paste pre - written measures of music together to create a Minuet (Chuang).
+It gives the slope of the secant line passing through f(x) and f(x + h).
+In the limit h->0, the difference quotient becomes the partial derivative lim_(h->0) Δ_(x(h)) f(x, y) = (df)/(dx).
+The quadratic residues in the finite field GF(11) form a difference set.
+Gordon maintains an index of known difference sets.
+The notion of differentiability can also be extended to complex functions (leading to the Cauchy - Riemann equations and the theory of holomorphic functions), although a few additional subtleties arise in complex differentiability that are not present in the real case.
+Amazingly, there exist continuous functions which are nowhere differentiable.
+Two examples are the Blancmange function and Weierstrass function.
+Hermite is said to have opined, " I turn away with fright and horror from this lamentable evil of functions which do not have derivatives ".
+Among his many other talents, Major General Stanley in Gilbert and Sullivan's operetta the Pirates of Penzance impresses the pirates with his knowledge of calculus in " The Major General's Song " as follows : " I'm very good at integral and differential calculus, I know the scientific names of beings animalculous ; In short, in matters vegetable, animal, and mineral, I am the very model of a modern Major - General."
+Differential equations play an extremely important and useful role in applied math, engineering, and physics, and much mathematical and numerical machinery has been developed for the solution of differential equations.
+Start with an integer n, known as the digitaddition generator.
+Add the sum of the digitaddition generator's digits to obtain the digitaddition n'.
+An example of D_4 is the symmetry group of the square.
+The cycle graph of D_4 is shown above.
+It functions by constructing a shortest - path tree from the initial vertex to every other vertex in the graph.
+For example, a rectangle is two - dimensional, while a cube is three - dimensional.
+The dimension of an object is sometimes also called its " dimensionality.
+" The prefix " hyper- " is usually used to refer to the four- (and higher-) dimensional analogs of three - dimensional objects, e.g., hypercube, hyperplane.
+There are a variety of different symbols used, and Dirac matrices are also known as gamma matrices or Dirac gamma matrices.
+This relationship is commonly written y∝x.
+The Dirichlet function can be written analytically as D(x) = lim_(m->∞) lim_(n->∞) cos^(2n)(m!πx).
+These series are very important in additive number theory (they were used, for instance, to prove Dirichlet's theorem), and have a close connection with modular forms.
+Dirichlet L - series can be written as sums of Lerch transcendents with z a power of e^(2πi / k).
+Given n boxes and m > n objects, at least one box must contain more than one object.
+This statement has important applications in number theory and was first stated by Dirichlet in 1834.
+In general, if n objects are placed into k boxes, then there exists at least one box containing at least ⌈n / k⌉ objects, where ⌈x⌉ is the ceiling function.
+This result had been conjectured by Gauss, but was first proved by Dirichlet.
+Dirichlet proved this theorem using Dirichlet L - series, but the proof is challenging enough that, in their classic text on number theory, the usually explicit Hardy and Wright report " this theorem is too difficult for insertion in this book.
+A statistical distribution whose variables can take on only discrete values.
+Abramowitz and Stegun give a table of the parameters of most common discrete distributions.
+A tetrahedron 10-compound, octahedron 5-compound, cube 5-compound, icosahedron, dodecahedron, and icosidodecahedron can be inscribed in the vertices of a disdyakis triacontahedron. 
+Because the area element is given by dA = 2πrdr, this gives a concentration of points in the center (left figure above).
+Any two rectilinear figures with equal area can be dissected into a finite number of pieces to form each other.
+The triangle to square dissection (haberdasher's problem) is particularly interesting because it can be built from hinged pieces which can be folded and unfolded to yield the two shapes.
+Furthermore, any shape whose boundary is composed of smoothly curving pieces can be dissected into a square.
+In order to produce this illusion, the pieces have to be cut and reassembled so skillfully, that the missing or exceeding area is hidden by tiny, negligible imperfections of shape.
+The symbol del is variously known as " nabla " or " del.
+Taking the ratio x / y of two numbers x and y, also written x÷y.
+The symbol " / " is called a solidus (sometimes, the " diagonal "), and the symbol " ÷ " is called the obelus.
+If left unevaluated, x / y is called a fraction, with x known as the numerator and y known as the denominator.
+In French, the term " corps non commutatif " is used to mean division algebra, while " corps " alone means field.
+The uniqueness of division breaks down when dividing by zero, since the product 0·y = 0 is the same for any y, so y can not be recovered by inverting the process of multiplication.
+Examples include the decagonal prism, elongated square dipyramid (Johnson solid J_15), hexagonal dipyramid, metabidiminished icosahedron (J_62), pentagonal antiprism, pentagonal cupola (J_5), (regular) dodecahedron, rhombic dodecahedron, snub disphenoid (J_84), triakis tetrahedron, and undecagonal pyramid.
+The matrix decomposition of a square matrix A into so - called eigenvalues and eigenvectors is an extremely important one.
+The field K is usually taken to be the complex numbers C, reals R, rationals Q, algebraic extensions of Q, p - adic numbers Q_p, or a finite field.
+The elliptic paraboloid of height h, semimajor axis a, and semiminor axis b can be specified parametrically by x | = | asqrt(u) cosv y | = | bsqrt(u) sinv z | = | u.
+A method for solving ordinary differential equations using the formula y_(n + 1) = y_n + hf(x_n, y_n), which advances a solution from x_n to x_(n + 1) = x_n + h. 
+Given five equal disks placed symmetrically about a given center, what is the smallest radius r for which the radius of the circular area covered by the five disks is 1 ? The answer is r = ϕ - 1 = 1/ϕ = 0.618034..., where ϕ is the golden ratio, and the centers c_i of the disks i = 1,..., 5 are located at c_i = [ 1/ϕ cos((2πi)/5) 1/ϕ sin((2πi)/5)].
+The fixed point of a function f starting from an initial value x can be computed in the Wolfram Language using FixedPoint[f, x].
+Similarly, to get a list of the values obtained by iterating the function until a fixed point is reached, the command FixedPointList[f, x] can be used.
+ Although the rigidity theorem states that if the faces of a convex polyhedron are made of metal plates and the polyhedron edges are replaced by hinges, the polyhedron would be rigid, concave polyhedra need not be rigid.
+ The floor function ⌊x⌋, also called the greatest integer function or integer value, gives the largest integer less than or equal to x. The name and symbol for the floor function were coined by K. E. Iverson.
+ A point related to the construction and properties of conic sections.
+Hyperbolas and noncircular ellipses have two distinct foci and two associated conic section directrices, each directrix being perpendicular to the line joining the two foci.
+ There are many mathematical and recreational problems related to folding.
+Origami, the Japanese art of paper folding, is one well - known example.
+It is possible to make a surprising variety of shapes by folding a piece of paper multiple times, making one complete straight cut, then unfolding.
+For example, a five - pointed star can be produced after four folds, as can a polygonal swan, butterfly, and angelfish.
+Amazingly, every polygonal shape can be produced this way, as can any disconnected combination of polygonal shapes.
+(2001) and Demaine et al.
+(1998, 1999).
+ Pick any two relatively prime integers h and k, then the circle C(h, k) of radius 1/(2k^2) centered at (h / k, ± 1/(2k^2)) is known as a Ford circle.
+No matter what and how many hs and ks are picked, none of the Ford circles intersect (and all are tangent to the x - axis).
+This can be seen by examining the squared distance between the centers of the circles with (h, k) and (h ', k '), d^2 = (h'/k ' - h / k)^2 + (1/(2k^ (, 2)) - 1/(2k^2))^2.
+The prefix " hyper- " is usually used to refer to the four- (and higher-) dimensional analogs of three - dimensional objects, e.g., hypercube, hyperplane, hypersphere.
+The prefix " hyper- " is usually used to refer to the four- (and higher-) dimensional analogs of three - dimensional objects, e.g., hypercube, hyperplane, hypersphere.
+The four - dimensional cases of general n - dimensional objects are often given special names, such as those summarized in the following table.
+In this work, a = 0 and b = - 2π.The Fourier cosine transform F_c(k) of a function f(x) is implemented as FourierCosTransform[f, x, k], and different choices of a and b ca
+Fourier series make use of the orthogonality relationships of the sine and cosine functions.
+The computation and study of Fourier series is known as harmonic analysis and is extremely useful as a way to break up an arbitrary periodic function into a set of simple terms that can be plugged in, solved individually, and then recombined to obtain the solution to the original problem or an approximation to it to whatever accuracy is desired or practical.
+Examples of successive approximations to common functions using Fourier series are illustrated above.
+In this work, a = 0 and b = - 2π.
+The object need not exhibit exactly the same structure at all scales, but the same " type " of structures must appear on all scales.
+A plot of the quantity on a log - log graph versus scale then gives a straight line, whose slope is said to be the fractal dimension.
+The shorter the ruler, the longer the length measured, a paradox known as the coastline paradox.
+Illustrated above are the fractals known as the Gosper island, Koch snowflake, box fractal, Sierpiński sieve, Barnsley's fern, and Mandelbrot set.
+ The study of an extension of derivatives and integrals to noninteger orders.
+Fractional calculus is based on the definition of the fractional integral as D^(-ν) f(t) = 1/(Γ(ν)) integral_0^t (t - ξ)^(ν - 1) f(ξ) dξ, where Γ(ν) is the gamma function.
+From this equation, fractional derivatives can also be defined.
+ The fractional derivative of f(t) of order μ>0 (if it exists) can be defined in terms of the fractional integral D^(-ν) f(t) as D^μ f(t) = D^m[D^(-(m - μ)) f(t)], where m is an integer > = ⌈μ⌉, where ⌈x⌉ is the ceiling function.
+The semiderivative corresponds to μ = 1/2.
+ The function frac(x) giving the fractional (noninteger) part of a real number x. The symbol { x } is sometimes used instead of frac(x) (Graham et al.
+1994, p. 70 ; Havil 2003, p. 109), but this notation is not used in this work due to possible confusion with the set containing the element x. Unfortunately, there is no universal agreement on the meaning of frac(x) for x<0 and there are two common definitions.
+ An optical illusion named after British psychologist James Fraser, who first studied the illusion in 1908.
+The illusion is also known as the false spiral, or by its original name, the twisted cord illusion.
+While the image appears to be a spiral formed by a rope containing twisted strands of two different colors, it actually consists of concentric circles of twisted cords.
+The visual distortion is produced by combining a regular line pattern (the circles) with misaligned parts (the differently colored strands).
+Zöllner's illusion and the café wall illusion are based on a similar principle, like many other visual effects, in which a sequence of tilted elements causes the eye to perceive phantom twists and deviations.
+ The ratio of two independent estimates of the variance of a normal distribution.
+The metric consists of a distance function on the plane such that for all a, b element R^2, d(a, b) = { |a - b| | if a = cb for some c element R  |a| + |b| | otherwise, auto right match where |a| is the normal distance function on the plane.
+This metric has the property that for r < |a|, the open ball of radius r around a is an open line segment along vector a, while for r > |a|, the open ball is the union of a line segment and an open disk around the origin.
+ Also known as the Serret - Frenet formulas, these vector differential equations relate inherent properties of a parametrized curve.
+In matrix form, they can be written [ T^. N^. B^.] = [ 0 | κ | 0 -κ | 0 | τ 0 | -τ | 0][T N B], where T is the unit tangent vector, N is the unit normal vector, B is the unit binormal vector, τ is the torsion, κ is the curvature, and x^. denotes dx / ds.
+ The tabulation of raw data obtained by dividing it into classes of some size and computing the number of data elements (or their fraction out of the total) falling within each pair of class boundaries.
+The following table shows the frequency distribution of the data set illustrated by the histogram below.
+ In general, a frieze consists of repeated copies of a single motif.
+ | b | a | | d  | c | Conway and Guy define a frieze pattern as an arrangement of numbers at the intersection of two sets of perpendicular diagonals such that a + d = b + c + 1 (for an additive frieze pattern) or ad = bc + 1 (for a multiplicative frieze pattern) in each diamond.
+As an example, if the a_i values are 4 and 9, then 23 is the largest unsolvable number.
+Finding the Frobenius number of a given problem is known as the coin problem.
+ The circumcircle of the Fuhrmann triangle.
+It has the line HNa, where H is the orthocenter and Na is the Nagel point, as its diameter.
+In fact, these points (Kimberling centers X_4 and X_8, respectively), are the only Kimberling centers lying on it.
+While H and Na are the only noteworthy triangle centers to lie on the circle, a total of at least six other noteworthy points lie on the Fuhrmann circle.
+Three of these are the points T, U, and V which are a distance 2r along the altitudes from the vertices, where r is the inradius of ΔABC.
+ Let the opposite sides of a convex cyclic hexagon be a, a ', b, b ', c, and c ', and let the polygon diagonals e, f, and g be so chosen that a, a ', and e have no common polygon vertex (and likewise for b, b ', and f), then efg = aa ' e + bb ' f + cc ' g + abc + a ' b ' c '.
+This is an extension of Ptolemy's theorem to the hexagon.
+ A prime p for which 1/p has a maximal period decimal expansion of p - 1 digits.
+Full reptend primes are sometimes also called long primes (Conway and Guy 1996, pp.
+157 - 163 and 166 - 171).
+There is a surprising connection between full reptend primes and Fermat primes.
+In other words, the multiplicative order of p (mod 10) is p - 1.
+For example, 7 is a full reptend prime since (10 ^ 1, 10 ^ 2, 10 ^ 3, 10 ^ 4, 10 ^ 5, 10 ^ 6) congruent (3, 2, 6, 4, 5, 1) (mod 7).
+More formally, a function from A to B is an object f such that every a element A is uniquely associated with an object f(a) element B. A function is therefore a many - to - one (or sometimes one - to - one) relation.
+Here, the set B is called the codomain of f.
+ Given a function f(x_1,..., x_n) defined on a domain U, the graph of f is defined as the set of points (which often form a curve or surface) showing the values taken by f over U (or some portion of U).
+Technically, for real functions, graphf(x) | congruent | { (x, f(x)) element R^2 :x element U } graphf(x_1,..., x_n) | congruent | { (x_1,..., x_n, f(x_1,..., x_n)) element R^(n + 1) : (x_1,..., x_n) element U}.
+Then a closed subset F of S is called a fundamental domain of G in S if S is the union of conjugates of F, i.e., S = union _ (g element G) gF, and the intersection of any two conjugates has no interior.
+For example, a fundamental domain of the group of rotations by multiples of 180 ° in R^2 is the upper half - plane { (x, y)|y>=0 } and a fundamental domain of rotations by multiples of 90 ° is the first quadrant { (x, y)|x, y>=0}.
+ An extension of two - valued logic such that statements need not be true or false, but may have a degree of truth between 0 and 1.
+Such a system can be extremely useful in designing control logic for real - world systems such as elevators.
+In the Season 4 opening episode " Trust Metric " of the television crime drama NUMB3RS, math genius Charlie Eppes attempts to use fuzzy logic in an attempt to construct a trust metric telling how much fugitive and alleged traitor Colby Granger can be trusted.
+It is therefore given by parametric equations x(u, v) | = | u y(u, v) | = | (acosv)/u z(u, v) | = | (asinv)/u.
+ Let L be an extension field of K, denoted L / K, and let G be the set of automorphisms of L / K, that is, the set of automorphisms σ of L such that σ(x) = x for every x element K, so that K is fixed.
+Then G is a group of transformations of L, called the Galois group of L / K. The Galois group of L / K is denoted Gal(L / K) or Aut(L / K).
+It consists of an upright board with evenly spaced nails (or pegs) driven into its upper half, where the nails are arranged in staggered order, and a lower half divided into a number of evenly - spaced rectangular slots.
+The front of the device is covered with a glass cover to allow viewing of both nails and slots.
+In the middle of the upper edge, there is a funnel into which balls can be poured, where the diameter of the balls must be much smaller than the distance between the nails.
+The funnel is located precisely above the central nail of the second row so that each ball, if perfectly centered, would fall vertically and directly onto the uppermost point of this nail's surface.
+The figure above shows a variant of the board in which only the nails that can potentially be hit by a ball dropped from the funnel are included, leading to a triangular array instead of a rectangular one.
+Each time a ball hits one of the nails, it can bounce right (or left) with some probability p (and q = 1 - p).
+For symmetrically placed nails, balls will bounce left or right with equal probability, so p = q = 1/2.
+Each ball crosses the bottom row hitting the nth peg from the left (where 0<=n<=N - 1) iff it has taken exactly n right turns, which occurs with probability P_p(n|N) = (N n) p^n q^(N - n).
+This process therefore gives rise to a binomial distribution of in the heights of heaps of balls in the lower slots.
+Some care is needed to obtain these idealized results, however, as the actual distribution of balls depends on physical properties of the setup, including the elasticity of the balls (as characterized by their coefficient of restitution), the radius of the nails, and the offsets of the balls over the funnel's opening when they are dropped.
+Let two players each have a finite number of pennies (say, n_1 for player one and n_2 for player two).
+Now, flip one of the pennies (from either player), with each player having 50 % probability of winning, and transfer a penny from the loser to the winner.
+Now repeat the process until one player has all the pennies.
+If the process is repeated indefinitely, the probability that one of the two player will eventually lose all his pennies must be 100 %.
+The game was originally called Nash or John, with the latter name at the same time crediting its inventor and referring to the fact that it was frequently played on the tiled floors of bathrooms.
+The name Hex was invented in 1952, when a commercial version was issued by the game company Parker Brothers.
+The Game of Logic, described by Lewis Carroll -- author of Alice in Wonderland -- in 1887 consists of discussing the meaning of propositions like " Some fresh cakes are sweet, " and is an instructive introduction to the concepts of logic.
+The game takes place in a world divided into four quadrants.
+In the northwest quadrant, the cakes are fresh and sweet, in the northeast, they are fresh and not - sweet, in the southwest, they are not - fresh and sweet, and in the southeast, they are not - fresh and not - sweet.
+The game is played with four red coins and five gray coins.
+In addition to the mathematical elegance and complete " solution " which is possible for simple games, the principles of game theory also find applications to complicated games such as cards, checkers, and chess, as well as real - world problems as diverse as economics, property division, politics, and warfare.
+Game theory has two distinct branches : combinatorial game theory and classical game theory.
+Gamma distributions have two free parameters, labeled α and θ, a few of which are illustrated above.
+It is related to the factorial by Γ(n) = (n - 1) !, a slightly unfortunate notation due to Legendre which is now universally used instead of Gauss's simpler Π(n) = n!.
+It is analytic everywhere except at z = 0, -1, -2,..., and the residue at z = - k is Res_(z = - k) Γ(z) = (-1)^k/(k !).
+The simplest one expresses the total Gaussian curvature of an embedded triangle in terms of the total geodesic curvature of the boundary and the jump angles at the corners.
+Slightly less optimal fits are obtained from Radau quadrature and Laguerre - Gauss quadrature.
+This is sometimes knows as the " bars and stars " method.
+Suppose a recipe called for 5 pinches of spice, out of 9 spices.
+The number of possibilities is (9 + 5 9) = (9 + 5 5).
+* * ||||*|*|||*| means you use spices 1, 1, 5, 6, and 9.
+Count the number of lattice points N(r) inside the boundary of a circle of radius r with center at the origin.
+The exact solution is given by the sum N(r) | = | 1 + 4⌊r⌋ + 4 sum_(i = 1)^(⌊r⌋) ⌊sqrt(r^2 - i^2)⌋  | = | 1 + 4 sum_(i = 1)^(r^2) (-1)^(i - 1) ⌊r^2/(2i - 1)⌋  | = | 1 + 4 sum_(i = 0)^∞(⌊r^2/(4i + 1)⌋ - ⌊r^2/(4i + 3)⌋).
+The first few values for r = 0, 1,... are 1, 5, 13, 29, 49, 81, 113, 149,....
+The above surface is a generalized cylinder over a cardioid.
+A generalized cylinder need not be closed.
+Kern and Bland define a cylinder as a solid bounded by a generalized cylinder and two parallel planes.
+However, when used without qualification, the term " cylinder " generally refers to the particular case of a right circular cylinder.
+ The generalized law of sines applies to a simplex in space of any dimension with constant Gaussian curvature.
+Let us work up to that.
+Initially in two - dimensional space, we define a generalized sine function for a one - dimensional simplex (line segment) with content (length) S in space of constant Gaussian curvature K as gsinS = S - (KS^3)/(3 !) + (K^2 S^5)/(5 !) - (K^3 S^7)/(7 !) + (K^4 S^9)/(9 !) - (K^5 S^11)/(11 !) +....
+The Wolfram Language command GeneratingFunction[expr, n, x] gives the generating function in the variable x for the sequence whose nth term is expr.
+Given a sequence of terms, FindGeneratingFunction[{a1, a2,... }, x] attempts to find a simple generating function in x whose nth coefficient is a_n.
+A topologically invariant property of a surface defined as the largest number of nonintersecting simple closed curves that can be drawn on the surface without separating it.
+Roughly speaking, it is the number of holes in a surface.
+The genus of a surface, also called the geometric genus, is related to the Euler characteristic χ.
+For a orientable surface such as a sphere (genus 0) or torus (genus 1), the relationship is χ = 2 - 2 g.
+Equivalently, it is a path that a particle which is not accelerating would follow.
+Geodesics preserve a direction on a surface and have many other interesting properties.
+The nth order geodesation operation replaces each polygon of the polyhedron by the projection onto the circumsphere of the order - n regular tessellation of that polygon.
+The above figure shows base solids (top row) and geodesations of orders 1 to 3 (from top to bottom) of the cube, dodecahedron, icosahedron, octahedron, and tetrahedron (from left to right), computed using Geodesate[poly, n] in the Wolfram Language package PolyhedronOperations ̀.
+Two geometric figures are said to exhibit geometric congruence (or " be geometrically congruent ") iff one can be transformed into the other by an isometry.
+It is a discrete analog of the exponential distribution.
+Thus, G(a_1, a_2) | = | sqrt(a_1 a_2) G(a_1, a_2, a_3) | = | (a_1 a_2 a_3)^(1/3), and so on.
+The geometric mean of a list of numbers may be computed using GeometricMean[list] in the Wolfram Language package DescriptiveStatistics ̀.
+If the multiplier is r, then the kth term is given by a_k = ra_(k - 1) = r^2 a_(k - 2) = a_0 r^k.
+Taking a_0 = 1 gives the simple special case a_k = r^k.
+The Season 1 episode " Identity Crisis " of the television crime drama NUMB3RS mentions geometric progressions.
+Geometry was part of the quadrivium taught in medieval universities.
+A mathematical pun notes that without geometry, life is pointless.
+An old children's joke asks, " What does an acorn say when it grows up ? " and answers, " Geometry " (" gee, I 'm a tree ").
+Then each eigenvalue of A is in at least one of the disks { z : |z - a_(ii)| < = R_i}.
+It can be reduced with the Lanczos σ factor.
+The phenomenon is illustrated above in the Fourier series of a square wave.
+Let the difference of successive primes be defined by d_n congruent p_(n + 1) - p_n, and d_n^k by d_n^k congruent { d_n | for k = 1  |d_(n + 1)^(k - 1) - d_n^(k - 1)| | for k>1.
+In 1993, Odlyzko extended the claim to all primes up to π(10 ^ 13).
+It is impossible to construct an algorithm that will find a global extremum for an arbitrary function.
+A global maximum, also known as an absolute maximum, the largest overall value of a set, function, etc., over its entire range.
+It is impossible to construct an algorithm that will find a global maximum for an arbitrary function.
+A shape which, when added to a figure, yields another figure similar to the original.
+Since this projection obviously sends antipodal points P_1 and P_2 to the same point P in the plane, it can only be used to project one hemisphere at a time.
+In a gnomonic projection, great circles are mapped to straight lines.
+Let the states and tape cell colors be numbered and represented by quadruples of ordinal numbers.
+Then there exist algorithmic procedures that sequentially list all consistent sets of Turing machine rules.
+Any such procedure gives both an algorithm for going from any integer to its corresponding Turing machine and an algorithm for getting the index of any consistent set of Turing machine rules.
+The oft - studied golden ratio ϕ has a number of equivalent definitions framed in a variety of different contexts.
+ϕ is the unique positive real number for which the identity ϕ/1 = 1/(ϕ - 1).
+The constant ϕ and its various properties have been studied since antiquity with various constructions attributed to Euclid and Pythogoras, among others.
+{ ϕ^(n + 1)}_(n = -1)^∞ and { ψ^(n + 1)}_(n = -1)^∞ are both solutions to the three - term recurrence relation X_n = X_(n - 1) + X_(n - 2), n = 1, 2, 3,..., where ϕ is as above and where ψ = (1 - sqrt(5))/2 is the second solution of the equation x^2 - x - 1 = 0, and because { ϕ^(n + 1) } and { ψ^(n + 1) } are C - linearly independent elements, they form a basis of the vector space L, the solution space of the recurrence relation above and a degree 2 vector space over C. Moreover, because the canonical partial numerators { A_n}_(n = 1)^∞, respectively partial denominators { B_n}_(n = 1)^∞, of an arbitrary continued fraction ξ = continued fraction k _ (n=1)^∞ a_n / b_n are also elements of L, it follows that A_n and B_n are C - linear combinations of ϕ^(n + 1) and ψ^(n + 1) for any arbitrary continued fraction ξ = continued fraction k _ (n=1)^∞ a_n / b_n, n = 1, 2, 3,.... Among the significant ramifications of this are the so - called Binet's formula, as well as a multitude of significant literature in areas ranging from operator theory to algebraic field theory and beyond.
+It is therefore a special case of a trigonal trapezohedron.
+There are two distinct golden rhombohedra : an acute one (illustrated above), and an obtuse one.
+Both are built from six golden rhombi.
+These polyhedra are implemented in the Wolfram Language as PolyhedronData[AcuteGoldenRhombohedron] and PolyhedronData[ObtuseGoldenRhombohedron], respectively.
+In the Season 4 episode " Masterpiece " of the CBS - TV crime drama " Criminal Minds, " the agents of the FBI Behavioral Analysis Unit are confronted by a serial killer who uses the Fibonacci number sequence to determine the number of victims for each of his killing episodes.
+In this episode, character Dr. Reid also notices that locations of the killings lie on the graph of a golden spiral, and going to the center of the spiral allows Reid to determine the location of the killer's base of operations.
+Regardless of where one white and one black square are deleted from an ordinary 8×8 chessboard, the reduced board can always be covered exactly with 31 dominoes (of dimension 2×1).
+It is used in actuarial science for specifying a simplified mortality law.
+Using s(x) as the probability that a newborn will achieve age x, the Gompertz law is s(x) = exp[-m(c^x - 1)], for c>1, x>=0.
+Given a hereditary representation of a number n in base b, let B[b](n) be the nonnegative integer which results if we syntactically replace each b by b + 1 (i.e., B[b] is a base change operator that ' bumps the base ' from b up to b + 1).
+In other words, every Goodstein sequence converges to 0.
+For such ordinals, the base bumping operation leaves the ordinal fixed whereas the subtraction of one decreases the ordinal.
+The term " Gosper island " was used by Mandelbrot because this curve bounds the space filled by the Peano - Gosper curve.
+It has fractal dimension D = (2ln3)/(ln7) = 1.12915... (OEIS A113211).
+Gosper islands can tile the plane.
+The term " gradient " has several meanings in mathematics.
+The simplest is as a synonym for slope.
+It is most often applied to a real function of three variables f(u_1, u_2, u_3), and may be denoted  del f congruent grad(f).
+The word " graph " has (at least) two meanings in mathematics.
+In elementary mathematics, " graph " refers to a function graph or " graph of a function, " i.e., a plot.
+For every group Γ, there exists a graph whose automorphism group is isomorphic to Γ. The automorphism groups of a graph characterize its symmetries, and are therefore very useful in determining certain of its properties.
+More generally, a bridge is an edge of a not - necessarily - connected graph G whose removal increases the number of components of G. An edge of a connected graph is a bridge iff it does not lie on any cycle.
+A bridge is also known as an isthmus, cut - edge, or cut arc.
+A connected cubic graph contains a bridge iff it contains an articulation vertex, i.e., if it is not a biconnected graph.
+A graph complement can be computed in the Wolfram Language by the command GraphComplement[g].
+Garey and Johnson (1983ab) showed that determining the crossing number is an NP - complete problem.
+Harary calls an edge of a graph a " line.
+The following table lists the total number of edges in all graphs of given classes on n nodes.
+The above figure shows the first several circular embeddings of the cubical graph.
+While the underlying object is independent of the embedding, a clever choice of embedding can lead to particularly illuminating diagrams.
+For example, the circular (left) embedding of the cubical graph illustrates this graph's inherent symmetries.
+For example, if in the Levi graph the tree formed by the 6 interior points (middle figure) is excised, the McGee graph results.
+Similarly, excising the Heawood graph gives the Petersen graph, and excising the generalized hexagon (i.e., the unique 12-cage graph) gives the Balaban 11-cage.
+Both operations are used in the analysis of cages.
+The following table gives some cubic symmetric graphs with named edge - excised graphs, illustrated above.
+A planar graph therefore has graph genus 0.
+The complete graph K_n has genus γ(K_n) = ⌈((n - 3)(n - 4))/12⌉ for n>=3, where ⌈x⌉ is the ceiling function.
+The values for n = 1, 2,... are 0, 0, 0, 0, 1, 1, 1, 2, 3, 4, 5, 6, 8, 10,....
+Graph intersections can be computed in the Wolfram Language using GraphIntersection[g, h].
+As a result, the special complexity class graph isomorphism complete is sometimes used to refer to the problem of graph isomorphism testing.
+This operation is sometimes also known explicitly as the graph disjoint union.
+Graph unions can be computed in the Wolfram Language using GraphDisjointUnion[g1, g2,...].
+(Note that the Wolfram Language function GraphUnion[g1, g2] performs a different operation from the usual graph union.) The graph union of n copies of a graph G is commonly denoted nG.
+The terms " point, " " junction, " and 0-simplex are also used.
+The following tables gives the total numbers of graph vertices for various classes of graphs on n = 1, 2,... nodes.
+The term Gray code is often used to refer to a " reflected " code, or more specifically still, the binary reflected Gray code.
+To convert a binary number d_1 d_2... d_(n - 1) d_n to its corresponding binary reflected Gray code, start at the right with the digit d_n (the nth, or last, digit).
+If the d_(n - 1) is 1, replace d_n by 1 - d_n ; otherwise, leave it unchanged.
+Then proceed to d_(n - 1).
+Continue up to the first digit d_1, which is kept the same since d_0 is assumed to be a 0.
+It is also uniform polyhedron U_35 and Wenninger model W_20.
+Its Schläfli symbol is { 5, 5/2 }, and its Wythoff symbol is 5/2|25.
+It is concave, and consists of 12 intersecting pentagonal faces (12{5 }).
+Schläfli did not recognize the great dodecahedron as a regular solid because it violates the polyhedral formula, instead satisfying N_0 - N_1 + N_2 = 12 - 30 + 12 = - 6, where N_0 is the number of vertices, N_1 the number of edges, and N_2 the number of faces.
+ One of the Kepler - Poinsot solids whose dual is the great stellated dodecahedron.
+It is also uniform polyhedron U_53, Wenninger model W_22, and has Schläfli symbol { 3, 5/2 } and Wythoff symbol 35/2|5/3.
+The great icosahedron can be constructed from an icosahedron with unit edge lengths by taking the 20 sets of vertices that are mutually spaced by a distance ϕ, the golden ratio.
+The solid therefore consists of 20 equilateral triangles.
+The symmetry of their arrangement is such that the resulting solid contains 12 pentagrams.
+The 26-faced Archimedean solid A_3 consisting of faces 12{4 } + 8{6 } + 6{8}.
+It is sometimes (improperly) called the truncated cuboctahedron, and is also more properly called the rhombitruncated cuboctahedron.
+It is uniform polyhedron U_11 and Wenninger model W_15.
+It has Schläfli symbol t{3 4 } and Wythoff symbol 234|.
+It can be combined with cubes and truncated octahedra into a regular space - filling pattern.
+2 abs(x)<=h and 2 abs(y)<=a or 2 abs(y)<=h and 2 abs(x)<=a
+2 abs(x)<=h and 2 abs(y)<=a or 2 abs(y)<=h and 2 abs(x)<=a
+The relationship between a line integral around a simple closed curve and a double integral over the plane region bounded by the curve, which may be stated as ∮_dDf(x, y) dx + g(x, y) dy = integral integral_D(dg(x, y)/(dx) - df(x, y)/(dy)) dx dy.
+Gregory numbers arise in the determination of Machin - like formulas.
+Every Gregory number t_x can be expressed uniquely as a linear combination of t_ns where the ns are Størmer numbers.
+(Here, the division algorithm requires an order of a certain type on the monomials.) Furthermore, the set of polynomials in a Gröbner basis have the same collection of roots as the original polynomials.
+Associativity : The defined multiplication is associative, i.e., for all A, B, C element G, (AB) C = A(BC).
+Cyclic groups can be generated as powers of a single generator.
+Two elements of a dihedral group that do not have the same sign of ordering are generators for the entire group.
+When a group G acts on a set X (this process is called a group action), it permutes the elements of X.
+Any particular element X moves around in a fixed path which is called its orbit.
+In the notation of set theory, the group orbit of a group element x can be defined as G(x) = { gx element X : g element G }, where g runs over all elements of the group G. For example, for the permutation group G_1 = { (1234), (2134), (1243), (2143) }, the orbits of 1 and 2 are { 1, 2 } and the orbits of 3 and 4 are { 3, 4}.
+For example, the group of two elements Z_2 = { 0, 1 } has a representation ϕ by ϕ(0) v = v and ϕ(1) v = - v.
+A representation is a group homomorphism ϕ:G->GL(V).
+Most groups have many different representations, possibly on different vector spaces.
+ The study of groups.
+Gauss developed but did not publish parts of the mathematics of group theory, but Galois is generally considered to have been the first to develop the theory.
+They are used on banknotes, securities, and passports worldwide for added security against counterfeiting.
+For currency, the precise techniques used by the governments of Russia, the United States, Brazil, the European Union, Madagascar, Egypt, and all other countries are likely quite different.
+There are essentially three types of Fisher - Tippett extreme value distributions.
+These are distributions of an extreme order statistic for a distribution of N elements X_i.
+In this work, the term " Gumbel distribution " is used to refer to the distribution corresponding to a minimum extreme value distribution (i.e., the distribution of the minimum X^(〈1〉)).
+The Gumbel distribution with location parameter α and scale parameter β is implemented in the Wolfram Language as GumbelDistribution[alpha, beta].
+Guy's conjecture, which has not yet been proven or disproven, states that the graph crossing number for a complete graph of order n is 1/4⌊n/2⌋⌊(n - 1)/2⌋⌊(n - 2)/2⌋⌊(n - 3)/2⌋, where ⌊x⌋ is the floor function, which can be rewritten { 1/64 n(n - 2)^2(n - 4) | for n even 1/64(n - 1)^2 (n - 3)^2 | for n odd.
+The first few values are 0, 0, 0, 0, 1, 3, 9, 18, 36, 60,....
+An n - gonal pyramid adjoined to the top of an n - gonal antiprism.
+However, the 4-gonal and 5-gonal gyroelongated pyramids correspond to Johnson solids J_10 and J_11, respectively.
+Define ψ(x) congruent { 1 | 0<=x<1/2 -1 | 1/2<x<=1 0 | otherwise auto right match and ψ_(jk)(x) congruent ψ(2^j x - k) for j a nonnegative integer and 0<=k<=2^j - 1.
+With three cuts, dissect an equilateral triangle into a square.
+The problem was first proposed by Dudeney in 1902, and subsequently discussed in Dudeney, and Gardner, Stewart, and Wells.
+The solution can be hinged so that the four pieces collapse into either the triangle or the square.
+Two of the hinges bisect sides of the triangle, while the third hinge and the corner of the large piece on the base cut the base in the approximate ratio 0.982:2:1.018.
+Taking five iterations gives the beautiful pattern illustrated above.
+This fractal also appears on the cover of Allouche and Shallit.
+Sequences of integers generated in the Collatz problem.
+For example, for a starting number of 7, the sequence is 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1, 4, 2, 1,....
+While a hailstone eventually becomes so heavy that it falls to ground, every starting positive integer ever tested has produced a hailstone sequence that eventually drops down to the number 1 and then " bounces " into the small loop 4, 2, 1,....
+The non - standard notation [ a, b [ and] a, b] is sometimes also used.
+For example, half a Euclidean space is given by the three - dimensional region satisfying x>0, -∞<y<∞, -∞<z<∞, while a half - plane is given by the two - dimensional region satisfying x>0, -∞<y<∞.
+By convention, the singleton graph K_1 is considered to be Hamiltonian even though it does not posses a Hamiltonian cycle, while the connected graph on two nodes K_2 is not.
+The Hamiltonian cycle is named after Sir William Rowan Hamilton, who devised a puzzle in which such a path along the polyhedron edges of an dodecahedron was sought (the Icosian game).
+These equations frequently arise in problems of celestial mechanics.
+The illustrations above show the Hanning function, its instrument function, and a blowup of the instrument function sidelobes.
+It is named after the Austrian meteorologist Julius von Hann (Blackman and Tukey 1959, pp.
+Its full width at half maximum is a.
+Simple harmonic motion or " harmonic oscillation " refers to oscillations with a sinusoidal waveform.
+Such functions satisfy the differential equation (d^2 x)/(dt^2) + ω^2 x = 0, which has solution x = Acos(ωt + ϕ_1) + Bsin(ωt + ϕ_2).
+The word harmonic analysis is therefore used to describe Fourier series, which breaks an arbitrary function into a superposition of sinusoids.
+It is always possible to write a sum of sinusoidal functions f(θ) = acosθ + bsinθ as a single sinusoid the form f(θ) = ccos(θ + δ).
+This can be done by expanding (-1) using the trigonometric addition formulas to obtain f(θ) = ccosθcosδ - csinθsinδ.
+In music, if a note has frequency f, integer multiples of that frequency, 2f, 3f, 4f and so on, are known as harmonics.
+Potential functions are extremely useful, for example, in electromagnetism, where they reduce the study of a 3-component vector field to a 1-component scalar function.
+The harmonic mean of a list of numbers may be computed in the Wolfram Language using HarmonicMean[list].
+A harmonic number can be expressed analytically as H_n = γ + ψ_0(n + 1), where γ is the Euler - Mascheroni constant and Ψ(x) = ψ_0(x) is the digamma function.
+It can be shown to diverge using the integral test by comparison with the function 1/x.
+The divergence, however, is very slow.
+Divergence of the harmonic series was first demonstrated by Nicole d'Oresme, but was mislaid for several centuries (Havil 2003, p. 23 ; Derbyshire 2004, pp.
+The result was proved again by Pietro Mengoli in 1647, by Johann Bernoulli in 1687, and by Jakob Bernoulli shortly thereafter.
+A device consisting of two coupled pendula, usually oscillating at right angles to each other, which are attached to a pen.
+In the absence of friction (and for small displacements so that the general pendulum equations of motion become simple harmonic motion), the figures produced by a harmonograph would be Lissajous curves.
+The circle H which touches the incircles I, I_A, I_B, and I_C of a circular triangle ABC and its associated triangles.
+It is either externally tangent to I and internally tangent to incircles of the associated triangles I_A, I_B, and I_C (as in the above figure), or vice versa.
+There are eight Hart circles associated with a given circular triangle.
+Formally, let A be a subset of a metric space X.
+The haversine can be extended to the complex plane as illustrated above.
+There are a number of mathematical curves that produced heart shapes, some of which are illustrated above.
+The figures above show a ray - traced rendering (left) and the y = 0 cross section (right) of the surface.
+A slight variation of the same surface is given by (2x^2 + 2y^2 + z^2 - 1)^3 - 1/10 x^2 z^3 - y^2 z^3 = 0 (Nordstrand, Kuska 2004).
+A partial differential diffusion equation of the form (dU)/(dt) = (κ del) ^2 U.
+Physically, the equation commonly arises in situations where κ is the thermal diffusivity and U the temperature.
+This can be solved by separation of variables using U(x, t) = X(x) T(t).
+"The term" Heaviside step function " and its symbol can represent either a piecewise constant function or a generalized function.
+It is 4-transitive, but not 5-transitive.
+It can be represented in LCF notation as [ 5, -5]^7.
+It has graph diameter 3, graph radius 3, and girth 6.
+It is a cubic symmetric graph, nonplanar, and Hamiltonian.
+It is the only ruled minimal surface other than the plane.
+For many years, the helicoid remained the only known example of a complete embedded minimal surface of finite topology with infinite curvature.
+However, in 1992 a second example, known as Hoffman's minimal surface and consisting of a helicoid with a hole, was discovered (Sci.
+News 1992).
+It is for this reason that squirrels chasing one another up and around tree trunks follow helical paths.
+There are at least two maps known as the Hénon map.
+The first is the two - dimensional dissipative quadratic map given by the coupled equations x_(n + 1) | = | 1 - αx_n^2 + y_n y_(n + 1) | = | βx_n (Hénon 1976).
+The strange attractor illustrated above is obtained for α = 1.4 and β = 0.3.
+The illustration above shows two regions of space for the map with α = 0.2 and β = 1.01 colored according to the number of iterations required to escape.
+ 1/4 a^2 sin((3 π)/14) cos(π/14) csc^2(π/7) + 1/4 a^2 sin(π/14) cos((3 π)/14) csc^2(π/7) - 1/2 a x sin((3 π)/14) csc(π/7) - 1/2 a x sin(π/14) csc(π/7) + 1/2 a y cos((3 π)/14) csc(π/7) - 1/2 a y cos(π/14) csc(π/7)>=0 and 1/4 a^2 cos((3 π)/14) csc^2(π/7) - 1/2 a x csc(π/7) + 1/2 a x sin((3 π)/14) csc(π/7) - 1/2 a y cos((3 π)/14) csc(π/7)>=0 and 1/4 a^2 cos((3 π)/14) csc^2(π/7) + 1/2 a x csc(π/7) - 1/2 a x sin((3 π)/14) csc(π/7) - 1/2 a y cos((3 π)/14) csc(π/7)>=0 and 1/4 a^2 sin((3 π)/14) cos(π/14) csc^2(π/7) + 1/4 a^2 sin(π/14) cos((3 π)/14) csc^2(π/7) + 1/2 a x sin((3 π)/14) csc(π/7) + 1/2 a x sin(π/14) csc(π/7) + 1/2 a y cos((3 π)/14) csc(π/7) - 1/2 a y cos(π/14) csc(π/7)>=0 and -1/4 a^2 sin(π/14) csc(π/7) + 1/4 a^2 cos(π/14) cot(π/7) csc(π/7) + 1/2 a x cot(π/7) - 1/2 a x sin(π/14) csc(π/7) - (a y)/2 + 1/2 a y cos(π/14) csc(π/7)>=0 and 1/2 a^2 cot(π/7) + a y>=0 and -1/4 a^2 sin(π/14) csc(π/7) + 1/4 a^2 cos(π/14) cot(π/7) csc(π/7) - 1/2 a x cot(π/7) + 1/2 a x sin(π/14) csc(π/7) - (a y)/2 + 1/2 a y cos(π/14) csc(π/7)>=0
+The first few are 1, 7, 18, 34, 55, 81, 112,....
+The representation of a number as a sum of powers of a base b, followed by expression of each of the exponents as a sum of powers of b, etc., until the process stops.
+For example, the hereditary representation of 266 in base 2 is 266 | = | 2 ^ 8 + 2 ^ 3 + 2  | = | 2^(2^(2 + 1)) + 2^(2 + 1) + 2.
+An optical illusion due to the physiologist Ewald Hering in 1861.
+The distortion is produced by the lined pattern on the background, that simulates a perspective design, and creates a false impression of depth.
+A regular twimensional arrangement of squares separated by vertical and horizontal " canals.
+" Looking at the grid produces the illusion of gray spots in the white area between square vertices
+By Morley's theorem, this triangle is equilateral.
+The illusion was noted by Hermann while reading a book on sound by Tyndall.
+The Hermite polynomials H_n(x) are set of orthogonal polynomials over the domain (-∞, ∞) with weighting function e^(-x^2), illustrated above for n = 1, 2, 3, and 4.
+Therefore, a Hermitian matrix A = (a_(ij)) is defined as one for which A = A^H, where A^H denotes the conjugate transpose.
+This is equivalent to the condition a_(ij) = a^__(ji), where z^ _ denotes the complex conjugate.
+The triangles are so named because such triangles are related to Heron's formula Δ = sqrt(s(s - a)(s - b)(s - c)) giving a triangle area Δ in terms of its side lengths a, b, c and semiperimeter s = (a + b + c)/2.
+The base 16 notational system for representing real numbers.
+The digits used to represent numbers using hexadecimal notation are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The following table gives the hexadecimal equivalents for decimal numbers from 1 to 30.
+The base 16 notational system for representing real numbers.
+The digits used to represent numbers using hexadecimal notation are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The following table gives the hexadecimal equivalents for decimal numbers from 1 to 30.
+Taking a collection of 13 such spheres gives the cluster illustrated above.
+Connecting the centers of the external 12 spheres gives Johnson solid J_27 known as the triangular orthobicupola.
+203 - 205 ; Wells 1991, p. 237).Boards made of hexagonal grids are often found in strategy and role - playing games because of the lack of single points of contact characteristic of isometric and orthogonal grids.
+A polygonal number and 6-polygonal number of the form n(2n - 1).
+In 1830, Legendre proved that every number larger than 1791 is a sum of four hexagonal numbers, and Duke and Schulze - Pillot improved this to three hexagonal numbers for every sufficiently large integer.
+The regular right hexagonal prism of edge length a has surface area and volume S | = | 3(2 + sqrt(3)) a^2 V | = | 3/2 sqrt(3) a^3.
+sqrt(3) a + 3 sqrt(3) x + 3 y>=0 and 3 sqrt(3) x<=sqrt(3) a + 3 y and 6 y<=sqrt(3) a or sqrt(3) a + 6 y>=0 and 3 (sqrt(3) x + y)<=sqrt(3) a and sqrt(3) (a + 3 x)>=3 y
+Examples include the deltoidal hexecontahedron, rhombic hexecontahedron, and triakis icosahedron.
+The hex numbers satisfy the recurrence equation H_n = 2H_(n - 1) - H_(n - 2) + 6.
+Given a triangle ΔABC and the excentral triangle ΔJ_A J_B J_C, define the A'-vertex of the hexyl triangle as the point in which the perpendicular to AB through the excenter J_B meets the perpendicular to AC through the excenter J_C, and similarly define B ' and C '.
+Then ΔA ' B ' C ' is known as the hexyl triangle of ΔABC, and A ' J_B C ' J_A B ' J_C forms a hexagon with parallel sides.
+Simple harmonic motion or " harmonic oscillation " refers to oscillations with a sinusoidal waveform.
+It is related to the factorial by Γ(n) = (n - 1) !, a slightly unfortunate notation due to Legendre which is now universally used instead of Gauss's simpler Π(n) = n!
+Slightly less optimal fits are obtained from Radau quadrature and Laguerre - Gauss quadrature.
+Seeks to obtain the best numerical estimate of an integral by picking optimal abscissas x_i at which to evaluate the function f(x).
+In 1830, Legendre proved that every number larger than 1791 is a sum of four hexagonal numbers, and Duke and Schulze - Pillot improved this to three hexagonal numbers for every sufficiently large integer.
+A hexagonal prism is a prism composed of two hexagonal bases and six rectangular sides.
+sqrt(3) a + 3 sqrt(3) x + 3 y>=0 and 3 sqrt(3) x<=sqrt(3) a + 3 y and 6 y<=sqrt(3) a or sqrt(3) a + 6 y>=0 and 3 (sqrt(3) x + y)<=sqrt(3) a and sqrt(3) (a + 3 x)>=3 y
+Examples include the deltoidal hexecontahedron, rhombic hexecontahedron, and triakis icosahedron.
+Counting the faces produced by intersections with other faces as distinct, the small triambic icosahedron is a hexecontahedron.
+The first few hex numbers for n = 0, 1,... are 1, 7, 19, 37, 61, 91, 127, 169,....
+The hex numbers satisfy the recurrence equation H_n = 2H_(n - 1) - H_(n - 2) + 6.
+The fractal illustrated above.
+Traversing the polyhedron vertices of an n - dimensional hypercube in Gray code order produces a generator for the n - dimensional Hilbert curve.
+The Hilbert curve can be simply encoded with initial string L, string rewriting rules L " - > " + RF - LFL - FR+, R " - > " -LF+RFR+FL-, and angle 90 °.
+The nth iteration of this Hilbert curve is implemented in the Wolfram Language as HilbertCurve[n].
+Furthermore, a denumerable number of guests can be similarly accommodated by moving the existing guests from i to 2i, freeing up the denumerable number of rooms 2i - 1.
+Hilbert matrices are implemented in the Wolfram Language by HilbertMatrix[m, n].
+The figure above shows a plot of the 256×256 Hilbert matrix with elements colored according to their values.
+Hilbert matrices whose entries are specified as machine - precision numbers are difficult to invert using numerical techniques.
+The above histogram shows the number of variates in bins with class interval 1 for a sample of 100 real variates with a uniform distribution from 0 and 10.
+Therefore, bin 1 gives the number of variates in the range 0 - 1, bin 2 gives the number of variates in the range 1 - 2, etc.
+Histograms are implemented in the Wolfram Language as Histogram[data].
+It states (|V_1 W_1|) / (|W_2 V_3|) (|V_2 W_2|) / (|W_3 V_4|) (|V_3 W_3|) / (|W_4 V_5|) (|V_4 W_4|) / (|W_5 V_1|) (|V_5 W_5|) / (|W_1 V_2|) = 1 (|V_1 W_2|) / (|W_1 V_3|) (|V_2 W_3|) / (|W_2 V_4|) (|V_3 W_4|) / (|W_3 V_5|) (|V_4 W_5|) / (|W_4 V_1|) (|V_5 W_1|) / (|W_5 V_2|) = 1.
+In general, it is also true that (|V_i W_i|) / (|W_(i + 1) V_(i + 2)|) = (|V_i V_(i + 1) V_(i + 4)|) / (|V_i V_(i + 1) V_(i + 2) V_(i + 4)|) (|V_i V_(i + 1) V_(i + 2) V_(i + 3)|) / (|V_(i + 2) V_(i + 3) V_(i + 1)|).
+It is the unique (7, 5)-cage graph and Moore graph, and contains many copies of the Petersen graph.
+It can be constructed from the 10 5-cycles illustrated above, with vertex i of P_j joined to vertex i + jk (mod 5) of Q_k.
+(Note the correction of Wong's j + jk to i + jk.) The Hoffman - Singleton graph is a strongly regular graph with parameters (ν, k, λ, μ) = (50, 7, 0, 1).
+It is an integral graph with graph spectrum (-3)^21 2 ^ 28 7 ^ 1.
+Its automorphism group is of order 252000.
+A synonym for analytic function, regular function, differentiable function, complex differentiable function, and holomorphic map.
+The word derives from the Greek ολος (holos), meaning " whole, " and μορφη (morphe), meaning " form " or " appearance.
+"Many mathematicians prefer the term" holomorphic function "(or " holomorphic map ") to" analytic function ", while " analytic " appears to be in widespread use among physicists, engineers, and in some older texts.
+A homeomorphism which also preserves distances is called an isometry.
+Affine transformations are another type of common geometric homeomorphism.
+The similarity in meaning and form of the words " homomorphism " and " homeomorphism " is unfortunate and a common source of confusion.
+Homogeneous coordinates (x_1, x_2, x_3) of a finite point (x, y) in the plane are any three numbers for which x_1/x_3 = x x_2/x_3 = y.
+Coordinates (x_1, x_2, 0) for which x_2/x_1 = λ describe the point at infinity in the direction of slope λ.
+A function which satisfies f(tx, ty) = t^n f(x, y) for a fixed n. 
+Means, the Weierstrass elliptic function, and triangle center functions are homogeneous functions.
+A transformation of the variables of a tensor changes the tensor into another whose components are linear homogeneous functions of the components of the original tensor.
+A similarity transformation which preserves orientation, also called a homothety.
+This means that they lie in the same plane and corresponding sides are parallel ; such figures have connectors of corresponding points which are concurrent at a point known as the homothetic center.
+The homothetic center divides each connector in the same ratio k, known as the similitude ratio.
+For figures which are similar but do not have parallel sides, a similitude center exists.
+The regular tessellation {6, 3 } consisting of regular hexagons (i.e., a hexagonal grid).
+In general, the term honeycomb is used to refer to a tessellation in n dimensions for n>=3.
+The only regular honeycomb in three dimensions is {4, 3, 4 }, which consists of eight cubes meeting at each polyhedron vertex.
+The only quasiregular honeycomb (with regular cells and semiregular vertex figures) has each polyhedron vertex surrounded by eight tetrahedra and six octahedra and is denoted {3 3, 4}.
+The bifurcation of a fixed point to a limit cycle.
+Its Schläfli symbol is {2, p}. 
+Its dual is the dihedron {p, 2}.
+A lossless data compression algorithm which uses a small number of bits to encode common characters.
+Huffman coding approximates the probability for each character as a power of 1/2 to avoid complications associated with using a nonintegral number of bits to encode characters using their actual probabilities.
+Huffman coding works on a list of weights {w_i } by building an extended binary tree with minimum weighted external path length and proceeds by finding the two smallest ws, w_1 and w_2, viewed as external nodes, and replacing them with an internal node of weight w_1 + w_2.
+The procedure is them repeated stepwise until the root node is reached.
+An individual external node can then be encoded by a binary string of 0s (for left branches) and 1s (for right branches).
+The notation chx is sometimes also used.
+The hyperbolic cosine is defined as coshz congruent 1/2(e^z + e^(-z)).
+This function describes the shape of a hanging cable, known as the catenary.
+It is implemented in the Wolfram Language as Cosh[z].
+A hyperbolic version of the Euclidean cube.
+A hyperbolic version of the Euclidean dodecahedron.
+Hyperbolic three - space can be tessellated with hyperbolic dodecahedra whose intermediate dihedral angles are 60, 72, or 90 °.
+A decorated hyperbolic dodecahedron has been used as the logo for Mathematica since Version 2.
+The hyperbolic functions sinhz, coshz, tanhz, cschz, sechz, cothz (hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic cosecant, hyperbolic secant, and hyperbolic cotangent) are analogs of the circular functions, defined by removing is appearing in the complex exponentials.
+For example, cosz = 1/2(e^(iz) + e^(-iz)), so coshz = 1/2(e^z + e^(-z)).
+A non - Euclidean geometry, also called Lobachevsky - Bolyai - Gauss geometry, having constant sectional curvature -1.
+This geometry satisfies all of Euclid's postulates except the parallel postulate, which is modified to read : For any infinite straight line L and any point P not on it, there are many other infinitely extending straight lines that pass through P and which do not intersect L.
+A hyperbolic version of the Euclidean icosahedron.
+It is given by the parametric equations x | = | (cosucosv)^3 y | = | (sinucosv)^3 z | = | sin^3 v for u element [-π/2, π/2] and v element [-π, π].
+It is an algebraic surface of degree 18 with complicated terms.
+The quadratic and doubly ruled surface given by the Cartesian equation z = y^2/b^2 - x^2/a^2 (left figure).
+An alternative form is z = xy, which has parametric equations x(u, v) | = | u y(u, v) | = | v z(u, v) | = | uv.
+If the edges between vertices V_i and V_j have length E_(ij), the value of the hyperbolic polar sine of the n - dimensional hyperbolic simplex S in space with Gaussian curvature K<0 is given by.
+A polyhedron in a hyperbolic geometry.
+The notation shz is sometimes also used.
+It is implemented in the Wolfram Language as Sinh[z].
+Special values include sinh0 | = | 0 sinh(lnϕ) | = | 1/2, where ϕ is the golden ratio.
+An Archimedean spiral with polar equation r = a/θ.
+The hyperbolic spiral, also called the inverse spiral, originated with Pierre Varignon in 1704 and was studied by Johann Bernoulli between 1710 and 1713, as well as by Cotes in 1722 (MacTutor Archive).
+A hyperbolic version of the Euclidean tetrahedron.
+It is a regular polytope with mutually perpendicular sides, and is therefore an orthotope.
+It is denoted γ_n and has Schläfli symbol {4, 3, 3_︸_(n - 2)}.
+The following table summarizes the names of n - dimensional hypercubes.
+The hyperfactorial is implemented in the Wolfram Language as Hyperfactorial[n].
+(k + a_p))/((k + b_1)(k + b_2)... 
+(k + b_q)(k + 1)) x.
+A function for which the integral can be computed is said to be integrable.
+In particular, he showed that if f(r) is a nonnegative function defined on all r element Z^+ and if there exist positive constants C and δ for which f(r)<Cr^(-δ) sqrt(r), r = 1, 2,..., then for almost all real numbers x element (0, 1) with associated regular continued fraction ξ = [0;b_1, b_2,...], lim_(n->∞) 1/n sum_(k = 1)^n f(b_k) = sum_(r = 1)^∞ f(r)/(ln2) ln(1 + 1/r(r + 2)).
+The set S consisting of all vectors X = [x_1 x_2 ⋮ x_n] in R^n such that a_1 x_1 + a_2 x_2 +... 
+In 1940, Fejes Tóth proved that the hexagonal lattice is the densest of all possible plane packings.
+Marsaglia has given a simple method for selecting points with a uniform distribution on the surface of a 4-sphere.
+This is accomplished by picking two pairs of points (x_1, x_2) and (x_3, x_4), rejecting any points for which x_1 ^ 2 + x_2 ^ 2 > = 1 and x_3 ^ 2 + x_4 ^ 2 > = 1.
+For instance, the n - dimension hypersphere S^n corresponds to the equation x_1 ^ 2 +... 
+To derive the equations of the hypocycloid, call the angle by which a point on the small circle rotates about its center ϑ, and the angle from the center of the large circle to that of the small circle ϕ. 
+Its multiplication table is illustrated above.
+The great rhombicosidodecahedron can be generated using the matrix representation of I_h using the basis vector (ϕ, 3, 2ϕ), where ϕ is the golden ratio.
+Examples illustrated above include the decagonal dipyramid, elongated triangular gyrobicupola (Johnson solid J_36), elongated triangular orthobicupola (J_35), gyroelongated triangular cupola (J_22), Jessen's orthogonal icosahedron, metabiaugmented dodecahedron (J_60), nonagonal antiprism, parabiaugmented dodecahedron (J_59), 18-gonal prism, 19-gonal pyramid, regular icosahedron, and rhombic icosahedron.
+After application of five restrictions known as Miller's rules to define which forms should be considered distinct, 59 stellations (including the original icosahedron itself) are possible.
+It is one of the two convex quasiregular polyhedra.
+It is also uniform polyhedron U_24 and Wenninger model W_12.
+It is implemented in the Wolfram Language as PolyhedronData[Icosidodecahedron].
+It is identical to the identity map.
+In the early 1950s, Ernst Straus asked 1.
+Is every region illuminable from every point in the region ? 2.
+The contour illusion above is sometimes known as the Ehrenstein illusion.
+Although Descartes originally used the term " imaginary number " to refer to what is today known as a complex number, in standard usage today, " imaginary number " means a complex number z that has zero real part (i.e., such that ℜ[z] = 0).
+For clarity, such numbers are perhaps best referred to as purely imaginary numbers.
+" Although there are two possible square roots of any number, the square roots of a negative number can not be distinguished until one of the two is defined as the imaginary unit, at which point + i and -i can then be distinguished.
+Since either choice is possible, there is no ambiguity in defining i as " the " square root of -1.
+A class of illusion in which an object which is physically unrealizable is apparently depicted.
+More than 100 papers have been written about impossible figures, and Escher made extensive use of them in some of his well - known drawings.
+Therefore, the special cases 1/1, 2/2, 3/3, etc.
+are generally considered to be improper.
+Improper integrals can not be computed using a normal Riemann integral.
+It is also the interior point for which distances to the sides of the triangle are equal.
+It has trilinear coordinates 1:1:1, i.e., triangle center function α_1 = 1, and homogeneous barycentric coordinates (a, b, c).
+It is Kimberling center X_1.
+It arises because IJ_1 J_2 J_3 forms an orthocentric system.
+It is therefore also the triangle whose vertices are determined by the intersections of the reference triangle's angle bisectors with the respective opposite sides.
+It is perspective to every anticevian triangle.
+However, some authors define the incidence matrix to be the transpose of this, with a column for each vertex and a row for each edge.
+The physicist Kirchhoff was the first to define the incidence matrix.
+The incidence matrix of a graph (using the first definition) can be computed in the Wolfram Language using IncidenceMatrix[g].
+Precomputed incidence matrices for a many named graphs are given in the Wolfram Language by GraphData[graph, IncidenceMatrix].
+While an incircle does not necessarily exist for arbitrary polygons, it exists and is moreover unique for triangles, regular polygons, and some other polygons including rhombi, bicentric polygons, and tangential quadrilaterals.
+The " complete " gamma function Γ(a) can be generalized to the incomplete gamma function Γ(a, x) such that Γ(a) = Γ(a, 0).
+A statistic which assigns a single number to several individual statistics in order to quantify trends.
+Let p_n be the price per unit in period n, q_n be the quantity produced in period n, and v_n congruent p_n q_n be the value of the n units.
+Let q_a be the estimated relative importance of a product.
+There are several types of indices defined, among them those listed in the following table.
+The first derivative test can sometimes distinguish inflection points from extrema for differentiable functions f(x).
+The branch of mathematics dealing with the efficient and accurate storage, transmission, and representation of information.
+More precisely, for a real vector space, an inner product 〈 ·, · 〉 satisfies the following four properties.
+It has circle function l = ((-a + b + c)^2[f(a, b, c) - 16g(a, b, c) rs])/(4bc[(a^2 + b^2 + c^2) - 2(ab + bc + ca) - 8rs]^4), where f(a, b, c) and g(a, b, c) are 8th - order and 16th - order polynomials, respectively.
+The radius of a polygon's incircle or of a polyhedron's insphere, denoted r or sometimes ρ. 
+A geometric figure which touches only the sides (or interior) of another figure.
+A riffle shuffle, in which the top half of the deck is placed in the left hand, and cards are then alternatively interleaved from the left and right hands.
+The set of integers is, not surprisingly, called Integers in the Wolfram Language, and a number x can be tested to see if it is a member of the integers using the command Element[x, Integers].
+auto right match The integer part function satisfies int(-x) = - int(x)
+In fact, according to Jeffreys and Jeffreys, " it appears that cases where these methods [i.e., generalizations of the Riemann integral] are applicable and Riemann's [definition of the integral] is not are too rare in physics to repay the extra difficulty.
+The process of computing or obtaining an integral.
+It is powerful enough to provide rigorous mathematical proofs, but rigor comes at a price.
+In particular, interval arithmetic can be slow, and often gives overly pessimistic results for real - world computations.
+It is also the Cevian triangle of ΔABC with respect to the Gergonne point Ge and the cyclocevian triangle with respect to the same point.
+The geometry resulting from the application of the inversion operation.
+It can be especially powerful for solving apparently difficult problems such as Steiner's porism and Apollonius' problem.
+Attach a string to a point on a curve.
+Extend the string so that it is tangent to the curve at the point of attachment.
+Then wind the string up, keeping it always taut.
+This process is illustrated above for a circle.
+The illusion shown above which was discovered by Helmholtz in the 19th century.
+Despite the fact that the two above figures are identical in size, the white hole looks bigger than the black one in this illusion.
+There is no standard notation for the set of irrational numbers, but the notations Q^ _, R - Q, or R\Q, where the bar, minus sign, or backslash indicates the set complement of the rational numbers Q over the reals R, could all be used.
+For example, in the complex plane, (4 + 7i)/(2 + i) = 3 + 2i is reducible, while (5 + 5i)/(7 + i) = 4/5 + 3i/5 is not.
+The figure above shows the irreducible fractions plotted in the complex plane.
+160).
+Similarly, in the finite field GF(2), x^2 + x + 1 is irreducible, but x^2 + 1 is not, since (x + 1)(x + 1) = x^2 + 2x + 1 congruent x^2 + 1 (mod 2).
+The trilinear coordinates of the isogonal conjugate of the point with coordinates α:β:γ are α^(-1) : β^(-1) : γ^(-1).
+The isohedra make fair dice, and there are 30 of them (including finite solids and infinite classes of solids).
+Note that while Itō's lemma was proved by Kiyoshi Itō (also spelled Itô), Itō's theorem is due to Noboru Itô.
+The Jacobi polynomials, also known as hypergeometric polynomials, occur in the study of rotation groups and in the solution to the equations of motion of the symmetric top.
+They are solutions to the Jacobi differential equation, and give some other special named polynomials as special cases.
+They are implemented in the Wolfram Language as JacobiP[n, a, b, z].
+p_k^(a_k).
+The first states that, for a fixed vector v = (v_1,..., v_m), the function |v| _ p = (sum_(i = 1)^m (|v_i|) ^p)^(1/p) is a decreasing function of p.
+The second states that if P(z) is a real polynomial not identically constant, then all nonreal zeros of P'(z) lie inside the Jensen disks determined by all pairs of conjugate nonreal zeros of P(z) (Walsh 1955, 1961 ; Householder 1970 ; Trott 2004, p. 
+22).
+There are 28 simple (i.e., can not be dissected into two other regular - faced polyhedra by a plane) regular - faced polyhedra in addition to the prisms and antiprisms, and Johnson proposed and Zalgaller proved that there exist exactly 92 Johnson solids in all.
+There are 28 simple (i.e., can not be dissected into two other regular - faced polyhedra by a plane) regular - faced polyhedra in addition to the prisms and antiprisms, and Johnson proposed and Zalgaller proved that there exist exactly 92 Johnson solids in all.
+Let three equal circles with centers J_A, J_B, and J_C intersect in a single point H and intersect pairwise in the points A, B, and C. 
+As a result, in each case, there is a fourth circle congruent to the original three and passing through the points of pairwise intersection.
+A complete proof can be found in Hatcher, or in classic texts such as Spanier.
+Recently, a proof checker was used by a Japanese - Polish team to create a " computer - checked " proof of the theorem.
+Given a group of n men arranged in a circle under the edict that every mth man will be executed going around the circle until only one remains, find the position L(n, m) in which you should stand in order to be the last survivor.
+The list giving the place in the execution sequence of the first, second, etc.
+man can be given by Josephus[n, m] in the Wolfram Language package Combinatorica ̀.
+For example, consider n = 4 men numbered 1 to 4 such that each second (m = 2) man is iteratively slaughtered, as illustrated above.
+There are two types of Julia sets : connected sets (Fatou set) and Cantor sets (Fatou dust).
+An optical illusion, illustrated above, in which the eye perceives a white upright equilateral triangle where none is actually drawn.
+R. 
+Kaprekar for 4-digit numbers, but which can be generalized to k - digit numbers.
+To apply the Kaprekar routine to a number n, arrange the digits in descending (n') and ascending (n'') order.
+Now compute K(n) congruent n' - n'' (discarding any initial 0s) and iterate, where K(n) is sometimes called the Kaprekar function.
+The algorithm reaches 0 (a degenerate case), a constant, or a cycle, depending on the number of digits in k and the value of n. 
+Exactly 60 3-digit numbers, namely 100, 101, 110, 111, 112, 121, 122, 211, 212, 221,... 
+Exactly 77 4-digit numbers, namely 1000, 1011, 1101, 1110, 1111, 1112, 1121, 1211,... 
+This pattern breaks down for 5-digit numbers, which may converge to 0 or one of the 10 constants 53955, 59994, 61974, 62964, 63954, 71973, 74943, 75933, 82962, 83952.
+b | possible cycles for d = 1, 2,...
+3 | 0, 0, (32, 52), 184, (320, 580, 484),...
+4 | 0, 30, { 201, (126, 138) }, (570, 765), { (2550),, },...
+5 | 8, (48, 72), 392, (1992, 2616, 2856, 2232), (7488, 10712, 9992, 13736, 11432),...
+6 | 0, 105, (430, 890, 920, 675, 860, 705), { 5600, (4305, 5180) }, { (27195), (33860), (42925), (16840, 42745, 35510) },...
+7 | 0, (144, 192), (1068, 1752, 1836), (9936, 15072, 13680, 13008, 10608), (55500, 89112, 91800, 72012, 91212, 77388),...
+9 | (16, 48), (320, 400), { (2256, 5312, 3856), (3712, 5168, 5456) }, { 41520, (34960, 40080, 55360, 49520, 42240) },...
+10 | 0, 495, 6174, { (53955, 59994), (61974, 82962, 75933, 63954), (62964, 71973, 83952, 74943) },...
+The figure above (similar to that appearing on the cover of the above issue of The Mathematics Teacher) shows the number of steps required for the Kaprekar routine to reach a fixed point for values of n = 0 to 9999, partitioned into rows of length 100.
+ It is possible to perform multiplication of large numbers in (many) fewer operations than the usual brute - force technique of " long multiplication.
+" As discovered by Karatsuba, multiplication of two n - digit numbers can be done with a bit complexity of less than n^2 using identities of the form (a + b·10^n)(c + d·10^n) = ac + [(a + b)(c + d) - ac - bd]10^n + bd·10^(2n).
+In combinatorial logic minimization, a device known as a Karnaugh map is frequently used.
+It is similar to a truth table, but the various variables are represented along two axes and are arranged in such a way that only one input bit changes in going from one square to an adjacent square.
+It is also known as a Veitch diagram, K - map, or KV - map.
+Contains v, and 2.
+Contains only vertices that are colored with elements from (C_1, C_2) (Gethner and Springer 2003).
+The illustration above shows a number of graphs that tangle the chains in Kempe's algorithm and thus provides an example of how Kempe's supposed proof of the four - color theorem fails.
+It is a Tucker circle with parameter ϕ = π/4.
+Its center is the Kenmotu point X_371, and it has radius R_K | = | R(sinω)/(sin(ω + 1/4 π))| = | (sqrt(2) Rsinω)/(cosω + sinω)| = | (sqrt(2) abc)/(4Δ + (a^2 + b^2 + c^2)),
+They are composed of regular concave polygons and were unknown to the ancients.
+It was proposed to explain the rapid rise and fall in the number of infected patients observed in epidemics such as the plague (London 1665 - 1666, Bombay 1906) and cholera.
+It assumes that the population size is fixed (i.e., no births, deaths due to disease, or deaths by natural causes), incubation period of the infectious agent is instantaneous, and duration of infectivity is same as length of the disease.
+It also assumes a completely homogeneous population with no age, spatial, or social structure.
+b_n)^(1/n).
+Khinchin proved that for almost all x element R, lim_(n->∞) G_n(x) = K where K is a constant independent of n or x. 
+It is unknown currently whether Khinchin's constant K is irrational or transcendental, though to 50 decimal places, K can be computed to equal K = 2.6854520010653064453097148354817956938203822939945....
+Moreover, while it is known that nearly every real number has a regular continued fraction, the geometric mean of whose partial quotients approach K asymptotically, no such x element R has been exhibited ; on the other hand, several significant real numbers have been shown to have regular continued fractions which do not approach K, among which are x = e, x = sqrt(2), x = sqrt(3), and x = ϕ, where ϕ denotes the golden ratio.
+The regular continued fraction of K starts out K = [2;1, 2, 5, 1, 1, 2, 1, 1,...].
+Khinchin's derivation of the above - mentioned result is actually a corollary deduced from the proof of a much stronger result.
+From this more general statement, Khinchin's constant can be derived by defining f(r) = lnr, whereby the above equation can be rewritten as lim_(n->∞) (b_1·b_2... 
+b_n)^(1/n) = product_(r = 1)^∞ (1 + 1/r(r + 2))^(lnr / ln2), where the infinite product converges to K almost everywhere.
+As Khinchin himself notes, the phrasing of the original result is general enough to allow for an entire slew of interesting results concerning probability densities related to continued fraction element distribution, etc.
+(though he also notes that no analogue to the geometric mean result can be formulated for the arithmetic mean).
+ A Kirkman triple system of order v = 6n + 3 is a Steiner triple system with parallelism, i.e., one with the following additional stipulation : the set of b = (2n + 1)(3n + 1) triples is partitioned into 3n + 1 components such that each component is a (2n + 1)-subset of triples and each of the v elements appears exactly once in each component.
+Solution to Kirkman's schoolgirl problem requires construction of a Kirkman triple system of order n = 2.
+It is so named because the shape of the lower portion resembles that of a Hershey's Chocolate Kiss.
+It can be constructed by gluing both pairs of opposite edges of a rectangle together giving one pair a half - twist, but can be physically realized only in four dimensions, since it must pass through itself without the presence of a hole.
+Its topology is equivalent to a pair of cross - caps with coinciding boundaries.
+It can be represented by connecting the side of a square in the orientations illustrated in the right figure above (Gardner 1984, pp.
+323 - 324).
+It can be cut in half along its length to make two Möbius strips, but can also be cut into a single Möbius strip.
+A fractal derived from the Koch snowflake.
+The base curve and motif for the fractal are illustrated below.
+A fractal, also known as the Koch island, which was first described by Helge von Koch in 1904.
+It is built by starting with an equilateral triangle, removing the inner third of each side, building another equilateral triangle at the location where the side was removed, and then repeating the process indefinitely.
+The zeroth through third iterations of the construction are shown above.
+The fractal can also be constructed using a base curve and motif, illustrated above.
+The point was so named by Rigby, and is the isogonal conjugate of the nine - point center.
+The lines joining the vertices A, B, and C of a given triangle ΔABC with the circumcenters of the triangles ΔBCO, ΔCAO, and ΔABO (where O is the circumcenter of ΔABC), respectively, are concurrent.
+An algorithm for finding a graph's spanning tree of minimum length.
+It sorts the edges of a graph in order of increasing cost and then repeatedly adds edges that bridge separate components until the graph is fully connected.
+By negating the weights for each edge, the algorithm can also be used to find a maximum spanning tree.
+For example, there are (3 2) = 3 2-subsets of { 1, 2, 3 }, namely { 1, 2 }, { 1, 3 }, and { 2, 3}.
+It consists of 16 equilateral triangles and 32 15 ° -15 ° -150 ° isosceles triangles arranged in the shape of a dodecagon.
+The composition of Kürschák's tile is motivated by drawing inward - pointing equilateral triangles on each side of a unit square and then connecting adjacent vertices to form a smaller square rotated 45 ° with respect to the original square.
+A tree with its nodes labeled.
+Cayley provided the first proof of the number of labeled trees, and a constructive proof was subsequently provided by Prüfer.
+Lagrange multipliers, also called Lagrangian multipliers, can be used to find the extrema of a multivariate function f(x_1, x_2,..., x_n) subject to the constraint g(x_1, x_2,..., x_n) = 0, where f and g are functions with continuous first partial derivatives on the open set containing the curve g(x_1, x_2,..., x_n) = 0, and del g!=0 at any point on the curve (where del is the gradient).
+They are illustrated above for x element [0, 1] and n = 1, 2,..., 5, and implemented in the Wolfram Language as LaguerreL[n, x].
+A formal logic developed by Alonzo Church and Stephen Kleene to address the computable number problem.
+Lambda - reduction (also called lambda conversion) refers to all three.
+It had probability density function and cumulative distribution functions given by P(x) | = | 1/(2b) e^(- |x - μ| /b) D(x) | = | 1/2[1 + sgn(x - μ)(1 - e^(- |x - μ| /b))].
+It is implemented in the Wolfram Language as LaplaceDistribution[mu, beta].
+Note that the operator del ^2 is commonly written as Δ by mathematicians.
+Note that the operator del ^2 is commonly written as Δ by mathematicians.
+A wide variety of large numbers crop up in mathematics.
+Some are contrived, but some actually arise in proofs.
+Often, it is possible to prove existence theorems by deriving some potentially huge upper limit which is frequently greatly reduced in subsequent versions (e.g., Graham's number, Kolmogorov - Arnold - Moser theorem, Mertens conjecture, Skewes number, Wang's conjecture).
+The latitude δ is related to the colatitude (the polar angle in spherical coordinates) by δ = 90 ° - ϕ. 
+Note that this type of lattice is distinct from the regular array of points known as a point lattice (or informally as a mesh or grid).
+Lattices offer a natural way to formalize and study the ordering of objects using a general concept known as the partially ordered set.
+In this approach, a lattice is first constructed, sized to fit the numbers being multiplied.
+The multiplicand is placed along the top of the lattice so that each digit is the header for one column of cells (the most significant digit is put at the left).
+The multiplier is placed along the right side of the lattice so that each digit is a (trailing) header for one row of cells (the most significant digit is put at the top).
+Illustrated above is the lattice configuration for computing 948×827.
+A path composed of connected horizontal and vertical line segments, each passing between adjacent lattice points.
+The sum of the squares of the offsets is used instead of the offset absolute values because this allows the residuals to be treated as a continuous differentiable quantity.
+The sum of the squares of the offsets is used instead of the offset absolute values because this allows the residuals to be treated as a continuous differentiable quantity.
+However, because squares of the offsets are used, outlying points can have a disproportionate effect on the fit, a property which may or may not be desirable depending on the problem at hand.
+It uses a Lebesgue sum S_n = sum_i η_i μ(E_i) where η_i is the value of the function in subinterval i, and μ(E_i) is the Lebesgue measure of the set E_i of points for which values are approximately η_i.
+This type of integral covers a wider class of functions than does the Riemann integral.
+Given a closed set S' congruent [a, b] - sum_k(a_k, b_k), μ_L(S') congruent (b - a) - sum_k(b_k - a_k).
+A 24-dimensional Euclidean lattice.
+Stabilization of the one- and two - dimensional sublattices leads to the Conway groups Co_2 and Co_3, the Higman - Sims group HS and the McLaughlin group McL.
+The Legendre polynomials P_n(x) are illustrated above for x element [-1, 1] and n = 1, 2,..., 5.
+They are implemented in the Wolfram Language as LegendreP[n, x].
+Legendre's formula counts the number of positive integers less than or equal to a number x which are not divisible by any of the first a primes, ϕ(x, a) = ⌊x⌋ - sum⌊x / p_i⌋ + sum⌊x/(p_i p_j)⌋ - sum⌊x/(p_i p_j p_k)⌋ +..., where ⌊x⌋ is the floor function.
+The definition is sometimes generalized to have value 0 if p|a, (a / p) = (a|p) congruent { 0 | if p|a 1 | if a is a quadratic residue modulo p -1 | if a is a quadratic nonresidue modulo p. 
+auto right match
+Also known as the alternating series test.
+This gives the Cartesian equation [(x - c)^2 + y^2][(x + c)^2 + y^2] = c^4, where both sides of the equation have been squared.
+Many sums of reciprocal powers can be expressed in terms of it.
+Often, it is possible to prove existence theorems by deriving some potentially huge upper limit which is frequently greatly reduced in subsequent versions (e.g., Graham's number, Kolmogorov - Arnold - Moser theorem, Mertens conjecture, Skewes number, Wang's conjecture).
+Lattices offer a natural way to formalize and study the ordering of objects using a general concept known as the partially ordered set.
+anding and simplifying then gives (x^2 + y^2)^2 = 2c^2(x^2 - y^2).
+(x - d/2)^2 + y^2<=a^2 and (d/2 + x)^2 + y^2<=a^2
+It is classically defined by Φ(z, s, a) congruent sum_(k = 0)^∞ z^k/(a + k)^s, for |z| < 1 and a!=0, -1,.... 
+It is implemented in this form as HurwitzLerchPhi[z, s, a] in the Wolfram Language.
+A level set in two dimensions are 0, 0, 0, 1, 2, 2, 2, 2, 4, 2, 3, 3, 3, 4, 4,... 
+It was first investigated by Dürer, who gave a method for drawing it in Underweysung der Messung.
+It was rediscovered by Étienne Pascal, father of Blaise Pascal, and named by Gilles - Personne Roberval in 1650 (MacTutor Archive).
+A sequence x_1, x_2,... 
+Several example fractals generated using Lindenmayer systems are illustrated above.
+A sum of the elements from some set with constant coefficients placed in front of each.
+It is always the case that T(0) = 0.
+Also, a linear transformation always maps lines to lines (or to zero).
+The equation of the lines of curvature can be written |g_11 | g_12 | g_22 b_11 | b_12 | b_22 du^2 | -dudv | dv^2| = 0, where g and b are the coefficients of the first and second fundamental forms.
+A closed interval corresponding to a finite portion of an infinite line.
+There are several different definition of link.
+Like knots, links can be decomposed into basic units known as prime links.
+are 1, -1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1,... 
+Liouville constructed an infinite class of transcendental numbers using continued fractions, but the above number was the first decimal constant to be proven transcendental.
+It can be expressed parametrically as x | = | rcosθ = acosθe^(bθ) y | = | rsinθ = asinθe^(bθ).
+The formal mathematical study of the methods, structure, and validity of mathematical deduction and proof.
+The difficulty of formal logic was demonstrated in the monumental Principia Mathematica of Whitehead and Russell's, in which hundreds of pages of symbols were required before the statement 1 + 1 = 2 could be deduced.
+The difficulty of formal logic was demonstrated in the monumental Principia Mathematica of Whitehead and Russell's, in which hundreds of pages of symbols were required before the statement 1 + 1 = 2 could be deduced.
+250).
+Replacing the logistic equation (dx)/(dt) = rx(1 - x) with the quadratic recurrence equation x_(n + 1) = rx_n(1 - x_n),
+The example above shows how the division of 123456/17 is performed to obtain the result 7262.11....
+The azimuthal coordinate on the surface of a sphere (θ in spherical coordinates) or on a spheroid (in prolate or oblate spheroidal coordinates).
+It can be used on two numbers of arbitrarily large size or number of decimal digits.
+The numbers to be multiplied are placed vertically over one another with their least significant digits aligned.
+For example, we can multiply 384×56.
+The Lorenz curve is used in economics and ecology to describe inequality in wealth or size.
+Given a sample of n ordered individuals with x_i^, the size of individual i and x_1^, < x_2^, <... 
+< x_n^,, then the sample Lorenz curve is the polygon joining the points (h / n, L_h / L_n), where h = 0, 1, 2,... 
+n, L_0 = 0, and L_h = sum_(i = 1)^h x_i^,.
+A path, also known as a rhumb line, which cuts a meridian on a given surface at any constant angle but a right angle.
+It is a straight line on a Mercator projection or a logarithmic spiral on a polar projection.
+Consider a reference triangle ΔABC and externally inscribe a square on the side BC.
+Now join the new vertices S_(AB) and S_(AC) of this square with the vertex A, marking the points of intersection Q_(A, BC) and Q_(A, CB).
+These points cross the sides AB and AC at Q_(AB) and Q_(AC), respectively, resulting in an inscribed square Q_(A, BC) Q_(A, CB) Q_(AB) Q_(AC).
+are 1, 3, 4, 7, 11, 18, 29, 47, 76, 123,... 
+" The first is the lucky numbers of Euler.
+The second is obtained by writing out all odd numbers : 1, 3, 5, 7, 9, 11, 13, 15, 17, 19,.... 
+The first odd number > 1 is 3, so strike out every third number from the list : 1, 3, 7, 9, 13, 15, 19,.... 
+The first odd number greater than 3 in the list is 7, so strike out every seventh number : 1, 3, 7, 9, 13, 15, 21, 25, 31,....
+There are a whole class of Machin - like formulas with various numbers of terms (although only four such formulas with only two terms).
+The Maclaurin series of a function f(x) up to order n may be found using Series[f, { x, 0, n }].
+The nth term of a Maclaurin series of a function f can be computed in the Wolfram Language using SeriesCoefficient[f, { x, 0, n }] and is given by the inverse Z - transform a_n = Z^(-1)[1/x](n).
+The positions and radii of the Malfatti circles can be found by labeling sides and distances as illustrated above.
+The length of the projection of the line connecting circles Γ_1 and Γ_2 onto side AB can be found from the diagram at right to be d_12 | = | sqrt((r_1 + r_2)^2 - (r_2 - r_1)^2)| = | 2sqrt(r_1 r_2).
+exp(Λ(n))
+In other words, it is a periodic trajectory which comes back to the same point after n iterations of the cycle.
+ A general formula giving the number of distinct ways of folding an m×n rectangular map is not known.
+k | Sloane | k×1, k×2,...
+1 | A000136 | 1, 2, 6, 16, 50, 144, 462, 1392,...
+2 | A001415 | 2, 8, 60, 320, 1980, 10512,...
+by 1, 8, 1368, 300608, 186086600,... 
+A projection which maps a sphere (or spheroid) onto a plane.
+Early compilers of classification schemes include Tissot, Close, and Lee.
+Then P(x) = R(x) - C(x), and the marginal profit for the x_0th unit is defined by P'(x_0) = R'(x_0) - C'(x_0), where P'(x), R'(x), and C'(x) are the derivatives of P(x), R(x), and C(x), respectively.
+A random process whose future probabilities are determined by its most recent values.
+< t_n, we have P(x(t_n)<=x_n |x(t_(n - 1)),..., x(t_1)) = P(x(t_n)<=x_n |x(t_(n - 1))).
+This is equivalent to P(x(t_n)<=x_n |x(t) for all t<=t_(n - 1)) = P(x(t_n)<=x_n |x(t_(n - 1))).
+A sequence of random variates X_0, X_1,....
+The term was first used to describe a type of wagering in which the bet is doubled or halved after a loss or win, respectively.
+A geometric construction done with a movable compass alone.
+Without loss of generality, take AB = 1.
+It may have been inspired by moo, a program developed by J. M. Grochow at MIT in the late 1960s.
+It is not possible for a matching on a graph with n nodes to exceed n/2 edges.
+The five Mathieu groups M_11, M_12, M_22, M_23, and M_24 were the first sporadic groups discovered, having been found in 1861 and 1873 by Mathieu.
+Courant and Hilbert use the notation A^ˇ to denote the inverse matrix.
+A_︸_n.
+The largest value of a set, function, etc.
+For example, given the set { 3, 5, 4, 1 }, the sorted version is { 1, 3, 4, 5 }, so the maximum is 5.
+A deconvolution algorithm (sometimes abbreviated MEM) which functions by minimizing a smoothness function (" entropy ") in an image.
+The back of a clay accounting tablet from Pylos, Greece is illustrated above.
+Legend has it that it was the plan for the labyrinth housing the minotaur in the palace at Knossos, Crete, and that it was designed by Daedalus.
+It is also said that it was a logo for the city of Troy - or perhaps the plan of some of its walls.
+There are several statistical quantities called means, e.g., harmonic mean, geometric mean, arithmetic - geometric mean, and root - mean - square.
+When applied to two elements a and b with 0<a<=b, these means satisfy H(a, b)<=G(a, b)<=AGM(a, b)<=A(a, b)<=RMS(a, b).
+The following table summarizes these means (again applied to two elements a and b with 0<a<=b), where K(k) is a complete elliptic integral of the first kind.
+Then there is at least one point c in (a, b) such that f'(c) = (f(b) - f(a))/(b - a).
+It generalizes the intuitive notions of length, area, and volume.
+The earliest and most important examples are Jordan measure and Lebesgue measure, but other examples are Borel measure, probability measure, complex measure, and Haar measure.
+The triangle ΔM_A M_B M_C formed by joining the midpoints of the sides of a triangle ΔABC.
+It is also the cyclocevian triangle of the orthocenter H.
+The Wolfram Language function Median[list] can be used to find the statistical median of the elements in a list.
+This can be generalized to n - gons P = [V_1,..., V_n], where a transversal cuts the side V_i V_(i + 1) in W_i for i = 1,..., n, by product_(i = 1)^n[(V_i W_i)/(W_i V_(i + 1))] = (-1)^n.

@@ -1,0 +1,23 @@
+This is the corpus consisting of 2185 sentences from workshop papers
+of ACL conference in year 2000. All the word tokens in the sentence are 
+annotated with one of the following tags {TERM (Definiendum), DEF (Definiens), O (Out)}
+Author: Yiping Jin
+Contact: yiping@comp.nus.edu.sg
+
+The preprocessing steps are carried out using opensource NLP toolkits including NLTK,
+OpenNLP and Stanford Dependency Parser. The user can choose to do the preprocessing 
+by themselves or use the files included in this folder. 
+Below is a description of the files in the corpus. 
+
+annotated.word			The original sentence from the papers. One sentence per line.
+annotated.pos			The Part-of-Speech tags of the sentences. One sentence per line. (NLTK)
+annotated.chunk			The shallow parsing tags of the sentences. One sentence per line. (OpenNLP)
+annotated.parse			The shallow parsing sequence of the sentences. One sentence per line. (OpenNLP)
+						Note: the difference between this file and annotated.chunk is in this 
+						file the chunks are collapsed and some signal words are kept in their original form. 
+annotated.tag			The manual annotation of the words in the sentences. One sentence per line.
+annotated.ne			The named entity tags of the sentences. One sentence per line. (NLTK)
+annotated.dependency	The dependencies within the sentence. The sentences are delimited by empty line. (Stanford Dependency Parser)
+annotated.meta			The meta data following the following format
+						is_definition $ section_name $ section_id $ sentence_id $ sentence_id_in_section
+						Type: (0|1) $ String $ Int $ Int $ Int
