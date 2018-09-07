@@ -7,8 +7,8 @@ import logging
 import spacy
 from stanfordcorenlp import StanfordCoreNLP
 # TODO delete after tests
-from src.word2vec_module import MyWord2vec
-from src.loggerModule import LoggerClass
+word2vec_module import MyWord2vec
+loggerModule import LoggerClass
 
 # logger for DataModule
 module_logger = logging.getLogger('auto_de.DataModule')
