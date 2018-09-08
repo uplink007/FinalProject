@@ -563,11 +563,19 @@ class DataClass(object):
         word2vec = None
         gc.collect()
         try:
+            if self.preprocess['depth'] == 'ml':
+                self.preprocess['X_wordpairs'] = None
+            elif self.preprocess['depth'] == 'm':
+                self.preprocess['X_deps'] = None
+            elif self.preprocess['depth'] == '':
+                self.preprocess['X_deps'] = None
+                self.preprocess['X_wordpairs'] = None
+            gc.collect()
             if self.preprocess['X'].__class__ is not np.array([]).__class__:
                 self.preprocess['X'] = np.array(self.preprocess['X'])
-            if self.preprocess['X_wordpairs'].__class__ is not np.array([]).__class__:
+            if self.preprocess['X_wordpairs'].__class__ is not np.array([]).__class__ and self.preprocess['depth'] == 'm':
                 self.preprocess['X_wordpairs'] = np.array(self.preprocess['X_wordpairs'])
-            if self.preprocess['X_deps'].__class__ is not np.array([]).__class__:
+            if self.preprocess['X_deps'].__class__ is not np.array([]).__class__ and self.preprocess['depth'] == 'ml':
                 self.preprocess['X_deps'] = np.array(self.preprocess['X_deps'])
         except MemoryError:
             pdb.set_trace()
