@@ -59,7 +59,7 @@ class Model(object):
     #             print('{0} Sent: '.format(idx), sent, ' -> ', preds)
 
 
-if __name__ == "__main__":
+def run_module():
     word2vec = MyWord2vec()
     data_wcl = DataClass("wcl", depth="ml")
     data_wcl.getMaxLength(save_stats=True)
@@ -81,5 +81,8 @@ if __name__ == "__main__":
     model_w00.train("wcl", "cblstm", test_size=0.33)
     model_wolfram.train("wcl", "cblstm", test_size=0.33)
     model_all.train("wcl", "cblstm", test_size=0.33)
-    pass
+
+
+if __name__ == "__main__":
+    run_module()
 
