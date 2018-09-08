@@ -574,13 +574,6 @@ class DataClass(object):
         X_deps_address = id(self.preprocess['X_deps'])
         print("X_deps reference count: ", PyObject.from_address(X_deps_address).refcnt)
         try:
-            if self.preprocess['depth'] == 'ml':
-                del self.preprocess['X_wordpairs']
-            elif self.preprocess['depth'] == 'm':
-                del self.preprocess['X_deps']
-            elif self.preprocess['depth'] == '':
-                del self.preprocess['X_deps']
-                del self.preprocess['X_wordpairs']
             self.logger.critical('2 Garbage Collector: Collected amount {0}'.format(gc.collect()))
             if self.preprocess['X'].__class__ is not np.array([]).__class__:
                 self.preprocess['X'] = np.array(self.preprocess['X'])
@@ -588,6 +581,13 @@ class DataClass(object):
                 self.preprocess['X_wordpairs'] = np.array(self.preprocess['X_wordpairs'])
             if self.preprocess['X_deps'].__class__ is not np.array([]).__class__ and self.preprocess['depth'] == 'ml':
                 self.preprocess['X_deps'] = np.array(self.preprocess['X_deps'])
+            if self.preprocess['depth'] == 'ml':
+                del self.preprocess['X_wordpairs']
+            elif self.preprocess['depth'] == 'm':
+                del self.preprocess['X_deps']
+            elif self.preprocess['depth'] == '':
+                del self.preprocess['X_deps']
+                del self.preprocess['X_wordpairs']
         except MemoryError:
             pdb.set_trace()
             pass
