@@ -562,21 +562,23 @@ class DataClass(object):
             except AttributeError:
                 np.concatenate([self.preprocess['X_deps'], [labs]])
         nlp.close()
-        print("Nlp reference count: ", PyObject.from_address(nlp).refcnt)
+        nlp_address = id(nlp)
+        print("Nlp reference count: ", PyObject.from_address(nlp_address).refcnt)
         del nlp
-        print("word2vec reference count: ", PyObject.from_address(word2vec).refcnt)
+        word2vec_address = id(word2vec)
+        print("word2vec reference count: ", PyObject.from_address(word2vec_address).refcnt)
         del word2vec
         self.logger.critical('1 Garbage Collector: Collected amount {0}'.format(gc.collect()))
+        X_wordpairs_address = id(self.preprocess['X_wordpairs'])
+        print("X_wordpairs reference count: ", PyObject.from_address(X_wordpairs_address).refcnt)
+        X_deps_address = id(self.preprocess['X_deps'])
+        print("X_deps reference count: ", PyObject.from_address(X_deps_address).refcnt)
         try:
             if self.preprocess['depth'] == 'ml':
-                print("X_wordpairs reference count: ", PyObject.from_address(self.preprocess['X_wordpairs']).refcnt)
                 del self.preprocess['X_wordpairs']
             elif self.preprocess['depth'] == 'm':
-                print("X_deps reference count: ", PyObject.from_address(self.preprocess['X_deps']).refcnt)
                 del self.preprocess['X_deps']
             elif self.preprocess['depth'] == '':
-                print("X_deps reference count: ", PyObject.from_address(self.preprocess['X_deps']).refcnt)
-                print("X_wordpairs reference count: ", PyObject.from_address(self.preprocess['X_wordpairs']).refcnt)
                 del self.preprocess['X_deps']
                 del self.preprocess['X_wordpairs']
             self.logger.critical('2 Garbage Collector: Collected amount {0}'.format(gc.collect()))
@@ -589,7 +591,8 @@ class DataClass(object):
         except MemoryError:
             pdb.set_trace()
             pass
-        print("instances reference count: ", PyObject.from_address(self.instances).refcnt)
+        instancess_address = id(self.instances)
+        print("instances reference count: ", PyObject.from_address(instancess_address).refcnt)
         del self.instances
         self.logger.critical('3 Garbage Collector: Collected amount {0}'.format(gc.collect()))
         self.__set_depth(self.preprocess['depth'])
