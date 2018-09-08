@@ -563,11 +563,13 @@ class DataClass(object):
                 np.concatenate([self.preprocess['X_deps'], [labs]])
         nlp.close()
         nlp_address = id(nlp)
-        print("Nlp reference count: ", PyObject.from_address(nlp_address).refcnt)
+        print("Nlp reference count before: ", PyObject.from_address(nlp_address).refcnt)
         del nlp
+        print("Nlp reference count after: ", PyObject.from_address(nlp_address).refcnt)
         word2vec_address = id(word2vec)
-        print("word2vec reference count: ", PyObject.from_address(word2vec_address).refcnt)
+        print("word2vec reference count before: ", PyObject.from_address(word2vec_address).refcnt)
         del word2vec
+        print("word2vec reference count after: ", PyObject.from_address(word2vec_address).refcnt)
         self.logger.critical('1 Garbage Collector: Collected amount {0}'.format(gc.collect()))
         X_wordpairs_address = id(self.preprocess['X_wordpairs'])
         print("X_wordpairs reference count: ", PyObject.from_address(X_wordpairs_address).refcnt)
