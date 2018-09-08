@@ -1,6 +1,4 @@
 import logging
-import configparser
-import sys
 
 
 class LoggerClass(object):

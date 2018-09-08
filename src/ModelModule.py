@@ -61,31 +61,31 @@ class Model(object):
 
 def run_module():
     word2vec = MyWord2vec()
-    data_wcl = DataClass("wcl", depth="ml")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
-    model_wcl.train("wcl", "cblstm", test_size=0.33)
-    data_wcl = None
-    model_wcl = None
-    import gc
-    gc.collect()
-    data_w00 = DataClass("w00", depth="ml")
-    data_w00.getMaxLength(save_stats=True)
-    data_w00.preprocessing_data(word2vec)
-    model_w00 = Model(data_w00)
-    model_w00.train("w00", "cblstm", test_size=0.33)
-    data_w00 = None
-    model_w00 = None
-    gc.collect()
-    data_wolfram = DataClass("wolfram", depth="ml")
-    data_wolfram.getMaxLength(save_stats=True)
-    data_wolfram.preprocessing_data(word2vec)
-    model_wolfram = Model(data_wolfram)
-    model_wolfram.train("wolfram", "cblstm", test_size=0.33)
-    data_wolfram = None
-    model_wolfram = None
-    gc.collect()
+    # data_wcl = DataClass("wcl", depth="ml")
+    # data_wcl.getMaxLength(save_stats=True)
+    # data_wcl.preprocessing_data(word2vec)
+    # model_wcl = Model(data_wcl)
+    # model_wcl.train("wcl", "cblstm", test_size=0.33)
+    # data_wcl = None
+    # model_wcl = None
+    # import gc
+    # gc.collect()
+    # data_w00 = DataClass("w00", depth="ml")
+    # data_w00.getMaxLength(save_stats=True)
+    # data_w00.preprocessing_data(word2vec)
+    # model_w00 = Model(data_w00)
+    # model_w00.train("w00", "cblstm", test_size=0.33)
+    # data_w00 = None
+    # model_w00 = None
+    # gc.collect()
+    # data_wolfram = DataClass("wolfram", depth="ml")
+    # data_wolfram.getMaxLength(save_stats=True)
+    # data_wolfram.preprocessing_data(word2vec)
+    # model_wolfram = Model(data_wolfram)
+    # model_wolfram.train("wolfram", "cblstm", test_size=0.33)
+    # data_wolfram = None
+    # model_wolfram = None
+    #gc.collect()
     data_all = DataClass("", depth="ml")
     data_all.getMaxLength(save_stats=True)
     data_all.preprocessing_data(word2vec)
