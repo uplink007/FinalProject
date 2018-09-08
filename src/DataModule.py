@@ -9,7 +9,7 @@ from stanfordcorenlp import StanfordCoreNLP
 # TODO delete after tests
 from word2vec_module import MyWord2vec
 from loggerModule import LoggerClass
-
+import pdb
 # logger for DataModule
 module_logger = logging.getLogger('auto_de.DataModule')
 DATA_MODULE_CONFIG_SECTION = "DataModule"
@@ -327,7 +327,7 @@ class DataClass(object):
         try:
             [res.update({k['dependent']: k['dep']}) for k in json_object['sentences'][0]['basicDependencies']]
         except IndexError:
-            pass
+            raise IndexError
         for idx, k in enumerate(json_object['sentences'][0]['basicDependencies'][1:]):
             result[idx] = {'parent_word': json_object['sentences'][0]['basicDependencies'][1:][idx]['governorGloss'],
                            'parent_dep': res[json_object['sentences'][0]['basicDependencies'][1:][idx]['governor']],
@@ -508,7 +508,11 @@ class DataClass(object):
             if idx % 10 == 0:
                 self.logger.critical('Pairs done {0} of  {1}'.format(idx, len(self.instances)))
             object_json_data = json.loads(nlp.annotate(sent, properties={'annotators': 'depparse', 'outputFormat': 'json'}))
-            tokens = self.get_pair_words(object_json_data)
+            try:
+                tokens = self.get_pair_words(object_json_data)
+            except IndexError:
+                pdb.set_trace()
+                pass
             word_pairs = []
             dep_pairs = []
             for idx2, tok in tokens.items():
