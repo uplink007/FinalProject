@@ -1,4 +1,5 @@
 import configparser
+import ctypes
 import json
 import os
 import pickle
@@ -14,6 +15,10 @@ import pdb
 # logger for DataModule
 module_logger = logging.getLogger('auto_de.DataModule')
 DATA_MODULE_CONFIG_SECTION = "DataModule"
+
+
+class PyObject(ctypes.Structure):
+    _fields_ = [("refcnt", ctypes.c_long)]
 
 
 class DataClass(object):
@@ -557,17 +562,23 @@ class DataClass(object):
             except AttributeError:
                 np.concatenate([self.preprocess['X_deps'], [labs]])
         nlp.close()
-        nlp = None
-        word2vec = None
+        print("Nlp reference count: ", PyObject.from_address(nlp).refcnt)
+        del nlp
+        print("word2vec reference count: ", PyObject.from_address(word2vec).refcnt)
+        del word2vec
         self.logger.critical('1 Garbage Collector: Collected amount {0}'.format(gc.collect()))
         try:
             if self.preprocess['depth'] == 'ml':
-                self.preprocess['X_wordpairs'] = None
+                print("X_wordpairs reference count: ", PyObject.from_address(self.preprocess['X_wordpairs']).refcnt)
+                del self.preprocess['X_wordpairs']
             elif self.preprocess['depth'] == 'm':
-                self.preprocess['X_deps'] = None
+                print("X_deps reference count: ", PyObject.from_address(self.preprocess['X_deps']).refcnt)
+                del self.preprocess['X_deps']
             elif self.preprocess['depth'] == '':
-                self.preprocess['X_deps'] = None
-                self.preprocess['X_wordpairs'] = None
+                print("X_deps reference count: ", PyObject.from_address(self.preprocess['X_deps']).refcnt)
+                print("X_wordpairs reference count: ", PyObject.from_address(self.preprocess['X_wordpairs']).refcnt)
+                del self.preprocess['X_deps']
+                del self.preprocess['X_wordpairs']
             self.logger.critical('2 Garbage Collector: Collected amount {0}'.format(gc.collect()))
             if self.preprocess['X'].__class__ is not np.array([]).__class__:
                 self.preprocess['X'] = np.array(self.preprocess['X'])
@@ -578,7 +589,8 @@ class DataClass(object):
         except MemoryError:
             pdb.set_trace()
             pass
-        self.instances = None
+        print("instances reference count: ", PyObject.from_address(self.instances).refcnt)
+        del self.instances
         self.logger.critical('3 Garbage Collector: Collected amount {0}'.format(gc.collect()))
         self.__set_depth(self.preprocess['depth'])
         self.preprocessed = True
