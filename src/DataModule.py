@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 import logging
 import spacy
+import gc
 from stanfordcorenlp import StanfordCoreNLP
 # TODO delete after tests
 from word2vec_module import MyWord2vec
@@ -406,6 +407,7 @@ class DataClass(object):
         self.preprocess["deps2ids"] = deps2ids
         self.preprocess["ids2deps"] = ids2deps
         nlp.close()
+        nlp = None
         if save_stats:
             self.save_stats(self.name)
         self.logger.critical('Maxlen = {0}'.format(self.preprocess["maxlen"]))
@@ -556,11 +558,14 @@ class DataClass(object):
                 self.preprocess['X_deps'].append(labs)
             except AttributeError:
                 np.concatenate([self.preprocess['X_deps'], [labs]])
+        nlp.close()
+        nlp = None
+        word2vec = None
+        gc.collect()
         self.preprocess['X'] = np.array(self.preprocess['X'])
         self.preprocess['X_wordpairs'] = np.array(self.preprocess['X_wordpairs'])
         self.preprocess['X_deps'] = np.array(self.preprocess['X_deps'])
         self.__set_depth(self.preprocess['depth'])
-        nlp.close()
         self.preprocessed = True
         self.logger.critical("Data prepossess succeeded ")
 
