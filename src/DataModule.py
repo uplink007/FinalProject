@@ -324,7 +324,10 @@ class DataClass(object):
         """
         result = {}
         res = {}
-        [res.update({k['dependent']: k['dep']}) for k in json_object['sentences'][0]['basicDependencies']]
+        try:
+            [res.update({k['dependent']: k['dep']}) for k in json_object['sentences'][0]['basicDependencies']]
+        except IndexError:
+            pass
         for idx, k in enumerate(json_object['sentences'][0]['basicDependencies'][1:]):
             result[idx] = {'parent_word': json_object['sentences'][0]['basicDependencies'][1:][idx]['governorGloss'],
                            'parent_dep': res[json_object['sentences'][0]['basicDependencies'][1:][idx]['governor']],
