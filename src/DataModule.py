@@ -562,9 +562,16 @@ class DataClass(object):
         nlp = None
         word2vec = None
         gc.collect()
-        self.preprocess['X'] = np.array(self.preprocess['X'])
-        self.preprocess['X_wordpairs'] = np.array(self.preprocess['X_wordpairs'])
-        self.preprocess['X_deps'] = np.array(self.preprocess['X_deps'])
+        try:
+            if self.preprocess['X'].__class__ is not np.array([]).__class__:
+                self.preprocess['X'] = np.array(self.preprocess['X'])
+            if self.preprocess['X_wordpairs'].__class__ is not np.array([]).__class__:
+                self.preprocess['X_wordpairs'] = np.array(self.preprocess['X_wordpairs'])
+            if self.preprocess['X_deps'].__class__ is not np.array([]).__class__:
+                self.preprocess['X_deps'] = np.array(self.preprocess['X_deps'])
+        except MemoryError:
+            pdb.set_trace()
+            pass
         self.__set_depth(self.preprocess['depth'])
         self.preprocessed = True
         self.logger.critical("Data prepossess succeeded ")
