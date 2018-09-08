@@ -343,18 +343,16 @@ class DataClass(object):
         """
         try:
             if depth == 'ml':
-                X_enriched = np.concatenate([self.preprocess["X"], self.preprocess["X_deps"]], axis=1)
+                self.preprocess['X'] = np.concatenate([self.preprocess["X"], self.preprocess["X_deps"]], axis=1)
                 self.logger.critical("Setting depth ml")
             elif depth == 'm':
-                X_enriched = np.concatenate([self.preprocess["X"], self.preprocess['X_wordpairs']], axis=1)
+                self.preprocess['X'] = np.concatenate([self.preprocess["X"], self.preprocess['X_wordpairs']], axis=1)
                 self.logger.info("Setting depth m")
             else:
-                X_enriched = self.preprocess["X"]
                 self.logger.info("Setting no depth")
         except Exception:
             self.logger.error("Setting depth failed")
             raise
-        self.preprocess['X'] = X_enriched
 
     def __init_preprocess(self, depth):
         self.preprocess = dict()
@@ -561,7 +559,7 @@ class DataClass(object):
         nlp.close()
         nlp = None
         word2vec = None
-        gc.collect()
+        self.logger.critical('1 Garbage Collector: Collected amount {0}'.format(gc.collect()))
         try:
             if self.preprocess['depth'] == 'ml':
                 self.preprocess['X_wordpairs'] = None
@@ -570,7 +568,7 @@ class DataClass(object):
             elif self.preprocess['depth'] == '':
                 self.preprocess['X_deps'] = None
                 self.preprocess['X_wordpairs'] = None
-            gc.collect()
+            self.logger.critical('2 Garbage Collector: Collected amount {0}'.format(gc.collect()))
             if self.preprocess['X'].__class__ is not np.array([]).__class__:
                 self.preprocess['X'] = np.array(self.preprocess['X'])
             if self.preprocess['X_wordpairs'].__class__ is not np.array([]).__class__ and self.preprocess['depth'] == 'm':
@@ -580,6 +578,8 @@ class DataClass(object):
         except MemoryError:
             pdb.set_trace()
             pass
+        self.instances = None
+        self.logger.critical('3 Garbage Collector: Collected amount {0}'.format(gc.collect()))
         self.__set_depth(self.preprocess['depth'])
         self.preprocessed = True
         self.logger.critical("Data prepossess succeeded ")
