@@ -65,7 +65,7 @@ class Model(object):
             scores['Precision'] += p
             scores['Recall'] += r
             scores['F1'] += f1
-        sys.stdout = open('{0}_scores.txt'.format(model_name), 'wt')
+        sys.stdout = open('../logs/{0}_scores.txt'.format(model_name), 'wt')
         print('Overall scores for model {0}:'.format(model_name))
         for n, sc in scores.items():
             print(n, '-> ', sc / n_splits * 1.0)
