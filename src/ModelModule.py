@@ -55,7 +55,7 @@ class Model(object):
             self.nnmodel.build_model(x[train], y[train], model_type)
             # nnmodel.fit(X_wcl_enriched[train],y_wcl[train],epochs=epochs,batch_size=100)
             print('Predicting...')
-            preds = np.array([i[0] for i in nnmodel.predict_classes(x[test])])
+            preds = np.array([i[0] for i in self.nnmodel.model.predict_classes(x[test])])
             p = precision(preds, y[test])
             r = recall(preds, y[test])
             f1 = f1_score(preds, y[test])
