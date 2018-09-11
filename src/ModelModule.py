@@ -11,6 +11,8 @@ from sklearn.metrics import f1_score
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
+import gc
+import sys
 from keras.models import load_model
 
 
@@ -63,7 +65,7 @@ class Model(object):
             scores['Precision'] += p
             scores['Recall'] += r
             scores['F1'] += f1
-
+        sys.stdout = open('{0}_scores.txt'.format(model_name), 'wt')
         print('Overall scores for model {0}:'.format(model_name))
         for n, sc in scores.items():
             print(n, '-> ', sc / n_splits * 1.0)
@@ -93,17 +95,13 @@ class Model(object):
 
 def run_module():
     word2vec = MyWord2vec()
+    # wcl
     data_wcl = DataClass("wcl", depth="ml")
     data_wcl.getMaxLength(save_stats=True)
     data_wcl.preprocessing_data(word2vec)
     model_wcl = Model(data_wcl)
     model_wcl.train("wcl_cblstm_ml", "cblstm", test_size=0.33)
     model_wcl.train_10_avg_score("wcl_cblstm_ml", "cblstm")
-
-    data_wcl = DataClass("wcl", depth="ml")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
     model_wcl.train("wcl_cnn_ml", "cnn", test_size=0.33)
     model_wcl.train_10_avg_score("wcl_cnn_ml", "cnn")
 
@@ -113,11 +111,6 @@ def run_module():
     model_wcl = Model(data_wcl)
     model_wcl.train("wcl_cblstm_m", "cblstm", test_size=0.33)
     model_wcl.train_10_avg_score("wcl_cblstm_m", "cblstm")
-
-    data_wcl = DataClass("wcl", depth="m")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
     model_wcl.train("wcl_cnn_m", "cnn", test_size=0.33)
     model_wcl.train_10_avg_score("wcl_cnn_m", "cnn")
 
@@ -127,40 +120,104 @@ def run_module():
     model_wcl = Model(data_wcl)
     model_wcl.train("wcl_cblstm", "cblstm", test_size=0.33)
     model_wcl.train_10_avg_score("wcl_cblstm", "cblstm")
-
-    data_wcl = DataClass("wcl", depth="")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
     model_wcl.train("wcl_cnn", "cnn", test_size=0.33)
     model_wcl.train_10_avg_score("wcl_cnn", "cnn")
+    del data_wcl
+    del model_wcl
+    gc.collect()
+    
+    #w00
+    data_w00 = DataClass("w00", depth="ml")
+    data_w00.getMaxLength(save_stats=True)
+    data_w00.preprocessing_data(word2vec)
+    model_w00 = Model(data_w00)
+    model_w00.train("w00_cblstm_ml", "cblstm", test_size=0.33)
+    model_w00.train_10_avg_score("w00_cblstm_ml", "cblstm")
+    model_w00.train("w00_cnn_ml", "cnn", test_size=0.33)
+    model_w00.train_10_avg_score("w00_cnn_ml", "cnn")
 
+    data_w00 = DataClass("w00", depth="m")
+    data_w00.getMaxLength(save_stats=True)
+    data_w00.preprocessing_data(word2vec)
+    model_w00 = Model(data_w00)
+    model_w00.train("w00_cblstm_m", "cblstm", test_size=0.33)
+    model_w00.train_10_avg_score("w00_cblstm_m", "cblstm")
+    model_w00.train("w00_cnn_m", "cnn", test_size=0.33)
+    model_w00.train_10_avg_score("w00_cnn_m", "cnn")
 
-    # data_wcl = None
-    # model_wcl = None
-    # import gc
-    # gc.collect()
-    # data_w00 = DataClass("w00", depth="ml")
-    # data_w00.getMaxLength(save_stats=True)
-    # data_w00.preprocessing_data(word2vec)
-    # model_w00 = Model(data_w00)
-    # model_w00.train("w00", "cblstm", test_size=0.33)
-    # data_w00 = None
-    # model_w00 = None
-    # gc.collect()
-    # data_wolfram = DataClass("wolfram", depth="ml")
-    # data_wolfram.getMaxLength(save_stats=True)
-    # data_wolfram.preprocessing_data(word2vec)
-    # model_wolfram = Model(data_wolfram)
-    # model_wolfram.train("wolfram", "cblstm", test_size=0.33)
-    # data_wolfram = None
-    # model_wolfram = None
-    #gc.collect()
-    # data_all = DataClass("", depth="ml")
-    # data_all.getMaxLength(save_stats=True)
-    # data_all.preprocessing_data(word2vec)
-    # model_all = Model(data_all)
-    # model_all.train("all", "cblstm", test_size=0.33)
+    data_w00 = DataClass("w00", depth="")
+    data_w00.getMaxLength(save_stats=True)
+    data_w00.preprocessing_data(word2vec)
+    model_w00 = Model(data_w00)
+    model_w00.train("w00_cblstm", "cblstm", test_size=0.33)
+    model_w00.train_10_avg_score("w00_cblstm", "cblstm")
+    model_w00.train("w00_cnn", "cnn", test_size=0.33)
+    model_w00.train_10_avg_score("w00_cnn", "cnn")
+    del data_w00
+    del model_w00
+    gc.collect()
+    
+    # wolfram
+    data_wolfram = DataClass("wolfram", depth="ml")
+    data_wolfram.getMaxLength(save_stats=True)
+    data_wolfram.preprocessing_data(word2vec)
+    model_wolfram = Model(data_wolfram)
+    model_wolfram.train("wolfram_cblstm_ml", "cblstm", test_size=0.33)
+    model_wolfram.train_10_avg_score("wolfram_cblstm_ml", "cblstm")
+    model_wolfram.train("wolfram_cnn_ml", "cnn", test_size=0.33)
+    model_wolfram.train_10_avg_score("wolfram_cnn_ml", "cnn")
+
+    data_wolfram = DataClass("wolfram", depth="m")
+    data_wolfram.getMaxLength(save_stats=True)
+    data_wolfram.preprocessing_data(word2vec)
+    model_wolfram = Model(data_wolfram)
+    model_wolfram.train("wolfram_cblstm_m", "cblstm", test_size=0.33)
+    model_wolfram.train_10_avg_score("wolfram_cblstm_m", "cblstm")
+    model_wolfram.train("wolfram_cnn_m", "cnn", test_size=0.33)
+    model_wolfram.train_10_avg_score("wolfram_cnn_m", "cnn")
+
+    data_wolfram = DataClass("wolfram", depth="")
+    data_wolfram.getMaxLength(save_stats=True)
+    data_wolfram.preprocessing_data(word2vec)
+    model_wolfram = Model(data_wolfram)
+    model_wolfram.train("wolfram_cblstm", "cblstm", test_size=0.33)
+    model_wolfram.train_10_avg_score("wolfram_cblstm", "cblstm")
+    model_wolfram.train("wolfram_cnn", "cnn", test_size=0.33)
+    model_wolfram.train_10_avg_score("wolfram_cnn", "cnn")
+    del data_wolfram
+    del model_wolfram
+    gc.collect()
+    
+    # all
+    data_all = DataClass("", depth="ml")
+    data_all.getMaxLength(save_stats=True)
+    data_all.preprocessing_data(word2vec)
+    model_all = Model(data_all)
+    model_all.train("all_cblstm_ml", "cblstm", test_size=0.33)
+    model_all.train_10_avg_score("all_cblstm_ml", "cblstm")
+    model_all.train("all_cnn_ml", "cnn", test_size=0.33)
+    model_all.train_10_avg_score("all_cnn_ml", "cnn")
+
+    data_all = DataClass("", depth="m")
+    data_all.getMaxLength(save_stats=True)
+    data_all.preprocessing_data(word2vec)
+    model_all = Model(data_all)
+    model_all.train("all_cblstm_m", "cblstm", test_size=0.33)
+    model_all.train_10_avg_score("all_cblstm_m", "cblstm")
+    model_all.train("all_cnn_m", "cnn", test_size=0.33)
+    model_all.train_10_avg_score("all_cnn_m", "cnn")
+
+    data_all = DataClass("", depth="")
+    data_all.getMaxLength(save_stats=True)
+    data_all.preprocessing_data(word2vec)
+    model_all = Model(data_all)
+    model_all.train("all_cblstm", "cblstm", test_size=0.33)
+    model_all.train_10_avg_score("all_cblstm", "cblstm")
+    model_all.train("all_cnn", "cnn", test_size=0.33)
+    model_all.train_10_avg_score("all_cnn", "cnn")
+    del data_all
+    del model_all
+    gc.collect()
 
 
 if __name__ == "__main__":
