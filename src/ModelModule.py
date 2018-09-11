@@ -4,6 +4,11 @@ from DataModule import DataClass
 from word2vec_module import MyWord2vec
 from loggerModule import LoggerClass
 import numpy as np
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import precision_score as precision
+from sklearn.metrics import recall_score as recall
+from sklearn.metrics import f1_score
+from collections import defaultdict
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from keras.models import load_model
@@ -35,6 +40,33 @@ class Model(object):
         print(classification_report(y_test, predicts))
         self.logger.logger.critical("Classification Report: \n{0}".format(classification_report(y_test, predicts)))
         self.nnmodel.model.save("../model/{0}.model".format(model_name))
+        self.logger.logger.critical("10 trainings average score START")
+
+    def train_10_avg_score(self, model_name, model_type,  **kwargs):
+        self.logger.logger.critical("10 trainings of {0} average score START".format(model_name))
+        x, y = shuffle(self.data.preprocess["X"], self.data.labels, random_state=0)
+        seed = 7
+        n_splits = 10
+        kfold = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
+
+        scores = defaultdict(int)
+        for train, test in kfold.split(x, y):
+            self.nnmodel = DLClass(kwargs=kwargs)
+            self.nnmodel.build_model(x[train], y[train], model_type)
+            # nnmodel.fit(X_wcl_enriched[train],y_wcl[train],epochs=epochs,batch_size=100)
+            print('Predicting...')
+            preds = np.array([i[0] for i in nnmodel.predict_classes(x[test])])
+            p = precision(preds, y[test])
+            r = recall(preds, y[test])
+            f1 = f1_score(preds, y[test])
+            print('(Fold) Precision: ', p, ' | Recall: ', r, ' | F: ', f1)
+            scores['Precision'] += p
+            scores['Recall'] += r
+            scores['F1'] += f1
+
+        print('Overall scores for model {0}:'.format(model_name))
+        for n, sc in scores.items():
+            print(n, '-> ', sc / n_splits * 1.0)
 
     # def predict(self, model_name, data_type=None, my_list=None, threshold=0.8):
     #     """
@@ -61,11 +93,49 @@ class Model(object):
 
 def run_module():
     word2vec = MyWord2vec()
-    # data_wcl = DataClass("wcl", depth="ml")
-    # data_wcl.getMaxLength(save_stats=True)
-    # data_wcl.preprocessing_data(word2vec)
-    # model_wcl = Model(data_wcl)
-    # model_wcl.train("wcl", "cblstm", test_size=0.33)
+    data_wcl = DataClass("wcl", depth="ml")
+    data_wcl.getMaxLength(save_stats=True)
+    data_wcl.preprocessing_data(word2vec)
+    model_wcl = Model(data_wcl)
+    model_wcl.train("wcl_cblstm_ml", "cblstm", test_size=0.33)
+    model_wcl.train_10_avg_score("wcl_cblstm_ml", "cblstm")
+
+    data_wcl = DataClass("wcl", depth="ml")
+    data_wcl.getMaxLength(save_stats=True)
+    data_wcl.preprocessing_data(word2vec)
+    model_wcl = Model(data_wcl)
+    model_wcl.train("wcl_cnn_ml", "cnn", test_size=0.33)
+    model_wcl.train_10_avg_score("wcl_cnn_ml", "cnn")
+
+    data_wcl = DataClass("wcl", depth="m")
+    data_wcl.getMaxLength(save_stats=True)
+    data_wcl.preprocessing_data(word2vec)
+    model_wcl = Model(data_wcl)
+    model_wcl.train("wcl_cblstm_m", "cblstm", test_size=0.33)
+    model_wcl.train_10_avg_score("wcl_cblstm_m", "cblstm")
+
+    data_wcl = DataClass("wcl", depth="m")
+    data_wcl.getMaxLength(save_stats=True)
+    data_wcl.preprocessing_data(word2vec)
+    model_wcl = Model(data_wcl)
+    model_wcl.train("wcl_cnn_m", "cnn", test_size=0.33)
+    model_wcl.train_10_avg_score("wcl_cnn_m", "cnn")
+
+    data_wcl = DataClass("wcl", depth="")
+    data_wcl.getMaxLength(save_stats=True)
+    data_wcl.preprocessing_data(word2vec)
+    model_wcl = Model(data_wcl)
+    model_wcl.train("wcl_cblstm", "cblstm", test_size=0.33)
+    model_wcl.train_10_avg_score("wcl_cblstm", "cblstm")
+
+    data_wcl = DataClass("wcl", depth="")
+    data_wcl.getMaxLength(save_stats=True)
+    data_wcl.preprocessing_data(word2vec)
+    model_wcl = Model(data_wcl)
+    model_wcl.train("wcl_cnn", "cnn", test_size=0.33)
+    model_wcl.train_10_avg_score("wcl_cnn", "cnn")
+
+
     # data_wcl = None
     # model_wcl = None
     # import gc
@@ -86,11 +156,11 @@ def run_module():
     # data_wolfram = None
     # model_wolfram = None
     #gc.collect()
-    data_all = DataClass("", depth="ml")
-    data_all.getMaxLength(save_stats=True)
-    data_all.preprocessing_data(word2vec)
-    model_all = Model(data_all)
-    model_all.train("all", "cblstm", test_size=0.33)
+    # data_all = DataClass("", depth="ml")
+    # data_all.getMaxLength(save_stats=True)
+    # data_all.preprocessing_data(word2vec)
+    # model_all = Model(data_all)
+    # model_all.train("all", "cblstm", test_size=0.33)
 
 
 if __name__ == "__main__":
