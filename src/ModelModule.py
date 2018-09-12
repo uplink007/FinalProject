@@ -123,84 +123,10 @@ class Model(object):
 def run_module():
     word2vec = MyWord2vec()
 
-    # w00_cblstm -> wcl ml
-    data_w00_wcl = DataClass("wcl", depth="ml", model_name='w00')
-    data_w00_wcl.preprocessing_data(word2vec, model=True)
-    model_w00_wcl = Model(data_w00_wcl)
-    model_w00_wcl.predict_on_others('w00_cblstm_ml', 'wcl')
-    # w00_cnn -> wcl ml
-    model_w00_wcl.predict_on_others('w00_cnn_ml', 'wcl')
-
-    # w00_cblstm -> wcl m
-    data_w00_wcl = DataClass("wcl", depth="m", model_name='w00')
-    data_w00_wcl.preprocessing_data(word2vec, model=True)
-    model_w00_wcl = Model(data_w00_wcl)
-    model_w00_wcl.predict_on_others('w00_cblstm_m', 'wcl')
-    # w00_cnn -> wcl ml
-    model_w00_wcl.predict_on_others('w00_cnn_m', 'wcl')
-
-    # w00_cblstm -> wcl
-    data_w00_wcl = DataClass("wcl", depth="", model_name='w00')
-    data_w00_wcl.preprocessing_data(word2vec, model=True)
-    model_w00_wcl = Model(data_w00_wcl)
-    model_w00_wcl.predict_on_others('w00_cblstm', 'wcl')
-    # w00_cnn -> wcl ml
-    model_w00_wcl.predict_on_others('w00_cnn', 'wcl')
-
-    del data_w00_wcl
-    del model_w00_wcl
-    gc.collect()
-
-    # wolfram_cblstm -> wcl ml
-    data_wolfram_wcl = DataClass("wcl", depth="ml", model_name='wolfram')
-    data_wolfram_wcl.preprocessing_data(word2vec, model=True)
-    model_wolfram_wcl = Model(data_wolfram_wcl)
-    model_wolfram_wcl.predict_on_others('wolfram_cblstm_ml', 'wcl')
-    # wolfram_cnn -> wcl ml
-    model_wolfram_wcl.predict_on_others('wolfram_cnn_ml', 'wcl')
-
-    # wolfram_cblstm -> wcl m
-    data_wolfram_wcl = DataClass("wcl", depth="m", model_name='wolfram')
-    data_wolfram_wcl.preprocessing_data(word2vec, model=True)
-    model_wolfram_wcl = Model(data_wolfram_wcl)
-    model_wolfram_wcl.predict_on_others('wolfram_cblstm_m', 'wcl')
-    # wolfram_cnn -> wcl ml
-    model_wolfram_wcl.predict_on_others('wolfram_cnn_m', 'wcl')
-
-    # wolfram_cblstm -> wcl
-    data_wolfram_wcl = DataClass("wcl", depth="", model_name='wolfram')
-    data_wolfram_wcl.preprocessing_data(word2vec, model=True)
-    model_wolfram_wcl = Model(data_wolfram_wcl)
-    model_wolfram_wcl.predict_on_others('wolfram_cblstm', 'wcl')
-    # wolfram_cnn -> wcl ml
-    model_wolfram_wcl.predict_on_others('wolfram_cnn', 'wcl')
-
-    del data_wolfram_wcl
-    del model_wolfram_wcl
-    gc.collect()
-
-    # w00_cblstm -> wolfram ml
-    data_w00_wolfram = DataClass("wolfram", depth="ml", model_name='w00')
-    data_w00_wolfram.preprocessing_data(word2vec, model=True)
-    model_w00_wolfram = Model(data_w00_wolfram)
-    model_w00_wolfram.predict_on_others('w00_cblstm_ml', 'wolfram')
-    # w00_cnn -> wolfram ml
-    model_w00_wolfram.predict_on_others('w00_cnn_ml', 'wolfram')
-
-    # w00_cblstm -> wolfram m
-    data_w00_wolfram = DataClass("wolfram", depth="m", model_name='w00')
-    data_w00_wolfram.preprocessing_data(word2vec, model=True)
-    model_w00_wolfram = Model(data_w00_wolfram)
-    model_w00_wolfram.predict_on_others('w00_cblstm_m', 'wolfram')
-    # w00_cnn -> wolfram ml
-    model_w00_wolfram.predict_on_others('w00_cnn_m', 'wolfram')
-
     # w00_cblstm -> wolfram
     data_w00_wolfram = DataClass("wolfram", depth="", model_name='w00')
     data_w00_wolfram.preprocessing_data(word2vec, model=True)
     model_w00_wolfram = Model(data_w00_wolfram)
-    model_w00_wolfram.predict_on_others('w00_cblstm', 'wolfram')
-    # w00_cnn -> wolfram ml
     model_w00_wolfram.predict_on_others('w00_cnn', 'wolfram')
 
     del data_w00_wolfram
