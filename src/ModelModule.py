@@ -125,7 +125,7 @@ def run_module():
 
     # w00_cblstm -> wcl ml
     data_w00_wcl = DataClass("wcl", depth="ml", model_name='w00')
-    data_w00_wcl.preprocessing_data(word2vec)
+    data_w00_wcl.preprocessing_data(word2vec, model=True)
     model_w00_wcl = Model(data_w00_wcl)
     model_w00_wcl.predict_on_others('w00_cblstm_ml', 'wcl')
     # w00_cnn -> wcl ml
@@ -133,7 +133,7 @@ def run_module():
 
     # w00_cblstm -> wcl m
     data_w00_wcl = DataClass("wcl", depth="m", model_name='w00')
-    data_w00_wcl.preprocessing_data(word2vec)
+    data_w00_wcl.preprocessing_data(word2vec, model=True)
     model_w00_wcl = Model(data_w00_wcl)
     model_w00_wcl.predict_on_others('w00_cblstm_m', 'wcl')
     # w00_cnn -> wcl ml
@@ -141,7 +141,7 @@ def run_module():
 
     # w00_cblstm -> wcl
     data_w00_wcl = DataClass("wcl", depth="", model_name='w00')
-    data_w00_wcl.preprocessing_data(word2vec)
+    data_w00_wcl.preprocessing_data(word2vec, model=True)
     model_w00_wcl = Model(data_w00_wcl)
     model_w00_wcl.predict_on_others('w00_cblstm', 'wcl')
     # w00_cnn -> wcl ml
@@ -153,7 +153,7 @@ def run_module():
 
     # wolfram_cblstm -> wcl ml
     data_wolfram_wcl = DataClass("wcl", depth="ml", model_name='wolfram')
-    data_wolfram_wcl.preprocessing_data(word2vec)
+    data_wolfram_wcl.preprocessing_data(word2vec, model=True)
     model_wolfram_wcl = Model(data_wolfram_wcl)
     model_wolfram_wcl.predict_on_others('wolfram_cblstm_ml', 'wcl')
     # wolfram_cnn -> wcl ml
@@ -161,7 +161,7 @@ def run_module():
 
     # wolfram_cblstm -> wcl m
     data_wolfram_wcl = DataClass("wcl", depth="m", model_name='wolfram')
-    data_wolfram_wcl.preprocessing_data(word2vec)
+    data_wolfram_wcl.preprocessing_data(word2vec, model=True)
     model_wolfram_wcl = Model(data_wolfram_wcl)
     model_wolfram_wcl.predict_on_others('wolfram_cblstm_m', 'wcl')
     # wolfram_cnn -> wcl ml
@@ -169,7 +169,7 @@ def run_module():
 
     # wolfram_cblstm -> wcl
     data_wolfram_wcl = DataClass("wcl", depth="", model_name='wolfram')
-    data_wolfram_wcl.preprocessing_data(word2vec)
+    data_wolfram_wcl.preprocessing_data(word2vec, model=True)
     model_wolfram_wcl = Model(data_wolfram_wcl)
     model_wolfram_wcl.predict_on_others('wolfram_cblstm', 'wcl')
     # wolfram_cnn -> wcl ml
@@ -181,7 +181,7 @@ def run_module():
 
     # w00_cblstm -> wolfram ml
     data_w00_wolfram = DataClass("wolfram", depth="ml", model_name='w00')
-    data_w00_wolfram.preprocessing_data(word2vec)
+    data_w00_wolfram.preprocessing_data(word2vec, model=True)
     model_w00_wolfram = Model(data_w00_wolfram)
     model_w00_wolfram.predict_on_others('w00_cblstm_ml', 'wolfram')
     # w00_cnn -> wolfram ml
@@ -189,7 +189,7 @@ def run_module():
 
     # w00_cblstm -> wolfram m
     data_w00_wolfram = DataClass("wolfram", depth="m", model_name='w00')
-    data_w00_wolfram.preprocessing_data(word2vec)
+    data_w00_wolfram.preprocessing_data(word2vec, model=True)
     model_w00_wolfram = Model(data_w00_wolfram)
     model_w00_wolfram.predict_on_others('w00_cblstm_m', 'wolfram')
     # w00_cnn -> wolfram ml
@@ -197,7 +197,7 @@ def run_module():
 
     # w00_cblstm -> wolfram
     data_w00_wolfram = DataClass("wolfram", depth="", model_name='w00')
-    data_w00_wolfram.preprocessing_data(word2vec)
+    data_w00_wolfram.preprocessing_data(word2vec, model=True)
     model_w00_wolfram = Model(data_w00_wolfram)
     model_w00_wolfram.predict_on_others('w00_cblstm', 'wolfram')
     # w00_cnn -> wolfram ml
@@ -209,7 +209,7 @@ def run_module():
 
     # wcl_cblstm -> wolfram ml
     data_wcl_wolfram = DataClass("wolfram", depth="ml", model_name='wcl')
-    data_wcl_wolfram.preprocessing_data(word2vec)
+    data_wcl_wolfram.preprocessing_data(word2vec, model=True)
     model_wcl_wolfram = Model(data_wcl_wolfram)
     model_wcl_wolfram.predict_on_others('wcl_cblstm_ml', 'wolfram')
     # wcl_cnn -> wolfram ml
@@ -217,7 +217,7 @@ def run_module():
 
     # wcl_cblstm -> wolfram m
     data_wcl_wolfram = DataClass("wolfram", depth="m", model_name='wcl')
-    data_wcl_wolfram.preprocessing_data(word2vec)
+    data_wcl_wolfram.preprocessing_data(word2vec, model=True)
     model_wcl_wolfram = Model(data_wcl_wolfram)
     model_wcl_wolfram.predict_on_others('wcl_cblstm_m', 'wolfram')
     # wcl_cnn -> wolfram ml
@@ -225,7 +225,7 @@ def run_module():
 
     # wcl_cblstm -> wolfram
     data_wcl_wolfram = DataClass("wolfram", depth="", model_name='wcl')
-    data_wcl_wolfram.preprocessing_data(word2vec)
+    data_wcl_wolfram.preprocessing_data(word2vec, model=True)
     model_wcl_wolfram = Model(data_wcl_wolfram)
     model_wcl_wolfram.predict_on_others('wcl_cblstm', 'wolfram')
     # wcl_cnn -> wolfram ml
@@ -237,7 +237,7 @@ def run_module():
 
     # wcl_cblstm -> w00 ml
     data_wcl_w00 = DataClass("w00", depth="ml", model_name='wcl')
-    data_wcl_w00.preprocessing_data(word2vec)
+    data_wcl_w00.preprocessing_data(word2vec, model=True)
     model_wcl_w00 = Model(data_wcl_w00)
     model_wcl_w00.predict_on_others('wcl_cblstm_ml', 'w00')
     # wcl_cnn -> w00 ml
@@ -245,7 +245,7 @@ def run_module():
 
     # wcl_cblstm -> w00 m
     data_wcl_w00 = DataClass("w00", depth="m", model_name='wcl')
-    data_wcl_w00.preprocessing_data(word2vec)
+    data_wcl_w00.preprocessing_data(word2vec, model=True)
     model_wcl_w00 = Model(data_wcl_w00)
     model_wcl_w00.predict_on_others('wcl_cblstm_m', 'w00')
     # wcl_cnn -> w00 ml
@@ -253,7 +253,7 @@ def run_module():
 
     # wcl_cblstm -> w00
     data_wcl_w00 = DataClass("w00", depth="", model_name='wcl')
-    data_wcl_w00.preprocessing_data(word2vec)
+    data_wcl_w00.preprocessing_data(word2vec, model=True)
     model_wcl_w00 = Model(data_wcl_w00)
     model_wcl_w00.predict_on_others('wcl_cblstm', 'w00')
     # wcl_cnn -> w00 ml
@@ -265,7 +265,7 @@ def run_module():
 
     # wolfram_cblstm -> w00 ml
     data_wolfram_w00 = DataClass("w00", depth="ml", model_name='wolfram')
-    data_wolfram_w00.preprocessing_data(word2vec)
+    data_wolfram_w00.preprocessing_data(word2vec, model=True)
     model_wolfram_w00 = Model(data_wolfram_w00)
     model_wolfram_w00.predict_on_others('wolfram_cblstm_ml', 'w00')
     # wolfram_cnn -> w00 ml
@@ -273,7 +273,7 @@ def run_module():
 
     # wolfram_cblstm -> w00 m
     data_wolfram_w00 = DataClass("w00", depth="m", model_name='wolfram')
-    data_wolfram_w00.preprocessing_data(word2vec)
+    data_wolfram_w00.preprocessing_data(word2vec, model=True)
     model_wolfram_w00 = Model(data_wolfram_w00)
     model_wolfram_w00.predict_on_others('wolfram_cblstm_m', 'w00')
     # wolfram_cnn -> w00 ml
@@ -281,7 +281,7 @@ def run_module():
 
     # wolfram_cblstm -> w00
     data_wolfram_w00 = DataClass("w00", depth="", model_name='wolfram')
-    data_wolfram_w00.preprocessing_data(word2vec)
+    data_wolfram_w00.preprocessing_data(word2vec, model=True)
     model_wolfram_w00 = Model(data_wolfram_w00)
     model_wolfram_w00.predict_on_others('wolfram_cblstm', 'w00')
     # wolfram_cnn -> w00 ml
