@@ -69,6 +69,7 @@ class Model(object):
         print('Overall scores for model {0}:'.format(model_name))
         for n, sc in scores.items():
             print(n, '-> ', sc / n_splits * 1.0)
+        sys.stdout = sys.__stdout__
 
     # def predict(self, model_name, data_type=None, my_list=None, threshold=0.8):
     #     """
