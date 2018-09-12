@@ -11,6 +11,7 @@ from sklearn.metrics import f1_score
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
+from keras.models import load_model
 import gc
 import sys
 from keras.models import load_model
@@ -27,6 +28,7 @@ class Model(object):
         if self.data.preprocessed is not True:
             raise ValueError
         self.nnmodel = None
+        self.preds = None
 
     def train(self, model_name, model_type, test_size=0.33, **kwargs):
         """
@@ -71,6 +73,30 @@ class Model(object):
             print(n, '-> ', sc / n_splits * 1.0)
         sys.stdout = sys.__stdout__
 
+    def predict_on_others(self, model_name, data_to_predict_name, labeled=True, threshold=0.5):
+        self.logger.logger.critical('Starting predicting with {0} data {1} with threshold {2} '
+                                    .format(model_name, data_to_predict_name, threshold))
+        if labeled:
+            x, y = shuffle(self.data.preprocess["X"], self.data.labels, random_state=0)
+        else:
+            x, y = self.data.preprocess['X'], self.data.labels
+        self.nnmodel = load_model('../model/{0}'.format(model_name))
+        self.preds = np.array([i[0] for i in self.nnmodel.predict_classes(x)])
+        sys.stdout = open('../logs/{0}_predicted_{1}.txt'.format(model_name,data_to_predict_name), 'wt')
+        if labeled:
+            print(classification_report(y, self.preds))
+        else:
+            for idx, prediction in enumerate(self.preds):
+                print(self.data.instances, '-->', prediction, '\n')
+                print('Threshold 0.7')
+                if prediction > threshold:
+                    print('---------DEFINITION---------')
+                else:
+                    print('-------NOT DEFINITION-------')
+        sys.stdout = sys.__stdout__
+
+
+
     # def predict(self, model_name, data_type=None, my_list=None, threshold=0.8):
     #     """
     #     take the data from my_list , create data object , preprocess it and predict with our model
@@ -96,106 +122,180 @@ class Model(object):
 
 def run_module():
     word2vec = MyWord2vec()
-    # wcl
-    data_wcl = DataClass("wcl", depth="ml")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
-    model_wcl.train("wcl_cblstm_ml", "cblstm", test_size=0.33)
-    model_wcl.train_10_avg_score("wcl_cblstm_ml", "cblstm")
-    model_wcl.train("wcl_cnn_ml", "cnn", test_size=0.33)
-    model_wcl.train_10_avg_score("wcl_cnn_ml", "cnn")
 
-    data_wcl = DataClass("wcl", depth="m")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
-    model_wcl.train("wcl_cblstm_m", "cblstm", test_size=0.33)
-    model_wcl.train_10_avg_score("wcl_cblstm_m", "cblstm")
-    model_wcl.train("wcl_cnn_m", "cnn", test_size=0.33)
-    model_wcl.train_10_avg_score("wcl_cnn_m", "cnn")
+    # w00_cblstm -> wcl ml
+    data_w00_wcl = DataClass("wcl", depth="ml", model_name='w00')
+    data_w00_wcl.preprocessing_data(word2vec)
+    model_w00_wcl = Model(data_w00_wcl)
+    model_w00_wcl.predict_on_others('w00_cblstm_ml', 'wcl')
+    # w00_cnn -> wcl ml
+    model_w00_wcl.predict_on_others('w00_cnn_ml', 'wcl')
 
-    data_wcl = DataClass("wcl", depth="")
-    data_wcl.getMaxLength(save_stats=True)
-    data_wcl.preprocessing_data(word2vec)
-    model_wcl = Model(data_wcl)
-    model_wcl.train("wcl_cblstm", "cblstm", test_size=0.33)
-    model_wcl.train_10_avg_score("wcl_cblstm", "cblstm")
-    model_wcl.train("wcl_cnn", "cnn", test_size=0.33)
-    model_wcl.train_10_avg_score("wcl_cnn", "cnn")
-    del data_wcl
-    del model_wcl
+    # w00_cblstm -> wcl m
+    data_w00_wcl = DataClass("wcl", depth="m", model_name='w00')
+    data_w00_wcl.preprocessing_data(word2vec)
+    model_w00_wcl = Model(data_w00_wcl)
+    model_w00_wcl.predict_on_others('w00_cblstm_m', 'wcl')
+    # w00_cnn -> wcl ml
+    model_w00_wcl.predict_on_others('w00_cnn_m', 'wcl')
+
+    # w00_cblstm -> wcl
+    data_w00_wcl = DataClass("wcl", depth="", model_name='w00')
+    data_w00_wcl.preprocessing_data(word2vec)
+    model_w00_wcl = Model(data_w00_wcl)
+    model_w00_wcl.predict_on_others('w00_cblstm', 'wcl')
+    # w00_cnn -> wcl ml
+    model_w00_wcl.predict_on_others('w00_cnn', 'wcl')
+
+    del data_w00_wcl
+    del model_w00_wcl
     gc.collect()
-    
-    #w00
-    data_w00 = DataClass("w00", depth="ml")
-    data_w00.getMaxLength(save_stats=True)
-    data_w00.preprocessing_data(word2vec)
-    model_w00 = Model(data_w00)
-    model_w00.train("w00_cblstm_ml", "cblstm", test_size=0.33)
-    model_w00.train_10_avg_score("w00_cblstm_ml", "cblstm")
-    model_w00.train("w00_cnn_ml", "cnn", test_size=0.33)
-    model_w00.train_10_avg_score("w00_cnn_ml", "cnn")
 
-    data_w00 = DataClass("w00", depth="m")
-    data_w00.getMaxLength(save_stats=True)
-    data_w00.preprocessing_data(word2vec)
-    model_w00 = Model(data_w00)
-    model_w00.train("w00_cblstm_m", "cblstm", test_size=0.33)
-    model_w00.train_10_avg_score("w00_cblstm_m", "cblstm")
-    model_w00.train("w00_cnn_m", "cnn", test_size=0.33)
-    model_w00.train_10_avg_score("w00_cnn_m", "cnn")
+    # wolfram_cblstm -> wcl ml
+    data_wolfram_wcl = DataClass("wcl", depth="ml", model_name='wolfram')
+    data_wolfram_wcl.preprocessing_data(word2vec)
+    model_wolfram_wcl = Model(data_wolfram_wcl)
+    model_wolfram_wcl.predict_on_others('wolfram_cblstm_ml', 'wcl')
+    # wolfram_cnn -> wcl ml
+    model_wolfram_wcl.predict_on_others('wolfram_cnn_ml', 'wcl')
 
-    data_w00 = DataClass("w00", depth="")
-    data_w00.getMaxLength(save_stats=True)
-    data_w00.preprocessing_data(word2vec)
-    model_w00 = Model(data_w00)
-    model_w00.train("w00_cblstm", "cblstm", test_size=0.33)
-    model_w00.train_10_avg_score("w00_cblstm", "cblstm")
-    model_w00.train("w00_cnn", "cnn", test_size=0.33)
-    model_w00.train_10_avg_score("w00_cnn", "cnn")
-    del data_w00
-    del model_w00
+    # wolfram_cblstm -> wcl m
+    data_wolfram_wcl = DataClass("wcl", depth="m", model_name='wolfram')
+    data_wolfram_wcl.preprocessing_data(word2vec)
+    model_wolfram_wcl = Model(data_wolfram_wcl)
+    model_wolfram_wcl.predict_on_others('wolfram_cblstm_m', 'wcl')
+    # wolfram_cnn -> wcl ml
+    model_wolfram_wcl.predict_on_others('wolfram_cnn_m', 'wcl')
+
+    # wolfram_cblstm -> wcl
+    data_wolfram_wcl = DataClass("wcl", depth="", model_name='wolfram')
+    data_wolfram_wcl.preprocessing_data(word2vec)
+    model_wolfram_wcl = Model(data_wolfram_wcl)
+    model_wolfram_wcl.predict_on_others('wolfram_cblstm', 'wcl')
+    # wolfram_cnn -> wcl ml
+    model_wolfram_wcl.predict_on_others('wolfram_cnn', 'wcl')
+
+    del data_wolfram_wcl
+    del model_wolfram_wcl
     gc.collect()
-    
-    # wolfram
-    data_wolfram = DataClass("wolfram", depth="ml")
-    data_wolfram.getMaxLength(save_stats=True)
-    data_wolfram.preprocessing_data(word2vec)
-    model_wolfram = Model(data_wolfram)
-    model_wolfram.train("wolfram_cblstm_ml", "cblstm", test_size=0.33)
-    model_wolfram.train_10_avg_score("wolfram_cblstm_ml", "cblstm")
-    model_wolfram.train("wolfram_cnn_ml", "cnn", test_size=0.33)
-    model_wolfram.train_10_avg_score("wolfram_cnn_ml", "cnn")
 
-    data_wolfram = DataClass("wolfram", depth="m")
-    data_wolfram.getMaxLength(save_stats=True)
-    data_wolfram.preprocessing_data(word2vec)
-    model_wolfram = Model(data_wolfram)
-    model_wolfram.train("wolfram_cblstm_m", "cblstm", test_size=0.33)
-    model_wolfram.train_10_avg_score("wolfram_cblstm_m", "cblstm")
-    model_wolfram.train("wolfram_cnn_m", "cnn", test_size=0.33)
-    model_wolfram.train_10_avg_score("wolfram_cnn_m", "cnn")
+    # w00_cblstm -> wolfram ml
+    data_w00_wolfram = DataClass("wolfram", depth="ml", model_name='w00')
+    data_w00_wolfram.preprocessing_data(word2vec)
+    model_w00_wolfram = Model(data_w00_wolfram)
+    model_w00_wolfram.predict_on_others('w00_cblstm_ml', 'wolfram')
+    # w00_cnn -> wolfram ml
+    model_w00_wolfram.predict_on_others('w00_cnn_ml', 'wolfram')
 
-    data_wolfram = DataClass("wolfram", depth="")
-    data_wolfram.getMaxLength(save_stats=True)
-    data_wolfram.preprocessing_data(word2vec)
-    model_wolfram = Model(data_wolfram)
-    model_wolfram.train("wolfram_cblstm", "cblstm", test_size=0.33)
-    model_wolfram.train_10_avg_score("wolfram_cblstm", "cblstm")
-    model_wolfram.train("wolfram_cnn", "cnn", test_size=0.33)
-    model_wolfram.train_10_avg_score("wolfram_cnn", "cnn")
-    del data_wolfram
-    del model_wolfram
+    # w00_cblstm -> wolfram m
+    data_w00_wolfram = DataClass("wolfram", depth="m", model_name='w00')
+    data_w00_wolfram.preprocessing_data(word2vec)
+    model_w00_wolfram = Model(data_w00_wolfram)
+    model_w00_wolfram.predict_on_others('w00_cblstm_m', 'wolfram')
+    # w00_cnn -> wolfram ml
+    model_w00_wolfram.predict_on_others('w00_cnn_m', 'wolfram')
+
+    # w00_cblstm -> wolfram
+    data_w00_wolfram = DataClass("wolfram", depth="", model_name='w00')
+    data_w00_wolfram.preprocessing_data(word2vec)
+    model_w00_wolfram = Model(data_w00_wolfram)
+    model_w00_wolfram.predict_on_others('w00_cblstm', 'wolfram')
+    # w00_cnn -> wolfram ml
+    model_w00_wolfram.predict_on_others('w00_cnn', 'wolfram')
+
+    del data_w00_wolfram
+    del model_w00_wolfram
     gc.collect()
-    
+
+    # wcl_cblstm -> wolfram ml
+    data_wcl_wolfram = DataClass("wolfram", depth="ml", model_name='wcl')
+    data_wcl_wolfram.preprocessing_data(word2vec)
+    model_wcl_wolfram = Model(data_wcl_wolfram)
+    model_wcl_wolfram.predict_on_others('wcl_cblstm_ml', 'wolfram')
+    # wcl_cnn -> wolfram ml
+    model_wcl_wolfram.predict_on_others('wcl_cnn_ml', 'wolfram')
+
+    # wcl_cblstm -> wolfram m
+    data_wcl_wolfram = DataClass("wolfram", depth="m", model_name='wcl')
+    data_wcl_wolfram.preprocessing_data(word2vec)
+    model_wcl_wolfram = Model(data_wcl_wolfram)
+    model_wcl_wolfram.predict_on_others('wcl_cblstm_m', 'wolfram')
+    # wcl_cnn -> wolfram ml
+    model_wcl_wolfram.predict_on_others('wcl_cnn_m', 'wolfram')
+
+    # wcl_cblstm -> wolfram
+    data_wcl_wolfram = DataClass("wolfram", depth="", model_name='wcl')
+    data_wcl_wolfram.preprocessing_data(word2vec)
+    model_wcl_wolfram = Model(data_wcl_wolfram)
+    model_wcl_wolfram.predict_on_others('wcl_cblstm', 'wolfram')
+    # wcl_cnn -> wolfram ml
+    model_wcl_wolfram.predict_on_others('wcl_cnn', 'wolfram')
+
+    del data_wcl_wolfram
+    del model_wcl_wolfram
+    gc.collect()
+
+    # wcl_cblstm -> w00 ml
+    data_wcl_w00 = DataClass("w00", depth="ml", model_name='wcl')
+    data_wcl_w00.preprocessing_data(word2vec)
+    model_wcl_w00 = Model(data_wcl_w00)
+    model_wcl_w00.predict_on_others('wcl_cblstm_ml', 'w00')
+    # wcl_cnn -> w00 ml
+    model_wcl_w00.predict_on_others('wcl_cnn_ml', 'w00')
+
+    # wcl_cblstm -> w00 m
+    data_wcl_w00 = DataClass("w00", depth="m", model_name='wcl')
+    data_wcl_w00.preprocessing_data(word2vec)
+    model_wcl_w00 = Model(data_wcl_w00)
+    model_wcl_w00.predict_on_others('wcl_cblstm_m', 'w00')
+    # wcl_cnn -> w00 ml
+    model_wcl_w00.predict_on_others('wcl_cnn_m', 'w00')
+
+    # wcl_cblstm -> w00
+    data_wcl_w00 = DataClass("w00", depth="", model_name='wcl')
+    data_wcl_w00.preprocessing_data(word2vec)
+    model_wcl_w00 = Model(data_wcl_w00)
+    model_wcl_w00.predict_on_others('wcl_cblstm', 'w00')
+    # wcl_cnn -> w00 ml
+    model_wcl_w00.predict_on_others('wcl_cnn', 'w00')
+
+    del data_wcl_w00
+    del model_wcl_w00
+    gc.collect()
+
+    # wolfram_cblstm -> w00 ml
+    data_wolfram_w00 = DataClass("w00", depth="ml", model_name='wolfram')
+    data_wolfram_w00.preprocessing_data(word2vec)
+    model_wolfram_w00 = Model(data_wolfram_w00)
+    model_wolfram_w00.predict_on_others('wolfram_cblstm_ml', 'w00')
+    # wolfram_cnn -> w00 ml
+    model_wolfram_w00.predict_on_others('wolfram_cnn_ml', 'w00')
+
+    # wolfram_cblstm -> w00 m
+    data_wolfram_w00 = DataClass("w00", depth="m", model_name='wolfram')
+    data_wolfram_w00.preprocessing_data(word2vec)
+    model_wolfram_w00 = Model(data_wolfram_w00)
+    model_wolfram_w00.predict_on_others('wolfram_cblstm_m', 'w00')
+    # wolfram_cnn -> w00 ml
+    model_wolfram_w00.predict_on_others('wolfram_cnn_m', 'w00')
+
+    # wolfram_cblstm -> w00
+    data_wolfram_w00 = DataClass("w00", depth="", model_name='wolfram')
+    data_wolfram_w00.preprocessing_data(word2vec)
+    model_wolfram_w00 = Model(data_wolfram_w00)
+    model_wolfram_w00.predict_on_others('wolfram_cblstm', 'w00')
+    # wolfram_cnn -> w00 ml
+    model_wolfram_w00.predict_on_others('wolfram_cnn', 'w00')
+
+    del data_wolfram_w00
+    del model_wolfram_w00
+    gc.collect()
+
     # all
     data_all = DataClass("", depth="ml")
     data_all.getMaxLength(save_stats=True)
     data_all.preprocessing_data(word2vec)
     model_all = Model(data_all)
-    model_all.train("all_cblstm_ml", "cblstm", test_size=0.33)
-    model_all.train_10_avg_score("all_cblstm_ml", "cblstm")
     model_all.train("all_cnn_ml", "cnn", test_size=0.33)
     model_all.train_10_avg_score("all_cnn_ml", "cnn")
 
@@ -220,7 +320,10 @@ def run_module():
     del model_all
     gc.collect()
 
+    
 
+
+    
 if __name__ == "__main__":
     run_module()
 
