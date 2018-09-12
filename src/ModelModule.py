@@ -80,7 +80,7 @@ class Model(object):
             x, y = shuffle(self.data.preprocess["X"], self.data.labels, random_state=0)
         else:
             x, y = self.data.preprocess['X'], self.data.labels
-        self.nnmodel = load_model('../model/{0}'.format(model_name))
+        self.nnmodel = load_model('../model/{0}.model'.format(model_name))
         self.preds = np.array([i[0] for i in self.nnmodel.predict_classes(x)])
         sys.stdout = open('../logs/{0}_predicted_{1}.txt'.format(model_name,data_to_predict_name), 'wt')
         if labeled:
