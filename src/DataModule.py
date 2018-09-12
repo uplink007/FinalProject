@@ -22,13 +22,15 @@ class PyObject(ctypes.Structure):
 
 
 class DataClass(object):
-    def __init__(self, name, depth="ml"):
+    def __init__(self, name, depth="ml", model_name=None):
         """
         Class that contains data for model training \n
         Config file location is /src/configuration/config.ini \n
         :param name: name of the dataset to be loaded valid_data_names = {'wcl', 'w00', 'wolfram', ""}
         :param depth: The depth in the training process, can be ml ,m, or empty string
+        :param model_name: If data need to be preprocessed for specific model, the model name need to be assign
         """
+        self.model_name = model_name
         self.logger = logging.getLogger('auto_de.DataModule.DataClass')
         self.logger.info("Data Class init Start")
         self.name = name
@@ -479,17 +481,21 @@ class DataClass(object):
                     tokens.append(('UNK', 'UNK'))
             return tokens
 
-    def preprocessing_data(self, word2vec):
+    def preprocessing_data(self, word2vec, model=False):
         """
         Method that takes all the instances in the data and preprocess them.
         :param word2vec: word2vec that need to be used in the preprocess
+        :param model: if model true mean that need to be used maxlen of this model and model dependencies too
         """
         self.logger.critical("Starting to preprocess data {}".format(self.name))
         nlp = self.__get_stanford_core_nlp()
         try:
             self.logger.info("Max length of the data is {0}".format(self.preprocess['maxlen']))
         except KeyError:
-            self.load_all_stats(self.name)
+            if model:
+                self.load_all_stats(self.model_name)
+            else:
+                self.load_all_stats(self.name)
         for idx, sent in enumerate(self.instances):
             if idx % 100 == 0:
                 self.logger.critical('Words done {0} of  {1}'.format(idx, len(self.instances)))
