@@ -1,0 +1,4 @@
+Overall scores for model w00_cnn_m:
+Precision ->  0.41506849315068484
+Recall ->  0.6386407237623055
+F1 ->  0.4966165161791662

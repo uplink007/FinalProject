@@ -1,0 +1,4 @@
+Overall scores for model wolfram_cblstm_m:
+Precision ->  0.7373833182776274
+Recall ->  0.7301170596388539
+F1 ->  0.7249531528220933

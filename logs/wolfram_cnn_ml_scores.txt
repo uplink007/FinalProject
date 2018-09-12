@@ -1,0 +1,4 @@
+Overall scores for model wolfram_cnn_ml:
+Precision ->  0.7670430593194821
+Recall ->  0.7568409035719734
+F1 ->  0.7599503091441208
