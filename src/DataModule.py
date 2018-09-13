@@ -56,11 +56,13 @@ class DataClass(object):
     def init_data(self, name):
         """
         Load specific data set to DataCLass object
-        :param name: name of the dataset valid_data_names = {'wcl', 'w00', 'wolfram', ""}
+        :param name: name of the dataset valid_data_names = {'wcl', 'w00', 'wolfram',
+                                                            'wolfram_w00', 'wolfram_wcl',
+                                                             'wcl_w00', ""}
         :return: None
         """
         folder = None
-        valid_data_names = {'wcl', 'w00', 'wolfram', ""}
+        valid_data_names = {'wcl', 'w00', 'wolfram', 'wolfram_w00', 'wolfram_wcl', 'wcl_w00', ""}
         path = self.config[DATA_MODULE_CONFIG_SECTION]["path"]
         if name not in valid_data_names:
             self.logger.error("results: status must be one of %r." % valid_data_names)
