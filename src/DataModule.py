@@ -75,6 +75,15 @@ class DataClass(object):
             self.__load_w00(path, folder)
         elif name == "wolfram":
             self.__load_wolfram(path, folder)
+        elif name == "wolfram_w00":
+            self.__load_wolfram(path, "")
+            self.__load_w00(path, "")
+        elif name == "wolfram_wcl":
+            self.__load_wolfram(path, "")
+            self.__load_wcl(path, "")
+        elif name == "wcl_w00":
+            self.__load_wcl(path, "")
+            self.__load_w00(path, "")
         else:
             self.__load_all(path)
         self.logger.info("Reading data form file succeeded")
@@ -518,6 +527,7 @@ class DataClass(object):
         for idx, sent in enumerate(self.instances):
             if idx % 10 == 0:
                 self.logger.critical('Pairs done {0} of  {1}'.format(idx, len(self.instances)))
+            idy = idx
             object_json_data = json.loads(nlp.annotate(sent, properties={'annotators': 'depparse', 'outputFormat': 'json'}))
             try:
                 tokens = self.get_pair_words(object_json_data)
@@ -529,8 +539,8 @@ class DataClass(object):
             for idx2, tok in tokens.items():
                 word_pairs.append((tok['parent_word'], tok['child_word']))
                 dep_pairs.append((tok['parent_dep'], tok['child_dep']))
-            self.pad_words(word_pairs, self.preprocess['maxlen'], append_tuple=True)
-            self.pad_words(dep_pairs, self.preprocess['maxlen'], append_tuple=True)
+            word_pairs = self.pad_words(word_pairs, self.preprocess['maxlen'], append_tuple=True)
+            dep_pairs = self.pad_words(dep_pairs, self.preprocess['maxlen'], append_tuple=True)
             dep_labels = [j for i, j in dep_pairs]
             avg_sent_matrix = []
             avg_label_sent_matrix = []
@@ -559,6 +569,7 @@ class DataClass(object):
                 avg_label_sent_matrix.append(avg_label_vec)
             wp = np.array(avg_sent_matrix)
             labs = np.array(avg_label_sent_matrix)
+            print("{0} wp {1}".format(wp.shape,idy))
             try:
                 self.preprocess['X_wordpairs'].append(wp)
             except AttributeError:
@@ -568,21 +579,8 @@ class DataClass(object):
             except AttributeError:
                 np.concatenate([self.preprocess['X_deps'], [labs]])
         nlp.close()
-        nlp_address = id(nlp)
-        print("Nlp reference count before: ", PyObject.from_address(nlp_address).refcnt)
         del nlp
-        print("Nlp reference count after: ", PyObject.from_address(nlp_address).refcnt)
-        word2vec_address = id(word2vec)
-        print("word2vec reference count before: ", PyObject.from_address(word2vec_address).refcnt)
         del word2vec
-        print("word2vec reference count after: ", PyObject.from_address(word2vec_address).refcnt)
-        self.logger.critical('1 Garbage Collector: Collected amount {0}'.format(gc.collect()))
-        X_wordpairs_address = id(self.preprocess['X_wordpairs'])
-        print("X_wordpairs reference count: ", PyObject.from_address(X_wordpairs_address).refcnt)
-        X_deps_address = id(self.preprocess['X_deps'])
-        print("X_deps reference count: ", PyObject.from_address(X_deps_address).refcnt)
-        instancess_address = id(self.instances)
-        print("instances reference count: ", PyObject.from_address(instancess_address).refcnt)
         del self.instances
         try:
             self.logger.critical('2 Garbage Collector: Collected amount {0}'.format(gc.collect()))
