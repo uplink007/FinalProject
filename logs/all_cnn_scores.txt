@@ -1,0 +1,4 @@
+Overall scores for model all_cnn:
+Precision ->  0.7790897086313047
+Recall ->  0.819614668485096
+F1 ->  0.7979499385546538
