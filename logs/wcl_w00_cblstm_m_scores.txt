@@ -1,0 +1,4 @@
+Overall scores for model wcl_w00_cblstm_m:
+Precision ->  0.8286280577659888
+Recall ->  0.8427846667284683
+F1 ->  0.8337556558229504

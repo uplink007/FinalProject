@@ -1,0 +1,4 @@
+Overall scores for model wcl_w00_cnn:
+Precision ->  0.7843972885352195
+Recall ->  0.8685020056725665
+F1 ->  0.8238384654743877
