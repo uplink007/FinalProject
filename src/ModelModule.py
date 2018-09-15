@@ -205,20 +205,29 @@ Can be empty to use the default one in the config file.""", required=False)
     parser.add_argument('-s', '--split', help='split size for split test size', type=float, required=False)
 
     args = vars(parser.parse_args())
-    if args['word-vector'] is None:
+    try:
+        if args['word-vector'] is not None:
+            word2vec = MyWord2vec(args['word-vector'])
+    except KeyError:
         word2vec = MyWord2vec()
-    else:
-        word2vec = MyWord2vec(args['word-vector'])
-    if args['threshold']is None:
+    try:
+        if args['threshold']is not None:
+            if args['threshold'] <= 0 or args['threshold'] >= 1:
+                parser.error('Threshold can be only float number between 0 and 1')
+    except KeyError:
         args['threshold'] = 0.5
-    else:
-        if args['threshold'] <= 0 or args['threshold'] >= 1:
-            parser.error('Threshold can be only float number between 0 and 1')
-    if args['split'] is None:
+    try:
+        if args['split'] is not None:
+            if args['split'] <= 0 or args['split'] >= 1:
+                parser.error('Split can be only float number between 0 and 1')
+    except KeyError:
         args['split'] = 0.33
-    else:
-        if args['split'] <= 0 or args['split'] >= 1:
-            parser.error('Split can be only float number between 0 and 1')
+    try:
+        if args['dependencies'] is not None and args['depth'] == 'n':
+            args['dependencies'] = ''
+    except KeyError:
+        if args['use'] == 'predict':
+            parser.error('predict requires --model-name, --data and --dependencies')
     if args['use'] is not None:
         if args['use'] == 'predict':
             if args['model_name'] is not None and args['data'] is not None and args['dependencies'] is not None:
