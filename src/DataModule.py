@@ -69,7 +69,7 @@ class DataClass(object):
             raise ValueError("results: status must be one of %r." % valid_data_names)
         else:
             self.logger.critical("init {0}{1} dataset".format(path, name))
-        if name is not "all":
+        if name != "all":
             folder = self.config[DATA_MODULE_CONFIG_SECTION][name]
         if name == "wcl":
             self.__load_wcl(path, folder)
