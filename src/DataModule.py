@@ -58,18 +58,18 @@ class DataClass(object):
         Load specific data set to DataCLass object
         :param name: name of the dataset valid_data_names = {'wcl', 'w00', 'wolfram',
                                                             'wolfram_w00', 'wolfram_wcl',
-                                                             'wcl_w00', ""}
+                                                             'wcl_w00', "all"}
         :return: None
         """
         folder = None
-        valid_data_names = {'wcl', 'w00', 'wolfram', 'wolfram_w00', 'wolfram_wcl', 'wcl_w00', ""}
+        valid_data_names = {'wcl', 'w00', 'wolfram', 'wolfram_w00', 'wolfram_wcl', 'wcl_w00', "all"}
         path = self.config[DATA_MODULE_CONFIG_SECTION]["path"]
         if name not in valid_data_names:
             self.logger.error("results: status must be one of %r." % valid_data_names)
             raise ValueError("results: status must be one of %r." % valid_data_names)
         else:
             self.logger.critical("init {0}{1} dataset".format(path, name))
-        if name is not "":
+        if name is not "all":
             folder = self.config[DATA_MODULE_CONFIG_SECTION][name]
         if name == "wcl":
             self.__load_wcl(path, folder)
@@ -571,7 +571,6 @@ class DataClass(object):
                 avg_label_sent_matrix.append(avg_label_vec)
             wp = np.array(avg_sent_matrix)
             labs = np.array(avg_label_sent_matrix)
-            print("{0} wp {1}".format(wp.shape,idy))
             try:
                 self.preprocess['X_wordpairs'].append(wp)
             except AttributeError:
