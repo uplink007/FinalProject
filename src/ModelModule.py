@@ -228,7 +228,7 @@ Can be empty to use the default one in the config file.""", required=False)
     except KeyError:
         args['split'] = 0.33
     try:
-        if args['dependencies'] is not None and args['depth'] == 'n':
+        if args['dependencies'] is not None and args['dependencies'] == 'n':
             args['dependencies'] = ''
     except KeyError:
         if args['use'] == 'predict':
