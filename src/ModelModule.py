@@ -11,10 +11,9 @@ from sklearn.metrics import f1_score
 from collections import defaultdict
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from keras.models import load_model
-import gc
 import sys
 from keras.models import load_model
+from argparse import ArgumentParser
 
 
 class Model(object):
@@ -96,30 +95,26 @@ class Model(object):
         sys.stdout = sys.__stdout__
 
 
-    # def predict(self, model_name, data_type=None, my_list=None, threshold=0.8):
-    #     """
-    #     take the data from my_list , create data object , preprocess it and predict with our model
-    #     :param my_list:  data from user
-    #     :param data_type: data from dataset
-    #     :param model_name: Name of the model to be used for prediction
-    #     :param threshold: default 0.8
-    #     """
-    #     self.data = DataClass(config=self.logger.config)
-    #     if my_list is not None:
-    #         self.data.data_init(my_list=my_list)
-    #     elif data_type is not None:
-    #         self.data.data_init(data_type=data_type)
-    #     self.preprocess = PreprocessClass(get_data=self.data, get_word2vec=self.word2vec, config=self.logger.config)
-    #     self.preprocess.load_all(model_name)
-    #     self.preprocess.preprocessing_data()
-    #     self.nnmodel = load_model("../model/{0}.model".format(model_name))
-    #     for idx, sent in enumerate(self.data.instances):
-    #         preds = self.nnmodel.predict(np.array([self.preprocess.X[idx]]))[0][0]
-    #         if preds > threshold:
-    #             print('{0} Sent: '.format(idx), sent, ' -> ', preds)
-
-
-def score_func(data_name,word2vec,test_size=0.33):
+def score_func(data_name, word2vec, test_size=0.33):
+    """
+    Function that create a models and save it and then it using StratifiedKFold (kfold cross validation )
+    and creating score report in format 1_2_3_scores.txt :
+        1 - model name
+        2 - model type
+        3 - depth of the prepossessing
+        example :
+            input : ("w00",word2vec,0.33)
+            output:
+                1 log file: w00_cblstm_ml_scores.txt
+                2 log file: w00_cblstm_m_scores.txt
+                3 log file: w00_cblstm_scores.txt
+                4 log file: w00_cnn_scores.txt
+                5 log file: w00_cnn_m_scores.txt
+                6 log file: w00_cnn_ml_scores.txt
+    :param data_name:training data for the model
+    :param word2vec: word2vec to be used in the prepossessing step
+    :param test_size: split data size
+    """
     data = DataClass(data_name, depth="m")
     data.getMaxLength(save_stats=True)
     data.preprocessing_data(word2vec)
@@ -148,20 +143,92 @@ def score_func(data_name,word2vec,test_size=0.33):
     model.train_10_avg_score("{0}_cnn_ml".format(data_name), "cnn")
 
 
-def prediction_func(model_name,word2vec,predict_data,depth,treshhold=0.5):
+def prediction_func(model_name, word2vec, predict_data, depth, threshold=0.5):
+    """
+    Function that predict model scores on other data sets
+    Function save in the log classification report in the format 1_2_3_predicted_4.txt:
+            1 - model name
+            2 - model type
+            3 - depth of the postprocessing
+            4 - predicted data name
+            example :
+                    input :("w00",wor2vec,"wcl","ml")
+                    log file 1 : w00_cblstm_ml_predicted_wcl.txt
+                    log file 2 : w00_cnn_ml_predicted_wcl.txt
+    :param model_name: Name of the model to be used for the prediction
+    :param word2vec: word2vec to be used for the postprocessing step
+    :param predict_data: name of the data to be predicted by the model
+    :param depth: the depth of the postprocessing stem can be ("ml","m","")
+    :param threshold: the threshold for the prediction safety , default value is 0.5
+    """
     data = DataClass(predict_data, depth=depth, model_name=model_name)
     data.preprocessing_data(word2vec, model=True)
     model = Model(data)
-    model.predict_on_others('{0}_cblstm_{1}'.format(model_name,depth), predict_data,threshold=treshhold)
-    model.predict_on_others('{0}_cnn_{1}'.format(model_name,depth), predict_data,threshold=treshhold)
-
-
-def run_module():
-    word2vec = MyWord2vec()
-    score_func("wolfram_w00", word2vec)
-    prediction_func("wcl_w00", word2vec, "wolfram", "ml")
+    model.predict_on_others('{0}_cblstm_{1}'.format(model_name, depth), predict_data, threshold=threshold)
+    model.predict_on_others('{0}_cnn_{1}'.format(model_name, depth), predict_data, threshold=threshold)
 
 
 if __name__ == "__main__":
-    run_module()
+    parser = ArgumentParser()
+    parser.add_argument('-u', '--use', help="""What action need to be made:
+    predict -   Function that predict model scores on other data sets
+                Function save in the log classification report in the format 1_2_3_predicted_4.txt:
+                    1 - model name
+                    2 - model type
+                    3 - depth of the postprocessing
+                    4 - predicted data name
+                    example :
+                            input :("w00",wor2vec,"wcl","ml")
+                            log file 1 : w00_cblstm_ml_predicted_wcl.txt
+                            log file 2 : w00_cnn_ml_predicted_wcl.txt
+    score -     Function that create a models and save it and then it using StratifiedKFold (kfold cross validation )
+                Function creating score report in format 1_2_3_scores.txt :
+                    1 - model name
+                    2 - model type
+                    3 - depth of the prepossessing
+                    example :
+                        input : ("w00",word2vec,0.33)
+                        output:
+                            1 log file: w00_cblstm_ml_scores.txt
+                            2 log file: w00_cblstm_m_scores.txt
+                            3 log file: w00_cblstm_scores.txt
+                            4 log file: w00_cnn_scores.txt
+                            5 log file: w00_cnn_m_scores.txt
+                            6 log file: w00_cnn_ml_scores.txt""", required=True, choices=['score', 'predict'])
+    parser.add_argument('-wv', '--word-vector', help="""Name of word2vec to be used;
+Can be empty to use the default one in the config file.""", required=False)
+    parser.add_argument('-m', '--model-name', help="""Model name for prediction function""", required=False)
+    parser.add_argument('-dep', '--dependencies', help='Option for using dependencies', required=False,
+                        choices=['ml', 'm', 'n'])
+    parser.add_argument('-d', '--data', help='Data for train or prediction', required=True)
+    parser.add_argument('-t', '--threshold', help='Threshold for predicting data ', type=float, required=False)
+    parser.add_argument('-s', '--split', help='split size for split test size', type=float, required=False)
 
+    args = vars(parser.parse_args())
+    if args['word-vector'] is None:
+        word2vec = MyWord2vec()
+    else:
+        word2vec = MyWord2vec(args['word-vector'])
+    if args['threshold']is None:
+        args['threshold'] = 0.5
+    else:
+        if args['threshold'] <= 0 or args['threshold'] >= 1:
+            parser.error('Threshold can be only float number between 0 and 1')
+    if args['split'] is None:
+        args['split'] = 0.33
+    else:
+        if args['split'] <= 0 or args['split'] >= 1:
+            parser.error('Split can be only float number between 0 and 1')
+    if args['use'] is not None:
+        if args['use'] == 'predict':
+            if args['model_name'] is not None and args['data'] is not None and args['dependencies'] is not None:
+                prediction_func(args['model_name'], word2vec, args['data'], args['depth'], threshold=args['threshold'])
+            else:
+                parser.error("predict requires --model-name, --data and --dependencies")
+        elif args['use'] == 'score':
+            if args['data'] is not None:
+                score_func(args['data'], word2vec, test_size=args['split'])
+            else:
+                parser.error("score requires --data")
+        else:
+            parser.error("use can be only score or predict")
