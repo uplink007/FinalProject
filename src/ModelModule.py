@@ -14,6 +14,7 @@ from sklearn.metrics import classification_report
 import sys
 from keras.models import load_model
 from argparse import ArgumentParser
+import ipdb
 
 
 class Model(object):
@@ -178,6 +179,7 @@ def prediction_func(model_name, word2vec, predict_data, depth, threshold=0.5):
 
 if __name__ == "__main__":
     parser = ArgumentParser()
+    ipdb.set_trace()
     parser.add_argument('-u', '--use', help="""What action need to be made:
     predict -   Function that predict model scores on other data sets
                 Function save in the log classification report in the format 1_2_3_predicted_4.txt:
