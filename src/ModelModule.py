@@ -179,7 +179,7 @@ def prediction_func(model_name, word2vec, predict_data, depth, threshold=0.5):
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    ipdb.set_trace()
+    # ipdb.set_trace()
     parser.add_argument('-u', '--use', help="""What action need to be made:
     predict -   Function that predict model scores on other data sets
                 Function save in the log classification report in the format 1_2_3_predicted_4.txt:
@@ -241,7 +241,7 @@ Can be empty to use the default one in the config file.""", required=False)
             word2vec = "Google_300"
         if args['use'] == 'predict':
             if args['model_name'] is not None and args['data'] is not None and args['dependencies'] is not None:
-                prediction_func(args['model_name'], word2vec, args['data'], args['depth'], threshold=args['threshold'])
+                prediction_func(args['model_name'], word2vec, args['data'], args['dependencies'], threshold=args['threshold'])
             else:
                 parser.error("predict requires --model-name, --data and --dependencies")
         elif args['use'] == 'score':
