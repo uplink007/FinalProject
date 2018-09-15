@@ -115,6 +115,10 @@ def score_func(data_name, word2vec, test_size=0.33):
     :param word2vec: word2vec to be used in the prepossessing step
     :param test_size: split data size
     """
+    if word2vec is not "Google_300":
+        word2vec = MyWord2vec(word2vec)
+    else:
+        word2vec = MyWord2vec()
     data = DataClass(data_name, depth="m")
     data.getMaxLength(save_stats=True)
     data.preprocessing_data(word2vec)
@@ -161,6 +165,10 @@ def prediction_func(model_name, word2vec, predict_data, depth, threshold=0.5):
     :param depth: the depth of the postprocessing stem can be ("ml","m","")
     :param threshold: the threshold for the prediction safety , default value is 0.5
     """
+    if word2vec is not "Google_300":
+        word2vec = MyWord2vec(word2vec)
+    else:
+        word2vec = MyWord2vec()
     data = DataClass(predict_data, depth=depth, model_name=model_name)
     data.preprocessing_data(word2vec, model=True)
     model = Model(data)
@@ -206,11 +214,6 @@ Can be empty to use the default one in the config file.""", required=False)
 
     args = vars(parser.parse_args())
     try:
-        if args['word-vector'] is not None:
-            word2vec = MyWord2vec(args['word-vector'])
-    except KeyError:
-        word2vec = MyWord2vec()
-    try:
         if args['threshold']is not None:
             if args['threshold'] <= 0 or args['threshold'] >= 1:
                 parser.error('Threshold can be only float number between 0 and 1')
@@ -229,6 +232,11 @@ Can be empty to use the default one in the config file.""", required=False)
         if args['use'] == 'predict':
             parser.error('predict requires --model-name, --data and --dependencies')
     if args['use'] is not None:
+        try:
+            if args['word-vector'] is not None:
+                word2vec = MyWord2vec(args['word-vector'])
+        except KeyError:
+            word2vec = "Google_300"
         if args['use'] == 'predict':
             if args['model_name'] is not None and args['data'] is not None and args['dependencies'] is not None:
                 prediction_func(args['model_name'], word2vec, args['data'], args['depth'], threshold=args['threshold'])
