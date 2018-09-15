@@ -8,7 +8,6 @@ import logging
 import spacy
 import gc
 from stanfordcorenlp import StanfordCoreNLP
-# TODO delete after tests
 from word2vec_module import MyWord2vec
 from loggerModule import LoggerClass
 import pdb
@@ -90,47 +89,6 @@ class DataClass(object):
             self.__load_all(path)
         self.logger.info("Reading data form file succeeded")
 
-    # TODO delete this if no need
-    # def load_data_from_file(self, data_type=0):
-    #     """
-    #     Function that load data form file and send it to different parse functions like wcl, w00, wolfram
-    #     :param data_type:0 if all data , 1 if wcl 2 if w00 3 if wolfram
-    #     :return:None just save the data in the self.instances and self.labels
-    #     """
-    #     sents = None
-    #     self.logger.info("Reading Data from file")
-    #     path = self.config[CONFIG_SELECTION][DATA_SETS_LIST[data_type]]
-    #     self.logger.info("Config -> Data -> Path -> {0}".format(path))
-    #     for root, subdirs, files in os.walk(path):
-    #         for filename in files:
-    #             if filename.startswith("annotated"):
-    #                 self.logger.info("Reading w00 data")
-    #                 if filename == 'annotated.word':
-    #                     sents = open(os.path.join(root, filename), 'r').readlines()
-    #                 elif filename == 'annotated.meta':
-    #                     labels = open(os.path.join(root, filename), 'r').readlines()
-    #                 if sents and labels:
-    #                     for idx, sent in enumerate(sents):
-    #                         sent = sent.strip().lower()
-    #                         label = int(labels[idx].split(' $ ')[0])
-    #                         self.instances.append(sent)
-    #                         self.labels = np.concatenate((self.labels, np.array(label)), axis=None)
-    #             if filename.startswith("wolfram"):
-    #                 label = filename.split('_')[-1].replace('.txt', '')
-    #                 doc = os.path.join(root, filename)
-    #                 lines = open(doc, 'r', encoding='utf-8').readlines()
-    #                 try:
-    #                     self.logger.info("Start pars_wolfram")
-    #                     labels, instances = self.__pars_wolfram(label, lines)
-    #                 except:
-    #                     self.logger.error("__pars_wolfram failed")
-    #                     raise
-    #                 self.logger.info("__pars_wolfram succeeded")
-    #                 self.instances = self.instances + instances
-    #                 self.labels = np.concatenate((self.labels, np.array(labels)), axis=None)
-    #
-    #     self.logger.info("Reading data form file succeeded")
-
     @staticmethod
     def __pars_wcl(label, lines):
         """
@@ -153,33 +111,6 @@ class DataClass(object):
                 instances.append(sent)
         return labels, instances
 
-    # TODO  delete this if no need
-    # def save_bin_data(self):
-    #     """
-    #     Save data to pickle(bin) file
-    #     :return: None just save to file .pickle the instances and the labels
-    #     """
-    #     name = self.config["BIN"]["data_save"]
-    #     self.logger.info("Saving data to bin with name {0}".format(name))
-    #     with open('../bin/{0}Instances.pickle'.format(name), 'wb') as handle:
-    #         pickle.dump(self.instances, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    #     self.logger.info("Instances Data saved to {0}Instances.pickle".format(name))
-    #     with open('../bin/{0}Labels.pickle'.format(name), 'wb') as handle:
-    #         pickle.dump(self.labels, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    #     self.logger.info("Labels Data saved to {0}Labels.pickle".format(name))
-    #
-    # def load_bin_data(self, name="Data"):
-    #     """
-    #     Load Data from a pickle(bin) to save time for parsing or using different data
-    #     :param name: If you want to save to a different file and not the default one
-    #     :return: save the data to self.instances and self.labels
-    #     """
-    #     with open('../bin/{0}Instances.pickle'.format(name), 'rb') as handle:
-    #         self.instances = pickle.load(handle)
-    #
-    #     with open('../bin/{0}Labels.pickle'.format(name), 'rb') as handle:
-    #         self.labels = pickle.load(handle)
-
     # TODO delete after tests
     def word2vec_temp(self):
         """
@@ -196,38 +127,6 @@ class DataClass(object):
                 result.append(token.orth_)
             result_main.append(result)
         return result_main
-
-    # TODO delete this if no need
-    # def data_init(self, my_list=None, data_type=0):
-    #     """
-    #     Method that load data to data class fro training and prediction
-    #     list option for api use (don't init labels)
-    #     :param my_list: List of lists of sentences
-    #     :param data_type: 0 - Get all the data from data folder
-    #                       1 - get wcl dataset only
-    #                       2 - get w00 dataset only
-    #
-    #     :return:init self.instances and self.labels if not list option
-    #     """
-    #     if self.config["DataModule"]["get"] == 'bin':
-    #         name = self.config["BIN"]["data_load"]
-    #         self.logger.info("Load data form bin file {0}".format(name))
-    #         self.load_bin_data(name=name)
-    #         self.logger.info("Load data from bin finished")
-    #     elif self.config["DataModule"]["get"] == 'file':
-    #         self.logger.info("Load data form file {0}".format(data_type))
-    #         self.load_data_from_file(data_type=data_type)
-    #         self.logger.info("Load data from file finished")
-    #     elif self.config["DataModule"]["get"] == 'list' and my_list is not None \
-    #             and not self.config.getboolean("DEFAULT", "Train"):
-    #         self.logger.info("Reading data from list")
-    #         for instance in my_list:
-    #             self.instances.append(instance)
-    #         self.logger.info("Reading data from list finished")
-    #     else:
-    #         self.logger.error("The [get] option {0} in the config file isn't known!!!"
-    #                           .format(self.config["DataModule"]["get"]))
-    #         raise Exception
 
     @staticmethod
     def __pars_wolfram(label, lines):
