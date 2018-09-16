@@ -120,6 +120,16 @@ def score_func(data_name, word2vec, test_size=0.33):
         word2vec = MyWord2vec(word2vec)
     else:
         word2vec = MyWord2vec()
+
+    data = DataClass(data_name, depth="ml")
+    data.getMaxLength(save_stats=True)
+    data.preprocessing_data(word2vec)
+    model = Model(data)
+    model.train("{0}_cblstm_ml".format(data_name), "cblstm", test_size=test_size)
+    model.train_10_avg_score("{0}_cblstm_ml".format(data_name), "cblstm")
+    model.train("{0}_cnn_ml".format(data_name), "cnn", test_size=test_size)
+    model.train_10_avg_score("{0}_cnn_ml".format(data_name), "cnn")
+
     data = DataClass(data_name, depth="m")
     data.getMaxLength(save_stats=True)
     data.preprocessing_data(word2vec)
@@ -138,14 +148,7 @@ def score_func(data_name, word2vec, test_size=0.33):
     model.train("{0}_cnn".format(data_name), "cnn", test_size=test_size)
     model.train_10_avg_score("{0}_cnn".format(data_name), "cnn")
 
-    data = DataClass(data_name, depth="ml")
-    data.getMaxLength(save_stats=True)
-    data.preprocessing_data(word2vec)
-    model = Model(data)
-    model.train("{0}_cblstm_ml".format(data_name), "cblstm", test_size=test_size)
-    model.train_10_avg_score("{0}_cblstm_ml".format(data_name), "cblstm")
-    model.train("{0}_cnn_ml".format(data_name), "cnn", test_size=test_size)
-    model.train_10_avg_score("{0}_cnn_ml".format(data_name), "cnn")
+
 
 
 def prediction_func(model_name, word2vec, predict_data, depth, threshold=0.5):
