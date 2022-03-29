@@ -37,7 +37,7 @@ gensim==3.4.0
 grpcio==1.10.1
 h5py==2.8.0
 hdijupyterutils==0.12.5
-horovod==0.13.11
+horovod==0.24.0
 html5lib==1.0.1
 hyperlink==17.3.1
 idna==2.7
