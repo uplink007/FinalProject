@@ -128,7 +128,7 @@ sparkmagic==0.12.5
 SQLAlchemy==1.2.11
 stanfordcorenlp==3.9.1.1
 tensorboard==1.10.0
-tensorflow==1.10.1
+tensorflow==2.6.4
 termcolor==1.1.0
 terminado==0.8.1
 testpath==0.3.1
